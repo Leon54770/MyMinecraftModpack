@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "skyandstone:herz_erwacht"
+    },
+    "title": "Das Herz schlägt",
+    "description": "Unter allen Inseln schlägt wieder etwas.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "skyandstone:waechter_besiegt",
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "c"
+    ]
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:feather" },
+    "title": "Die Leere ruft",
+    "description": "Du bist aus dreißig Blöcken gefallen. Die Insel hat dich nicht vergessen.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "skyandstone:root",
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": { "distance": { "absolute": { "min": 30.0 } } }
+    }
+  },
+  "requirements": [["c"]]
+}

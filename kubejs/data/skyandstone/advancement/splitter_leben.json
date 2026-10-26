@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "skyandstone:splitter_leben"
+    },
+    "title": "Splitter des Lebens",
+    "description": "Honig, Essenz und ein goldener Apfel. Er fühlt sich warm an.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "skyandstone:splitter_erde",
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "skyandstone:splitter_leben"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "c"
+    ]
+  ],
+  "rewards": {
+    "function": "skyandstone:feier/splitter_leben"
+  }
+}

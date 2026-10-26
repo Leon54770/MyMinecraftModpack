@@ -1,0 +1,346 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "landwirtschaft"
+	group: "1A7A9B25B51B8125"
+	icon: {
+		id: "minecraft:wheat"
+	}
+	id: "15770EC9F4F333AE"
+	images: [ ]
+	order_index: 1
+	quest_links: [{
+		id: "3078749739D27712"
+		linked_quest: "3739A99AF89D8892"
+		shape: "square"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["3739A99AF89D8892"]
+			id: "51E93984F17C3010"
+			rewards: [
+				{
+					count: 4
+					id: "7FF4ED98A3512EAB"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "417B2BA25AA7CE70"
+					item: {
+						count: 1
+						id: "minecraft:dirt"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:wheat_seeds"
+				}
+				id: "189FF833D53B509B"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:seeds)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: 0.9d
+		}
+		{
+			dependencies: ["51E93984F17C3010"]
+			id: "752A48E144F68BB2"
+			rewards: [
+				{
+					count: 8
+					id: "1B485E4932BECD80"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1223F6E8A25CE18F"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "28FC0694908221DE"
+				item: { count: 1, id: "minecraft:wheat" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["752A48E144F68BB2"]
+			id: "161BB3BB6383B57E"
+			rewards: [
+				{
+					count: 8
+					id: "1E5998F9D1596D38"
+					item: {
+						count: 1
+						id: "minecraft:baked_potato"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "16B6A1A7AEB9D862"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "412A24F96EE2670E"
+					item: { count: 1, id: "farmersdelight:cutting_board" }
+					type: "item"
+				}
+				{
+					id: "2B1F8859A131FC32"
+					item: { count: 1, id: "farmersdelight:cooking_pot" }
+					type: "item"
+				}
+			]
+			x: 7.2d
+			y: -1.8d
+		}
+		{
+			dependencies: ["752A48E144F68BB2"]
+			id: "1C6A1178CCB4C2A7"
+			rewards: [
+				{
+					count: 16
+					id: "19628B888C0F69AB"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2B63085404739E50"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "1F98717B16129ECB"
+					item: { count: 1, id: "minecraft:leather" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "53120DE65BD9925C"
+					item: { count: 1, id: "minecraft:egg" }
+					type: "item"
+				}
+			]
+			x: 7.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["752A48E144F68BB2"]
+			id: "135A0443B8528051"
+			rewards: [{
+				id: "5B77DFE5120B4CB3"
+				item: {
+					count: 1
+					id: "botanypots:terracotta_botany_pot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "botanypots:terracotta_botany_pot"
+				}
+				id: "35C310B375822F5A"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(botanypots:botany_pots)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.2d
+			y: 1.8d
+		}
+		{
+			dependencies: ["135A0443B8528051"]
+			id: "184D7E93C5E2CDD9"
+			rewards: [
+				{
+					count: 4
+					id: "16D49B5BA66138DB"
+					item: {
+						count: 1
+						id: "minecraft:oak_sapling"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1647827140983A1D"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "botanypots:terracotta_hopper_botany_pot"
+				}
+				id: "12B88D8CD296493B"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(skyandstone:hopper_botany_pots)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.6d
+			y: 0.94d
+		}
+		{
+			dependencies: [
+				"161BB3BB6383B57E"
+				"1C6A1178CCB4C2A7"
+			]
+			id: "1057851250316A25"
+			rewards: [
+				{
+					id: "7C5FAB09F4D4C996"
+					table_id: 1708431179495466294L
+					type: "loot"
+				}
+				{
+					id: "593648049B063249"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "14D60CFB2CA3A174"
+					item: { count: 1, id: "farmersdelight:shepherds_pie_block" }
+					type: "item"
+				}
+				{
+					id: "1A128E0258477082"
+					item: { count: 1, id: "farmersdelight:roast_chicken_block" }
+					type: "item"
+				}
+			]
+			x: 9.6d
+			y: -0.94d
+		}
+		{
+			dependencies: ["3739A99AF89D8892"]
+			id: "1252700C32FCEF79"
+			rewards: [
+				{
+					count: 8
+					id: "1EBAE31273FAEA44"
+					item: {
+						count: 1
+						id: "mysticalagriculture:inferium_essence"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "33C565B357F6E6F6"
+					item: {
+						count: 1
+						id: "mysticalagriculture:prosperity_shard"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "11B14C98793A2EA7"
+				item: { count: 1, id: "mysticalagriculture:inferium_essence" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: -0.9d
+		}
+		{
+			dependencies: [
+				"184D7E93C5E2CDD9"
+				"1057851250316A25"
+			]
+			icon: {
+				id: "minecraft:hay_block"
+			}
+			id: "4D74E2BA28259B88"
+			rewards: [
+				{
+					id: "1C23F4562EF1E584"
+					table_id: 1708431179495466294L
+					type: "loot"
+				}
+				{
+					id: "1652A1BFAAF08748"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Zurück zum Leben\"}"
+							"minecraft:enchantment_glint_override": 1b
+							"minecraft:lore": [
+								"{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Seite 4 von 22\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"„Eine Insel, die sich selbst\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"nährt. So fängt der Weg zurück\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"an.“\"}"
+							]
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					command: "function skyandstone:feier/g_autark"
+					id: "3323E47235F5C3DF"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				count: 4L
+				icon: {
+					id: "botanypots:terracotta_hopper_botany_pot"
+				}
+				id: "64FF5A51D51DFB45"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(skyandstone:hopper_botany_pots)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+}

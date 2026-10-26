@@ -1,0 +1,13 @@
+name = "Vanilla Experience+"
+filename = "Vanilla Experience+.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/8bf2GogI/versions/wUvjSaUl/%C2%A76%C2%A7lVanilla%20Experience%2B%C2%A70.zip"
+hash-format = "sha512"
+hash = "12cef4758a649dd2090e5577ccbfcc2266c8037bd29a9f173af9308d6e6c32d5833e470e9b86b9dcd289908ffdfa388b8a6cb278534309479d933515519545d0"
+
+[update]
+[update.modrinth]
+mod-id = "8bf2GogI"
+version = "wUvjSaUl"

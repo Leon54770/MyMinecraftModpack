@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "skyandstone:waechterkern"
+    },
+    "title": "Der letzte Wächter",
+    "description": "Er hat dich geprüft. Du hast bestanden.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "skyandstone:herz_gebaut",
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"sns_waechter\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "c"
+    ]
+  ],
+  "rewards": {
+    "function": "skyandstone:waechter/sieg"
+  }
+}

@@ -1,0 +1,357 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars"
+	group: "1A7A9B25B51B8125"
+	icon: {
+		id: "ars_nouveau:novice_spell_book"
+	}
+	id: "1772A1F000AC15F1"
+	images: [ ]
+	order_index: 8
+	quest_links: [{
+		id: "7CBE945AF9D733C9"
+		linked_quest: "733DB9235EC67B52"
+		shape: "square"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["733DB9235EC67B52"]
+			id: "185A9145E2ACE761"
+			rewards: [{
+				count: 4
+				id: "2464FEF36AD7F1C7"
+				item: {
+					count: 1
+					id: "ars_nouveau:source_gem"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1A8D28D21522C1BD"
+					item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4E14C7CD7B333565"
+					item: { count: 1, id: "ars_nouveau:source_gem" }
+					type: "item"
+				}
+			]
+			x: 2.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["185A9145E2ACE761"]
+			id: "4839A909DB03EAEB"
+			rewards: [{
+				count: 8
+				id: "16409D699B12E549"
+				item: {
+					count: 1
+					id: "minecraft:lapis_lazuli"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C7CE432EF07D89C"
+				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4839A909DB03EAEB"]
+			id: "10B499ADB9D39A45"
+			rewards: [{
+				count: 4
+				id: "5394C1032C331B44"
+				item: {
+					count: 1
+					id: "ars_nouveau:source_gem"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A63D9BC41EB4D57"
+				item: { count: 1, id: "ars_nouveau:scribes_table" }
+				type: "item"
+			}]
+			x: 7.2d
+			y: 0.9d
+		}
+		{
+			dependencies: ["4839A909DB03EAEB"]
+			id: "2FD842A5AE37D51A"
+			rewards: [{
+				count: 16
+				id: "47D837D424952111"
+				item: {
+					count: 1
+					id: "minecraft:glass"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "36BF5B4D7BFFB6A4"
+					item: { count: 1, id: "ars_nouveau:source_jar" }
+					type: "item"
+				}
+				{
+					id: "1F188E03048A8247"
+					item: { count: 1, id: "ars_nouveau:agronomic_sourcelink" }
+					type: "item"
+				}
+			]
+			x: 7.2d
+			y: -0.9d
+		}
+		{
+			dependencies: ["2FD842A5AE37D51A"]
+			id: "673329C9FC48A8A8"
+			rewards: [{
+				count: 8
+				id: "1DCADE151CEEF66B"
+				item: {
+					count: 1
+					id: "minecraft:bone_meal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "ars_nouveau:blue_archwood_sapling"
+				}
+				id: "12CD2FFA47DC2803"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(skyandstone:archwood_saplings)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.6d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FD842A5AE37D51A"]
+			id: "1115B85102745B87"
+			rewards: [{
+				count: 8
+				id: "1030CDCA224C1333"
+				item: {
+					count: 1
+					id: "minecraft:wheat_seeds"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C4B6563C17A5D67"
+				item: { count: 1, id: "ars_nouveau:whirlisprig_charm" }
+				type: "item"
+			}]
+			x: 9.6d
+			y: -1.8d
+		}
+		{
+			dependencies: ["10B499ADB9D39A45"]
+			id: "37438FC8EBCD40AA"
+			rewards: [{
+				id: "123D42A53E644942"
+				table_id: 4424396703174312772L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [
+				{
+					id: "1030FDF2408BF3D6"
+					item: { count: 1, id: "ars_nouveau:glyph_crush" }
+					type: "item"
+				}
+				{
+					id: "16BE4B1A14EE628B"
+					item: { count: 1, id: "ars_nouveau:basic_spell_turret" }
+					type: "item"
+				}
+			]
+			x: 9.6d
+			y: 3.6d
+		}
+		{
+			dependencies: ["673329C9FC48A8A8"]
+			id: "19BD9400F5B7B99C"
+			rewards: [{
+				count: 4
+				id: "38A346A0FD9FB96D"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "17D1FB307FD7500F"
+				item: { count: 1, id: "ars_nouveau:drygmy_charm" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.8d
+		}
+		{
+			dependencies: ["10B499ADB9D39A45"]
+			id: "1854CF6F696D351C"
+			rewards: [{
+				count: 8
+				id: "1B5C335B2B9ECFF3"
+				item: {
+					count: 1
+					id: "ars_nouveau:source_gem"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1819FE7CFA626778"
+					item: { count: 1, id: "ars_nouveau:wilden_horn" }
+					type: "item"
+				}
+				{
+					id: "3452110D979F4A99"
+					item: { count: 1, id: "ars_nouveau:wilden_spike" }
+					type: "item"
+				}
+				{
+					id: "16BDF66C065BA66D"
+					item: { count: 1, id: "ars_nouveau:wilden_wing" }
+					type: "item"
+				}
+			]
+			x: 9.6d
+			y: 6.3d
+		}
+		{
+			dependencies: [
+				"2FD842A5AE37D51A"
+				"10B499ADB9D39A45"
+			]
+			id: "1CF3276875E64E6B"
+			rewards: [{
+				count: 4
+				id: "1EC80FCD7EAE6300"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "73AEA5B4F5E0600E"
+					item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
+					type: "item"
+				}
+				{
+					id: "193BC27E24A26E30"
+					item: { count: 1, id: "ars_nouveau:arcane_core" }
+					type: "item"
+				}
+			]
+			x: 9.6d
+			y: 1.8d
+		}
+		{
+			dependencies: ["1CF3276875E64E6B"]
+			id: "18C419BB18F31EE0"
+			rewards: [{
+				count: 8
+				id: "21B690A53C089C2B"
+				item: {
+					count: 1
+					id: "minecraft:glowstone_dust"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C66D5539C3E9323"
+				item: { count: 1, id: "ars_nouveau:ritual_brazier" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.8d
+		}
+		{
+			dependencies: ["1CF3276875E64E6B"]
+			id: "17E19375630FA37D"
+			rewards: [{
+				count: 8
+				id: "1F84492867BCB942"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "238622B5C0C4C072"
+					item: { count: 1, id: "ars_nouveau:wixie_charm" }
+					type: "item"
+				}
+				{
+					id: "1194594318CD49D0"
+					item: { count: 1, id: "minecraft:cauldron" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1CF3276875E64E6B"
+				"1854CF6F696D351C"
+				"19BD9400F5B7B99C"
+				"6BC728D50A6F8246"
+				"7BB7F7AE33284E96"
+			]
+			id: "4D13EDC0AD8353A7"
+			rewards: [
+				{
+					id: "1D281CC224AC56D2"
+					table_id: 1574763629656948777L
+					type: "choice"
+				}
+				{
+					id: "1B2F3F40EA7FF270"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Das letzte Buch\"}"
+							"minecraft:enchantment_glint_override": 1b
+							"minecraft:lore": [
+								"{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Seite 15 von 22\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"„Unsere Magier schrieben, bis die\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"Seiten glühten. Nur dieses Buch\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"hat das Zerbrechen überstanden.“\"}"
+							]
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "12BF6316C4AFC2D6"
+				item: { count: 1, id: "ars_nouveau:archmage_spell_book" }
+				type: "item"
+			}]
+			x: 14.4d
+			y: 0.0d
+		}
+	]
+}

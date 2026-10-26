@@ -1,0 +1,169 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "story"
+	group: "137C981F79D6DE16"
+	icon: {
+		id: "minecraft:writable_book"
+	}
+	id: "1865755EFBE9741A"
+	images: [ ]
+	order_index: 0
+	quest_links: [
+		{
+			id: "4DFC77CAE29F1483"
+			linked_quest: "2B0850D91649B4A7"
+			shape: "square"
+			x: 0.0d
+			y: -0.45d
+		}
+		{
+			id: "1C5E587906D7B17F"
+			linked_quest: "3739A99AF89D8892"
+			shape: "square"
+			x: 2.0d
+			y: 0.45d
+		}
+		{
+			id: "10938D0732A89F79"
+			linked_quest: "733DB9235EC67B52"
+			shape: "square"
+			x: 4.0d
+			y: -0.45d
+		}
+		{
+			id: "11AB2E8FA0ABD695"
+			linked_quest: "4D74E2BA28259B88"
+			shape: "square"
+			x: 6.0d
+			y: 0.45d
+		}
+		{
+			id: "12009B9CBE50575C"
+			linked_quest: "1FB3CE765E5E393E"
+			shape: "square"
+			x: 8.0d
+			y: -0.45d
+		}
+		{
+			id: "1059BF0D0EA195FF"
+			linked_quest: "54D4261D8643E532"
+			shape: "square"
+			x: 8.0d
+			y: 2.55d
+		}
+		{
+			id: "2AB78117EE8E120F"
+			linked_quest: "1A722350AD963393"
+			shape: "square"
+			x: 6.0d
+			y: 3.45d
+		}
+		{
+			id: "4A554973265C2D2D"
+			linked_quest: "16BCC427A306C1C9"
+			shape: "square"
+			x: 4.0d
+			y: 2.55d
+		}
+		{
+			id: "199BD53EA58AE4E4"
+			linked_quest: "74F2C921E52EFBDB"
+			shape: "square"
+			x: 2.0d
+			y: 3.45d
+		}
+		{
+			id: "13F13ED94CCF8DFC"
+			linked_quest: "6CC59EF33F4C5B8E"
+			shape: "square"
+			x: 0.0d
+			y: 2.55d
+		}
+		{
+			id: "15D642A6D0BF398C"
+			linked_quest: "2C5E505C01D11EFA"
+			shape: "square"
+			x: 0.0d
+			y: 5.55d
+		}
+		{
+			id: "1F003EE73314E7BA"
+			linked_quest: "11839A27875CF281"
+			shape: "square"
+			x: 2.0d
+			y: 6.45d
+		}
+		{
+			id: "141267C6FE6BF779"
+			linked_quest: "1103C5832FA3A292"
+			shape: "square"
+			x: 4.0d
+			y: 5.55d
+		}
+		{
+			id: "1F10B9B6B17034DD"
+			linked_quest: "5A600C59DDC6D91E"
+			shape: "square"
+			x: 6.0d
+			y: 6.45d
+		}
+		{
+			id: "152AE4731A05CF68"
+			linked_quest: "4D13EDC0AD8353A7"
+			shape: "square"
+			x: 8.0d
+			y: 5.55d
+		}
+		{
+			id: "1C214142E19BC7BD"
+			linked_quest: "322E156DC2BD34DC"
+			shape: "square"
+			x: 8.0d
+			y: 8.55d
+		}
+		{
+			id: "255796A52A3D50CF"
+			linked_quest: "15F6E3FCC5343B0D"
+			shape: "square"
+			x: 6.0d
+			y: 9.45d
+		}
+		{
+			id: "16133CEDEACC8D8B"
+			linked_quest: "1A68AB103BA9FD48"
+			shape: "square"
+			x: 4.0d
+			y: 8.55d
+		}
+		{
+			id: "1AB7BFF2222E61CA"
+			linked_quest: "4B2EB94738D6E770"
+			shape: "square"
+			x: 2.0d
+			y: 9.45d
+		}
+		{
+			id: "14BA3EF3BD637A86"
+			linked_quest: "1BE55F455F6E6D6D"
+			shape: "square"
+			x: 0.0d
+			y: 8.55d
+		}
+		{
+			id: "129ADB6B770FE360"
+			linked_quest: "2916F2F4182F256F"
+			shape: "square"
+			x: 0.0d
+			y: 11.55d
+		}
+		{
+			id: "5A517935C90DD324"
+			linked_quest: "11EDBA459BD538B6"
+			shape: "square"
+			x: 2.0d
+			y: 12.45d
+		}
+	]
+	quests: [ ]
+}

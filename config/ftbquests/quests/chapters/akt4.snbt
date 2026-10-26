@@ -1,0 +1,283 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "akt4"
+	group: "6BCFC7D14F070455"
+	icon: {
+		id: "skyandstone:herz_der_leere"
+	}
+	id: "13BE9964B7BBB3EB"
+	images: [ ]
+	order_index: 3
+	quest_links: [
+		{
+			id: "136F277D4777E485"
+			linked_quest: "4B49A39B0487205C"
+			shape: "square"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1B9CEA67D63D1ABE"
+			linked_quest: "1A464E84383B573A"
+			shape: "square"
+			x: 4.8d
+			y: -1.86d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"18776B2AB7AD2DB6"
+				"2C5E505C01D11EFA"
+			]
+			icon: {
+				id: "skyandstone:leerenessenz"
+			}
+			id: "50F037D4543A619F"
+			rewards: [{
+				count: 4
+				id: "171006D96CBC73AA"
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "199654BC22F7D52D"
+				item: { count: 1, id: "skyandstone:leerenessenz" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2B8F719EBDDA3F00"
+				"4B49A39B0487205C"
+				"2C5E505C01D11EFA"
+			]
+			icon: {
+				id: "skyandstone:splitter_leben"
+			}
+			id: "1CBA1E5200491068"
+			rewards: [{
+				count: 2
+				id: "1A4A3BAC82ACC9D5"
+				item: {
+					count: 1
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "1F04DCC4B3FB2E96"
+				item: { count: 1, id: "skyandstone:splitter_leben" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: -1.8d
+		}
+		{
+			dependencies: [
+				"7BB7F7AE33284E96"
+				"50F037D4543A619F"
+			]
+			icon: {
+				id: "skyandstone:splitter_geist"
+			}
+			id: "5D2499B94AB2670D"
+			rewards: [{
+				id: "4651D7241BDE475F"
+				table_id: 1574763629656948777L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "15B6480FD064DC99"
+				item: { count: 1, id: "skyandstone:splitter_geist" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: 1.86d
+		}
+		{
+			dependencies: [
+				"1A68AB103BA9FD48"
+				"50F037D4543A619F"
+			]
+			icon: {
+				id: "skyandstone:splitter_leere"
+			}
+			id: "7333F70165968FB7"
+			rewards: [{
+				id: "1282EC60507E8A2C"
+				table_id: 1325766260965426842L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "12A1676573ED5298"
+				item: { count: 1, id: "skyandstone:splitter_leere" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: 0.07d
+		}
+		{
+			dependencies: ["2C5E505C01D11EFA"]
+			icon: {
+				id: "skyandstone:herzsockel"
+			}
+			id: "1F300BD715351A08"
+			rewards: [{
+				count: 4
+				id: "119B8C4CB1C9A377"
+				item: {
+					count: 1
+					id: "minecraft:soul_lantern"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "11D75BCD6EEFD69A"
+				item: { count: 1, id: "skyandstone:herzsockel" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"1CBA1E5200491068"
+				"5D2499B94AB2670D"
+				"7333F70165968FB7"
+				"1A464E84383B573A"
+			]
+			icon: {
+				id: "skyandstone:herz_der_leere"
+			}
+			id: "1BE55F455F6E6D6D"
+			rewards: [
+				{
+					count: 4
+					id: "1F81F783C63ABD43"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1BD91CDA9870196B"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "668B3C0C28F53CA3"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Sieben in einem\"}"
+							"minecraft:enchantment_glint_override": 1b
+							"minecraft:lore": [
+								"{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Seite 20 von 22\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"„Das Herz ist ganz. Es wird erst\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"schlagen, wenn ich weiß, dass du\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"es nicht so behandelst wie wir.“\"}"
+							]
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.6d
+			tasks: [{
+				id: "4A131471D6771779"
+				item: { count: 1, id: "skyandstone:herz_der_leere" }
+				type: "item"
+			}]
+			x: 7.2d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1BE55F455F6E6D6D"
+				"1F300BD715351A08"
+			]
+			icon: {
+				id: "skyandstone:waechterkern"
+			}
+			id: "2916F2F4182F256F"
+			rewards: [
+				{
+					id: "1FD784F71522C5C9"
+					table_id: 1325766260965426842L
+					type: "choice"
+				}
+				{
+					id: "1D686E961A222997"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Der letzte Wächter\"}"
+							"minecraft:enchantment_glint_override": 1b
+							"minecraft:lore": [
+								"{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Seite 21 von 22\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"„Wenn du das liest, hast du mich\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"besiegt. Gut. Ich habe lange genug\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"gewacht. Jetzt wachst du.“\"}"
+							]
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.8d
+			tasks: [{
+				advancement: "skyandstone:waechter_besiegt"
+				criterion: ""
+				id: "19BE674731ECFE6E"
+				type: "advancement"
+			}]
+			x: 9.6d
+			y: 2.7d
+		}
+		{
+			dependencies: ["2916F2F4182F256F"]
+			icon: {
+				id: "skyandstone:herz_erwacht"
+			}
+			id: "23DB1B44DE200AC9"
+			rewards: [{
+				id: "418358AAD39D4E77"
+				table_id: 1325766260965426842L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				advancement: "skyandstone:erster_herzschlag"
+				criterion: ""
+				id: "297A2823AED989A1"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+}

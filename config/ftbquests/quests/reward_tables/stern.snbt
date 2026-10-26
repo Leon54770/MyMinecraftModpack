@@ -1,0 +1,60 @@
+{
+	id: "12661163E00AC69A"
+	loot_crate: {
+		color: 10494192
+		drops: {
+			boss: 5
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "sternkiste"
+	}
+	loot_size: 2
+	order_index: 6
+	rewards: [
+		{
+			count: 2
+			id: "12DDAEB3331C08F0"
+			item: {
+				count: 1
+				id: "mysticalagradditions:nether_star_shard"
+			}
+			weight: 4.0f
+		}
+		{
+			id: "33E83FF135EFEC8E"
+			item: {
+				count: 1
+				id: "minecraft:enchanted_golden_apple"
+			}
+			weight: 3.0f
+		}
+		{
+			id: "1C71636FCD1927B0"
+			item: {
+				count: 1
+				id: "minecraft:netherite_scrap"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 8
+			id: "14C9BE2A3C3F6B86"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			weight: 8.0f
+		}
+		{
+			id: "1AFE479393A7BBDD"
+			item: {
+				count: 1
+				id: "minecraft:totem_of_undying"
+			}
+			weight: 3.0f
+		}
+	]
+	use_title: true
+}

@@ -1,0 +1,110 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lagerung"
+	group: "1A7A9B25B51B8125"
+	icon: {
+		id: "functionalstorage:oak_1"
+	}
+	id: "1B1B1E22AB6C89A5"
+	images: [ ]
+	order_index: 5
+	quest_links: [{
+		id: "2D3366BA8F026A2D"
+		linked_quest: "733DB9235EC67B52"
+		shape: "square"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["733DB9235EC67B52"]
+			id: "1FE291B8C4B3D76D"
+			rewards: [{
+				count: 2
+				id: "101F8440A0CA1F46"
+				item: {
+					count: 1
+					id: "minecraft:chest"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1E68DED966BAB1FB"
+					item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+					type: "item"
+				}
+				{
+					id: "12785A0DB4282966"
+					item: { count: 1, id: "sophisticatedbackpacks:pickup_upgrade" }
+					type: "item"
+				}
+			]
+			x: 2.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FE291B8C4B3D76D"]
+			id: "11B03D990EBE32F9"
+			rewards: [{
+				count: 16
+				id: "5DEDE54F2A3AA7D9"
+				item: {
+					count: 1
+					id: "minecraft:oak_log"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1ED84749730B686F"
+				item: { count: 1, id: "sophisticatedstorage:barrel" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11B03D990EBE32F9"]
+			id: "53B39417EB5D6599"
+			rewards: [{
+				count: 4
+				id: "128410DE2AAA611A"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				icon: {
+					id: "functionalstorage:oak_1"
+				}
+				id: "4B6941EEC2D94C0C"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(functionalstorage:drawer)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53B39417EB5D6599"]
+			id: "1DCE82B2F0CAEC71"
+			rewards: [{
+				id: "1E030158FC472B9F"
+				table_id: 5609506339175866634L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [{
+				id: "1F260B35EC8DBA1C"
+				item: { count: 1, id: "functionalstorage:storage_controller" }
+				type: "item"
+			}]
+			x: 9.6d
+			y: 0.0d
+		}
+	]
+}

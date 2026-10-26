@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "ars_nouveau:novice_spell_book"
+    },
+    "title": "Der andere Weg",
+    "description": "Du schlägst ein Zauberbuch auf. Die Erbauer nannten es Handwerk.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "skyandstone:funke",
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ars_nouveau:novice_spell_book"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "c"
+    ]
+  ],
+  "rewards": {
+    "function": "skyandstone:feier/magie"
+  }
+}

@@ -1,0 +1,98 @@
+{
+	id: "15DAAF2D7EE84029"
+	loot_crate: {
+		color: 16766720
+		drops: {
+			boss: 5
+			monster: 0
+			passive: 0
+		}
+		string_id: "goldkiste"
+	}
+	loot_size: 3
+	order_index: 1
+	rewards: [
+		{
+			count: 2
+			id: "1D20D39CCACBF81B"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 6
+			id: "1792808283327C05"
+			item: {
+				count: 1
+				id: "create:brass_ingot"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 6
+			id: "79E5FF2800916C89"
+			item: {
+				count: 1
+				id: "mekanism:ingot_osmium"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 12
+			id: "341D7206756D29AD"
+			item: {
+				count: 1
+				id: "mysticalagriculture:prudentium_essence"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 3
+			id: "3C46ADDD8DF83F5D"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 6
+			id: "79BC89125C739B3C"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 16
+			id: "6916EEC433EF3B73"
+			item: {
+				count: 1
+				id: "minecraft:quartz"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 12
+			id: "6432FE00BC8805F9"
+			item: {
+				count: 1
+				id: "minecraft:glowstone_dust"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "1722AC3266D1CEC8"
+			item: {
+				count: 1
+				id: "mysticalagriculture:prosperity_shard"
+			}
+			weight: 6.0f
+		}
+	]
+	use_title: true
+}

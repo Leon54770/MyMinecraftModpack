@@ -1,0 +1,1077 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "akt3"
+	group: "6BCFC7D14F070455"
+	icon: {
+		id: "mekanism:pellet_antimatter"
+	}
+	id: "1F431ACF8F496FCB"
+	images: [ ]
+	order_index: 2
+	quest_links: [
+		{
+			id: "10925937009165B8"
+			linked_quest: "1DCE82B2F0CAEC71"
+			shape: "square"
+			x: 0.0d
+			y: 3.6d
+		}
+		{
+			id: "153A18013D057A29"
+			linked_quest: "1C2D2E140DF23D44"
+			shape: "square"
+			x: 7.2d
+			y: 1.84d
+		}
+		{
+			id: "73643B83E0482604"
+			linked_quest: "2455A826629A049C"
+			shape: "square"
+			x: 12.0d
+			y: 0.12d
+		}
+		{
+			id: "1A23094A41D2EDC2"
+			linked_quest: "4D13EDC0AD8353A7"
+			shape: "square"
+			x: 0.0d
+			y: -1.8d
+		}
+		{
+			id: "1D49C9BB71B1C8DB"
+			linked_quest: "15F6E3FCC5343B0D"
+			shape: "square"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1E5EE9DCA60B980A"
+			linked_quest: "2072D371FB56A9EA"
+			shape: "square"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			id: "18B0A578E464A460"
+			linked_quest: "123791C9A02D1A0C"
+			shape: "square"
+			x: 0.0d
+			y: 1.8d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"1B41A97765B0B62F"
+				"1DCE82B2F0CAEC71"
+			]
+			id: "11839A27875CF281"
+			rewards: [
+				{
+					id: "1B2E5E73A8B63623"
+					table_id: 1574763629656948777L
+					type: "choice"
+				}
+				{
+					id: "126CD19E3D9651AB"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Netze, die denken\"}"
+							"minecraft:enchantment_glint_override": 1b
+							"minecraft:lore": [
+								"{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Seite 12 von 22\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"„Unsere Netze dachten mit. Am Ende\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"dachten sie schneller als wir.“\"}"
+							]
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "43D14306D83C7234"
+					item: { count: 1, id: "ae2:pattern_provider" }
+					type: "item"
+				}
+				{
+					id: "14AF844E2C2951EC"
+					item: { count: 1, id: "ae2:molecular_assembler" }
+					type: "item"
+				}
+				{
+					id: "1663C38FA81FEDC0"
+					item: { count: 1, id: "ae2:crafting_unit" }
+					type: "item"
+				}
+			]
+			x: 2.4d
+			y: 7.2d
+		}
+		{
+			dependencies: [
+				"6D9FC01C09305938"
+				"1891AAEAA7CA5A77"
+			]
+			id: "2B8F719EBDDA3F00"
+			rewards: [
+				{
+					count: 2
+					id: "319C86C043B2B957"
+					item: {
+						count: 1
+						id: "mysticalagriculture:imperium_essence"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1505FC442276EA48"
+					item: {
+						count: 1
+						id: "mysticalagriculture:prosperity_shard"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "17B201D0541C9C1A"
+				item: { count: 1, id: "mysticalagriculture:imperium_essence" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: -3.03d
+		}
+		{
+			dependencies: [
+				"2B8F719EBDDA3F00"
+				"16FA3B6226C8DA9B"
+			]
+			id: "236B87F9B041099D"
+			rewards: [
+				{
+					id: "351FF1813C343B0D"
+					item: {
+						count: 1
+						id: "mysticalagriculture:supremium_essence"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "13B4DA872FB73423"
+					item: {
+						count: 1
+						id: "mysticalagriculture:prosperity_shard"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "14AF3DD72C6E5EA7"
+				item: { count: 1, id: "mysticalagriculture:supremium_essence" }
+				type: "item"
+			}]
+			x: 7.2d
+			y: -4.46d
+		}
+		{
+			dependencies: [
+				"236B87F9B041099D"
+				"1C2D2E140DF23D44"
+			]
+			id: "1103C5832FA3A292"
+			rewards: [
+				{
+					id: "1B068455F8D550C5"
+					table_id: 1574763629656948777L
+					type: "loot"
+				}
+				{
+					id: "1B585A1B59953E2C"
+					item: {
+						count: 1
+						id: "mysticalagriculture:supremium_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "7428ED00A14B6B1B"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Felder aus Erz\"}"
+							"minecraft:enchantment_glint_override": 1b
+							"minecraft:lore": [
+								"{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Seite 13 von 22\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"„Als die Minen versiegt waren,\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"ließen wir Erz auf Feldern\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"wachsen. Wenigstens das war\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"richtig.“\"}"
+							]
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "1D0D0F0D9912459A"
+					item: { count: 1, id: "mysticalagriculture:osmium_seeds" }
+					type: "item"
+				}
+				{
+					id: "18DD0DE3543B7F6F"
+					item: { count: 1, id: "mysticalagriculture:certus_quartz_seeds" }
+					type: "item"
+				}
+				{
+					id: "6055FDAC0699E11E"
+					item: { count: 1, id: "mysticalagriculture:zinc_seeds" }
+					type: "item"
+				}
+			]
+			x: 9.6d
+			y: 0.74d
+		}
+		{
+			dependencies: ["16BCC427A306C1C9"]
+			id: "1B0FF6556EFBBF48"
+			rewards: [
+				{
+					count: 8
+					id: "16207D724616F4E6"
+					item: {
+						count: 1
+						id: "minecraft:soul_sand"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "10C6F6480A0CF0CC"
+					item: {
+						count: 1
+						id: "minecraft:blaze_powder"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "2D67B68D1D462DD9"
+				item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: 3.27d
+		}
+		{
+			dependencies: ["1B0FF6556EFBBF48"]
+			id: "7BB7F7AE33284E96"
+			rewards: [
+				{
+					id: "1D6A99D3F7E4095E"
+					table_id: 1325766260965426842L
+					type: "loot"
+				}
+				{
+					count: 8
+					id: "29E5A90C4918E173"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "1F9B3B095FC9A6BC"
+				item: { count: 1, id: "minecraft:nether_star" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: 0.9d
+		}
+		{
+			dependencies: ["78FAF7FC9EC04169"]
+			id: "18776B2AB7AD2DB6"
+			rewards: [
+				{
+					count: 4
+					id: "1E87563333745AF5"
+					item: {
+						count: 1
+						id: "minecraft:blaze_powder"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "14C691A14EB6E543"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 12L
+				id: "13FF143E519B1005"
+				item: { count: 1, id: "minecraft:ender_pearl" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: -1.23d
+		}
+		{
+			dependencies: [
+				"18776B2AB7AD2DB6"
+				"1C9E357D2E5387E9"
+			]
+			id: "103D1E2CAB05B399"
+			rewards: [
+				{
+					count: 8
+					id: "11421252202AFDC3"
+					item: {
+						count: 1
+						id: "minecraft:obsidian"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "443F4308169B156E"
+					item: {
+						count: 1
+						id: "minecraft:end_stone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 12L
+				id: "3A52E54D8AD3D0D7"
+				item: { count: 1, id: "minecraft:ender_eye" }
+				type: "item"
+			}]
+			x: 7.2d
+			y: -2.66d
+		}
+		{
+			dependencies: ["103D1E2CAB05B399"]
+			id: "466A4EA08CEA7993"
+			rewards: [
+				{
+					count: 4
+					id: "17BFAD97B95D40E6"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5B89B11D91CB3C38"
+					item: {
+						count: 1
+						id: "minecraft:end_stone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 12L
+				id: "1A8871F5BB23E880"
+				item: { count: 1, id: "minecraft:end_portal_frame" }
+				type: "item"
+			}]
+			x: 9.6d
+			y: -2.86d
+		}
+		{
+			dependencies: ["466A4EA08CEA7993"]
+			id: "12EB345C3E574328"
+			rewards: [
+				{
+					count: 16
+					id: "7EAEE7861E14CF4C"
+					item: {
+						count: 1
+						id: "minecraft:end_stone"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "48FD615B86CE3593"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "1078663C8F0FEAEA"
+				type: "dimension"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["12EB345C3E574328"]
+			icon: {
+				id: "minecraft:dragon_head"
+			}
+			id: "1A68AB103BA9FD48"
+			rewards: [
+				{
+					id: "1AEA0224EAFC2FF0"
+					table_id: 1325766260965426842L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "616ED4B1C4F4876B"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "1EF32E0C48BBC90E"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Der Wächter am Ende\"}"
+							"minecraft:enchantment_glint_override": 1b
+							"minecraft:lore": [
+								"{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Seite 18 von 22\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"„Der Drache bewachte das Ende.\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"Nicht für uns. Vor uns.“\"}"
+							]
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "647D8BEE04EA0317"
+				type: "kill"
+				value: 1L
+			}]
+			x: 16.8d
+			y: 0.32d
+		}
+		{
+			dependencies: ["74F2C921E52EFBDB"]
+			id: "18D2952E999F5A11"
+			rewards: [
+				{
+					count: 16
+					id: "1B6A45A94E041D4C"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "15FDF92208CA055F"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "1069475FAA5C791F"
+				item: { count: 1, id: "mekanism:elite_control_circuit" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: 3.03d
+		}
+		{
+			dependencies: ["18D2952E999F5A11"]
+			id: "4FCA91106FDE7036"
+			rewards: [
+				{
+					count: 4
+					id: "644C88C24D0197D1"
+					item: {
+						count: 1
+						id: "mekanism:basic_control_circuit"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5114EACDBE2D0609"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "13CD1D1043FD1907"
+				item: { count: 1, id: "mekanism:ultimate_control_circuit" }
+				type: "item"
+			}]
+			x: 7.2d
+			y: 0.04d
+		}
+		{
+			dependencies: [
+				"4FCA91106FDE7036"
+				"236B87F9B041099D"
+			]
+			id: "1AFC1AA3FB820C68"
+			rewards: [
+				{
+					count: 4
+					id: "6053FFCC126F8276"
+					item: {
+						count: 1
+						id: "mysticalagriculture:supremium_essence"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1088BD70B7A4A4C0"
+					item: {
+						count: 1
+						id: "mysticalagriculture:prosperity_shard"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "321817E9E291F8F0"
+				item: { count: 1, id: "mysticalagradditions:insanium_essence" }
+				type: "item"
+			}]
+			x: 9.6d
+			y: -1.06d
+		}
+		{
+			dependencies: ["18D2952E999F5A11"]
+			id: "5A600C59DDC6D91E"
+			rewards: [
+				{
+					count: 32
+					id: "16EA09C6DDE2D946"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1D20E39C581E0A09"
+					item: {
+						count: 1
+						id: "mekanism:fluorite_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "1063E62568A58B59"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Kraft aus der Leere\"}"
+							"minecraft:enchantment_glint_override": 1b
+							"minecraft:lore": [
+								"{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Seite 14 von 22\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"„Wir nahmen die Kraft aus der\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"Leere, nicht aus Kohle. Wir nahmen\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"zu viel, und der Boden riss.“\"}"
+							]
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "194765CA002EAFEC"
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_casing" }
+					type: "item"
+				}
+				{
+					id: "19A1E24445328047"
+					item: { count: 1, id: "mekanismgenerators:fission_fuel_assembly" }
+					type: "item"
+				}
+			]
+			x: 7.2d
+			y: 5.44d
+		}
+		{
+			dependencies: ["5A600C59DDC6D91E"]
+			id: "7C108C6ABD8190A1"
+			rewards: [
+				{
+					count: 8
+					id: "5CA0AEB1E5C7B26A"
+					item: {
+						count: 1
+						id: "mekanism:basic_control_circuit"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1E482763B8579B7F"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "159BC9B780A9940F"
+				item: { count: 1, id: "mekanism:pellet_polonium" }
+				type: "item"
+			}]
+			x: 9.6d
+			y: 3.77d
+		}
+		{
+			dependencies: [
+				"7C108C6ABD8190A1"
+				"11839A27875CF281"
+				"18D2952E999F5A11"
+			]
+			id: "4B2EB94738D6E770"
+			rewards: [
+				{
+					id: "1EC6E9266F1A4C46"
+					table_id: 1325766260965426842L
+					type: "choice"
+				}
+				{
+					id: "6310E80ADF06F2FC"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Der Herzschlag\"}"
+							"minecraft:enchantment_glint_override": 1b
+							"minecraft:lore": [
+								"{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Seite 19 von 22\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"„Antimaterie, der Herzschlag der\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"Leere in einer Kapsel. Behandle\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"sie mit Respekt.“\"}"
+							]
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "12A18477C1291BB8"
+				item: { count: 1, id: "mekanism:pellet_antimatter" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.61d
+		}
+		{
+			dependencies: [
+				"2455A826629A049C"
+				"4B2EB94738D6E770"
+				"11839A27875CF281"
+			]
+			id: "3CC5CFE7FA8CF620"
+			rewards: [
+				{
+					id: "5E88C2DC2FA2F347"
+					table_id: 1325766260965426842L
+					type: "loot"
+				}
+				{
+					count: 4
+					id: "498390FC53C9D8FD"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.6d
+			tasks: [
+				{
+					count: 4L
+					id: "153CAA6D774205C4"
+					item: { count: 1, id: "mekanism:ultimate_control_circuit" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4AC00EAFFD590971"
+					item: { count: 1, id: "mysticalagriculture:supremium_essence" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "139142A707528B00"
+					item: { count: 1, id: "minecraft:nether_star" }
+					type: "item"
+				}
+			]
+			x: 14.4d
+			y: -0.32d
+		}
+		{
+			dependencies: [
+				"4D13EDC0AD8353A7"
+				"15F6E3FCC5343B0D"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "ars_nouveau:archmage_spell_book"
+			}
+			id: "322E156DC2BD34DC"
+			rewards: [
+				{
+					count: 8
+					id: "1783B38C9E3E1ED1"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "1CE29BB3637F8AFE"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "4D67920CF243B094"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Ein Weg genügt\"}"
+							"minecraft:enchantment_glint_override": 1b
+							"minecraft:lore": [
+								"{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Seite 16 von 22\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"„Wir wollten Maschine und Magie\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"zugleich, und beide ganz. Einer\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"der Wege hätte gereicht.“\"}"
+							]
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "ars_nouveau:archmage_spell_book"
+				}
+				id: "1FC058AEFA8D035B"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(skyandstone:weg_zum_herz)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: -5.73d
+		}
+		{
+			dependencies: [
+				"1103C5832FA3A292"
+				"2072D371FB56A9EA"
+				"123791C9A02D1A0C"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "industrialforegoing:ore_laser_base"
+			}
+			id: "6F697BE703502F6F"
+			rewards: [{
+				id: "1E1E7993EDB3E3C7"
+				table_id: 1325766260965426842L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				icon: {
+					id: "industrialforegoing:ore_laser_base"
+				}
+				id: "1D73D470AEB043F0"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(skyandstone:erz_ohne_sieb)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 14.4d
+			y: -3.81d
+		}
+		{
+			dependencies: [
+				"3CC5CFE7FA8CF620"
+				"1A68AB103BA9FD48"
+				"322E156DC2BD34DC"
+				"6F697BE703502F6F"
+				"23DB1B44DE200AC9"
+			]
+			icon: {
+				id: "minecraft:dragon_egg"
+			}
+			id: "11EDBA459BD538B6"
+			rewards: [
+				{
+					id: "52303C59BCA9FCD0"
+					table_id: 1325766260965426842L
+					type: "choice"
+				}
+				{
+					id: "1C55E1183617ED07"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Das Erbe\"}"
+							"minecraft:enchantment_glint_override": 1b
+							"minecraft:lore": [
+								"{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Seite 22 von 22\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"„Wer das Herz wieder schlagen\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"lässt, trägt unser Erbe. Nimm nur,\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"was du brauchst. Wir nahmen\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"alles.“\"}"
+							]
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					command: "function skyandstone:feier/z_herr"
+					id: "1939F87FE0533922"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "261C94D281AA922A"
+				item: { count: 1, id: "minecraft:dragon_egg" }
+				type: "item"
+			}]
+			x: 19.2d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4D13EDC0AD8353A7"]
+			icon: {
+				id: "ars_nouveau:archmage_spell_book"
+			}
+			id: "1620105620166860"
+			optional: true
+			rewards: [
+				{
+					id: "37E5D34E6A5F7952"
+					table_id: 4424396703174312772L
+					type: "choice"
+				}
+				{
+					count: 4
+					id: "17C403A159CD26DF"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem_block"
+					}
+					type: "item"
+				}
+				{
+					id: "1DDC7DB080F110C4"
+					item: {
+						count: 1
+						id: "ars_nouveau:enchanters_mirror"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "12AA7B7F6C35779F"
+				item: { count: 1, id: "ars_nouveau:archmage_spell_book" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: -2.7d
+		}
+		{
+			dependencies: ["15F6E3FCC5343B0D"]
+			icon: {
+				id: "hostilenetworks:loot_fabricator"
+			}
+			id: "131B62AE6118AC5C"
+			optional: true
+			rewards: [
+				{
+					id: "1D7BAE7369BD0EC4"
+					table_id: 2192997637816066646L
+					type: "choice"
+				}
+				{
+					count: 16
+					id: "1405F1838A8BC669"
+					item: {
+						count: 1
+						id: "create:brass_casing"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7079A55B76B88FF5"
+				item: { count: 1, id: "hostilenetworks:loot_fabricator" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: -0.9d
+		}
+		{
+			dependencies: ["1103C5832FA3A292"]
+			icon: {
+				id: "mysticalagriculture:osmium_seeds"
+			}
+			id: "1A816EB5628F905F"
+			optional: true
+			rewards: [
+				{
+					id: "2614E39EA3E5B88D"
+					table_id: 1708431179495466294L
+					type: "choice"
+				}
+				{
+					count: 64
+					id: "1D0446B390C67004"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "143A1BD718C6CE1F"
+				item: { count: 1, id: "mysticalagriculture:osmium_seeds" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.8d
+		}
+		{
+			dependencies: ["2072D371FB56A9EA"]
+			icon: {
+				id: "industrialforegoing:ore_laser_base"
+			}
+			id: "2A05478A67B97497"
+			optional: true
+			rewards: [
+				{
+					id: "5CEF257D94A27DAD"
+					table_id: 2192997637816066646L
+					type: "choice"
+				}
+				{
+					count: 32
+					id: "15EE9DD085171232"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1DA7063EF4838756"
+				item: { count: 1, id: "industrialforegoing:ore_laser_base" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: -6.34d
+		}
+		{
+			dependencies: ["123791C9A02D1A0C"]
+			icon: {
+				id: "productivebees:configurable_honeycomb"
+			}
+			id: "1BCBADCC371DC47E"
+			optional: true
+			rewards: [
+				{
+					id: "18458463A5DA7B14"
+					table_id: 1708431179495466294L
+					type: "choice"
+				}
+				{
+					count: 2
+					id: "19C5A26EDAEE0D38"
+					item: {
+						count: 1
+						id: "productivelib:upgrade_simulator"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "1633FE8FDE27EDDA"
+				item: { components: { "productivebees:bee_type": "productivebees:iron" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 2.4d
+			y: 1.8d
+		}
+	]
+}

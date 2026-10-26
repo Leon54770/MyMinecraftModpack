@@ -1,0 +1,116 @@
+{
+	id: "17B5911B29076536"
+	loot_crate: {
+		color: 5025616
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "naturkiste"
+	}
+	loot_size: 3
+	order_index: 5
+	rewards: [
+		{
+			count: 16
+			id: "36D4AAFB4C5DE335"
+			item: {
+				count: 1
+				id: "minecraft:bone_meal"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 8
+			id: "1A43BAC224D8EE39"
+			item: {
+				count: 1
+				id: "minecraft:wheat_seeds"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 4
+			id: "11B3726306F6B294"
+			item: {
+				count: 1
+				id: "farmersdelight:cabbage_seeds"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 4
+			id: "660C23C09A8DBF6E"
+			item: {
+				count: 1
+				id: "farmersdelight:tomato_seeds"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 6
+			id: "58CE7DF063169139"
+			item: {
+				count: 1
+				id: "minecraft:carrot"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 6
+			id: "55FE0EECDCE1A106"
+			item: {
+				count: 1
+				id: "minecraft:potato"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 4
+			id: "54CCD8965A03486B"
+			item: {
+				count: 1
+				id: "minecraft:sugar_cane"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 2
+			id: "33B95D9436058065"
+			item: {
+				count: 1
+				id: "minecraft:oak_sapling"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 2
+			id: "26C3293821A04E70"
+			item: {
+				count: 1
+				id: "botanypots:terracotta_botany_pot"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 4
+			id: "6EB122965210E24B"
+			item: {
+				count: 1
+				id: "minecraft:cooked_beef"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 2
+			id: "218893C771760E85"
+			item: {
+				count: 1
+				id: "minecraft:honeycomb"
+			}
+			weight: 4.0f
+		}
+	]
+	use_title: true
+}

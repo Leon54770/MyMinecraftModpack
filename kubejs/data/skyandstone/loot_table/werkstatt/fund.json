@@ -1,0 +1,146 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"text\": \"Bauplan des Herzens\", \"color\": \"light_purple\", \"italic\": false}",
+                "minecraft:lore": [
+                  "{\"text\": \"„Sieben Splitter, sieben Werkstätten. Keine allein konnte das Herz halten.“\", \"color\": \"gray\", \"italic\": true}",
+                  "{\"text\": \"Erde · Mixer, beheizt\", \"color\": \"dark_green\", \"italic\": false}",
+                  "{\"text\": \"Glut · Mixer, überhitzt\", \"color\": \"gold\", \"italic\": false}",
+                  "{\"text\": \"Strom · Energizing Orb\", \"color\": \"aqua\", \"italic\": false}",
+                  "{\"text\": \"Ordnung · Gravurmaschine\", \"color\": \"light_purple\", \"italic\": false}",
+                  "{\"text\": \"Leben · Kochtopf\", \"color\": \"green\", \"italic\": false}",
+                  "{\"text\": \"Geist · Apparat oder Auflösungskammer\", \"color\": \"white\", \"italic\": false}",
+                  "{\"text\": \"Leere · Nukleosynthese oder Imbuement\", \"color\": \"dark_purple\", \"italic\": false}"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "skyandstone:leerenessenz",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "skyandstone:splitter_rohling",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 8
+              }
+            }
+          ],
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8,
+                "max": 16
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "create:andesite_alloy",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 6,
+                "max": 12
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 8
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ],
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

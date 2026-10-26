@@ -1,0 +1,56 @@
+// Sky and Stone: wählbare Startinseln (erzeugt von _src/inseln.py)
+{
+  "defaultOffset": 0,
+  "mainSpawnIsland": null,
+  "netherSpreads": [],
+  "spawnPointReferences": {
+    "klassisch": {
+      "south": [
+        [
+          2,
+          3,
+          3
+        ]
+      ],
+      "west": [],
+      "north": [],
+      "east": []
+    },
+    "lichtung": {
+      "south": [
+        [
+          6,
+          7,
+          6
+        ]
+      ],
+      "west": [],
+      "north": [],
+      "east": []
+    }
+  },
+  "spreadReferences": {
+    "default": []
+  },
+  "surroundingBlockReferences": {
+    "default": {}
+  },
+  "templateList": [
+    {
+      "name": "Klassisch",
+      "desc": "Das L aus Erde wie in SkyBlock 2.1, mit mehr Platz für Felder und Maschinen.",
+      "file": "klassisch.nbt",
+      "spawns": "klassisch",
+      "surroundingBlocks": "default",
+      "spreads": "default"
+    },
+    {
+      "name": "Waldlichtung",
+      "desc": "Runde Grasinsel mit Eiche, Birke und kleinem Teich.",
+      "file": "lichtung.nbt",
+      "spawns": "lichtung",
+      "surroundingBlocks": "default",
+      "spreads": "default"
+    }
+  ]
+}

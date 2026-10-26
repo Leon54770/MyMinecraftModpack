@@ -1,0 +1,195 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "maschinengeist"
+	group: "1A7A9B25B51B8125"
+	icon: {
+		id: "hostilenetworks:deep_learner"
+	}
+	id: "156086CFF5823A70"
+	images: [ ]
+	order_index: 11
+	quest_links: [{
+		id: "13B2B66934C3F31E"
+		linked_quest: "1FB3CE765E5E393E"
+		shape: "square"
+		x: 0.0d
+		y: -3.41d
+	}]
+	quests: [
+		{
+			dependencies: ["1304ECD477B1B9C4"]
+			id: "769DA1AB0E905927"
+			rewards: [{
+				count: 8
+				id: "109591E0EAF312E9"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B9839664188A2A1"
+				item: { count: 1, id: "hostilenetworks:deep_learner" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.9d
+		}
+		{
+			dependencies: ["769DA1AB0E905927"]
+			id: "195ABBC2E229BB9C"
+			rewards: [{
+				count: 8
+				id: "1750F5975A8468F7"
+				item: {
+					count: 1
+					id: "minecraft:lapis_lazuli"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "105428E85F478A53"
+				item: { count: 1, id: "hostilenetworks:blank_data_model" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: -0.9d
+		}
+		{
+			dependencies: ["195ABBC2E229BB9C"]
+			id: "1883C0096C3875AC"
+			rewards: [{
+				count: 8
+				id: "4F323D6A4E7EF5DD"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "663AC26553DB2477"
+					item: { count: 1, id: "hostilenetworks:sim_chamber" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1766320C5CBF8700"
+					item: { count: 1, id: "hostilenetworks:prediction_matrix" }
+					type: "item"
+				}
+			]
+			x: 4.8d
+			y: -0.91d
+		}
+		{
+			dependencies: ["1883C0096C3875AC"]
+			id: "15F6E3FCC5343B0D"
+			rewards: [
+				{
+					id: "1F823EBAE2B7F591"
+					table_id: 5609506339175866634L
+					type: "choice"
+				}
+				{
+					id: "50D9519F0C2F82D3"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Feinde auswendig\"}"
+							"minecraft:enchantment_glint_override": 1b
+							"minecraft:lore": [
+								"{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Seite 17 von 22\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"„Wir lernten unsere Feinde\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"auswendig, bis wir sie nicht mehr\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"bekämpfen mussten.“\"}"
+							]
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "54E08C4243E810E5"
+				item: { count: 1, id: "hostilenetworks:loot_fabricator" }
+				type: "item"
+			}]
+			x: 7.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1304ECD477B1B9C4"]
+			id: "1F61C5392ACBC729"
+			rewards: [{
+				count: 8
+				id: "1D60CBB781774BE6"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "104ADE130EC05AC7"
+				item: { count: 1, id: "industrialforegoing:machine_frame_pity" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.9d
+		}
+		{
+			dependencies: ["1F61C5392ACBC729"]
+			id: "1B8E3D7A4C64775C"
+			rewards: [{
+				count: 16
+				id: "1DB9217DD4FB0B67"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "1B3CBAF1C910B3B3"
+				item: { count: 1, id: "industrialforegoing:plastic" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: 0.9d
+		}
+		{
+			dependencies: ["1B8E3D7A4C64775C"]
+			id: "2072D371FB56A9EA"
+			rewards: [{
+				id: "2DA2CAEFB3A1FD1D"
+				table_id: 1574763629656948777L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [
+				{
+					id: "119CF5777E17E49C"
+					item: { count: 1, id: "industrialforegoing:ore_laser_base" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2C257036127A4CC0"
+					item: { count: 1, id: "industrialforegoing:laser_drill" }
+					type: "item"
+				}
+			]
+			x: 4.8d
+			y: 0.91d
+		}
+	]
+}

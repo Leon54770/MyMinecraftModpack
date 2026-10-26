@@ -1,0 +1,537 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "markt"
+	group: "137C981F79D6DE16"
+	icon: {
+		id: "minecraft:emerald"
+	}
+	id: "1D2A0FE307CDB11C"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["733DB9235EC67B52"]
+			icon: {
+				id: "minecraft:wheat_seeds"
+			}
+			id: "3B8DA0A2772C04D0"
+			repeat_cooldown: 1200
+			rewards: [{
+				id: "259348FABCAAA58A"
+				table_id: 2202241768434932880L
+				team_reward: true
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "13924C86CF5F35BC"
+				item: { count: 1, id: "minecraft:wheat_seeds" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["733DB9235EC67B52"]
+			icon: {
+				id: "minecraft:gravel"
+			}
+			id: "6340C52EC9FC8DFF"
+			repeat_cooldown: 1200
+			rewards: [{
+				id: "14F44BB9AB3F3A61"
+				table_id: 2202241768434932880L
+				team_reward: true
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "5AE9AC9B2CCE65DD"
+				item: { count: 1, id: "minecraft:gravel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.7d
+		}
+		{
+			can_repeat: true
+			dependencies: ["733DB9235EC67B52"]
+			icon: {
+				id: "minecraft:cobblestone"
+			}
+			id: "153D9D9F4FA6727F"
+			repeat_cooldown: 1200
+			rewards: [{
+				id: "7437B12A308A8015"
+				table_id: 2202241768434932880L
+				team_reward: true
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "4BA35E98595DA1DA"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.9d
+		}
+		{
+			can_repeat: true
+			dependencies: ["733DB9235EC67B52"]
+			icon: {
+				id: "minecraft:rotten_flesh"
+			}
+			id: "17C96B08411792FB"
+			repeat_cooldown: 1200
+			rewards: [{
+				id: "488479E2D275463A"
+				table_id: 2202241768434932880L
+				team_reward: true
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "40593D9A799A6B1E"
+				item: { count: 1, id: "minecraft:rotten_flesh" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.9d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"733DB9235EC67B52"
+				"1E9534D7F062922D"
+			]
+			icon: {
+				id: "mysticalagriculture:inferium_essence"
+			}
+			id: "2708E578F2C2BF01"
+			repeat_cooldown: 1200
+			rewards: [{
+				id: "1C9B60853F876951"
+				table_id: 2202241768434932880L
+				team_reward: true
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "2D5C820ADA5705F4"
+				item: { count: 1, id: "mysticalagriculture:inferium_essence" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.7d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"733DB9235EC67B52"
+				"1B2D29E2922EDBEC"
+			]
+			icon: {
+				id: "create:wheat_flour"
+			}
+			id: "133832076E7A6C22"
+			repeat_cooldown: 1200
+			rewards: [{
+				id: "102E191AA6C23F19"
+				table_id: 5609506339175866634L
+				team_reward: true
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "331285FC8872E646"
+				item: { count: 1, id: "create:wheat_flour" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["733DB9235EC67B52"]
+			icon: {
+				id: "minecraft:dried_kelp_block"
+			}
+			id: "17B7028C40B87295"
+			repeat_cooldown: 1200
+			rewards: [{
+				id: "5E58612922107FC7"
+				table_id: 5609506339175866634L
+				team_reward: true
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "120309564337C609"
+				item: { count: 1, id: "minecraft:dried_kelp_block" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"733DB9235EC67B52"
+				"12D2859BC5EFD94C"
+			]
+			icon: {
+				id: "minecraft:honeycomb"
+			}
+			id: "1F2A555AF8888958"
+			repeat_cooldown: 1200
+			rewards: [{
+				id: "163FB112CC7EA5E8"
+				table_id: 5609506339175866634L
+				team_reward: true
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "1312B4E6E7E7A12C"
+				item: { count: 1, id: "minecraft:honeycomb" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: -2.7d
+		}
+		{
+			can_repeat: true
+			dependencies: ["733DB9235EC67B52"]
+			icon: {
+				id: "minecraft:nether_wart"
+			}
+			id: "513AEC6387AF3D62"
+			repeat_cooldown: 1200
+			rewards: [{
+				id: "6681470DD4E61EF9"
+				table_id: 5609506339175866634L
+				team_reward: true
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "17A5C7A322C4855B"
+				item: { count: 1, id: "minecraft:nether_wart" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: -0.9d
+		}
+		{
+			can_repeat: true
+			dependencies: ["733DB9235EC67B52"]
+			icon: {
+				id: "minecraft:bone"
+			}
+			id: "17D16D03FF9B40DC"
+			repeat_cooldown: 1200
+			rewards: [{
+				id: "1DB68159236F87F2"
+				table_id: 5609506339175866634L
+				team_reward: true
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "1C64780FC55EB472"
+				item: { count: 1, id: "minecraft:bone" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: 0.9d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"733DB9235EC67B52"
+				"18776B2AB7AD2DB6"
+				"13B8D3787E37A647"
+			]
+			icon: {
+				id: "minecraft:ender_pearl"
+			}
+			id: "13B3774B86E45306"
+			repeat_cooldown: 2400
+			rewards: [
+				{
+					id: "46453A488F5941A6"
+					table_id: 1574763629656948777L
+					team_reward: true
+					type: "loot"
+				}
+				{
+					command: "function skyandstone:feier/x_perlen"
+					id: "190780BFC2ECDA1E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "1AA8326AB940D41D"
+				item: { count: 1, id: "minecraft:ender_pearl" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: 2.7d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"733DB9235EC67B52"
+				"1C9E357D2E5387E9"
+				"13B8D3787E37A647"
+			]
+			icon: {
+				id: "minecraft:blaze_rod"
+			}
+			id: "701C48A1FE5B1404"
+			repeat_cooldown: 2400
+			rewards: [{
+				id: "1F86D74F06C23097"
+				table_id: 1574763629656948777L
+				team_reward: true
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "6E97546896C40686"
+				item: { count: 1, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"733DB9235EC67B52"
+				"185A9145E2ACE761"
+				"13B8D3787E37A647"
+			]
+			icon: {
+				id: "ars_nouveau:source_gem"
+			}
+			id: "18E5D2074CA1055A"
+			repeat_cooldown: 2400
+			rewards: [{
+				id: "7835CC9C3B0147C3"
+				table_id: 1574763629656948777L
+				team_reward: true
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "1439BDC8AB8ED4A7"
+				item: { count: 1, id: "ars_nouveau:source_gem" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"7C108C6ABD8190A1"
+				"13B8D3787E37A647"
+			]
+			icon: {
+				id: "mekanism:pellet_polonium"
+			}
+			id: "1F499E701536E80D"
+			repeat_cooldown: 3600
+			rewards: [{
+				id: "1D7CD659626B1680"
+				table_id: 1325766260965426842L
+				team_reward: true
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "67F47AD496B808A2"
+				item: { count: 1, id: "mekanism:pellet_polonium" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: -2.7d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"733DB9235EC67B52"
+				"7BB7F7AE33284E96"
+				"13B8D3787E37A647"
+			]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "17D62A326725878E"
+			repeat_cooldown: 3600
+			rewards: [{
+				id: "7B19D8AB6216B3F5"
+				table_id: 1325766260965426842L
+				team_reward: true
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				id: "100262EEA3133256"
+				item: { count: 1, id: "minecraft:nether_star" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: -0.9d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"733DB9235EC67B52"
+				"236B87F9B041099D"
+				"13B8D3787E37A647"
+			]
+			icon: {
+				id: "mysticalagriculture:supremium_essence"
+			}
+			id: "32359E026F3C634B"
+			repeat_cooldown: 3600
+			rewards: [{
+				id: "142FCF2C9F6188A4"
+				table_id: 1325766260965426842L
+				team_reward: true
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "1903EDF40464D1D0"
+				item: { count: 1, id: "mysticalagriculture:supremium_essence" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: 0.9d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"733DB9235EC67B52"
+				"1BB0EEAFA70CBB6C"
+				"13B8D3787E37A647"
+			]
+			icon: {
+				id: "create:precision_mechanism"
+			}
+			id: "10DB94AE6A1C0CD0"
+			repeat_cooldown: 2400
+			rewards: [{
+				id: "1DAEAA2C3F6344FD"
+				table_id: 1574763629656948777L
+				team_reward: true
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "17EE399370CC01F4"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: 2.7d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"1440EC861AF58415"
+				"13B8D3787E37A647"
+			]
+			icon: {
+				id: "mcwroofs:oak_roof"
+			}
+			id: "1DEE338183DC7473"
+			repeat_cooldown: 1200
+			rewards: [{
+				id: "1F3A7CBFFFB5EB14"
+				table_id: 5609506339175866634L
+				team_reward: true
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "1A21C8225A951EC1"
+				item: { count: 1, id: "mcwroofs:oak_roof" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6BCA3B2298E458B7"]
+			icon: {
+				id: "mcwbridges:rope_oak_bridge"
+			}
+			id: "1DDDDE185A6541E2"
+			repeat_cooldown: 1200
+			rewards: [{
+				id: "14E4EBD402EC6CF4"
+				table_id: 2202241768434932880L
+				team_reward: true
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "17082E0547A77381"
+				item: { count: 1, id: "mcwbridges:rope_oak_bridge" }
+				type: "item"
+			}]
+			x: 7.2d
+			y: 0.0d
+		}
+	]
+}

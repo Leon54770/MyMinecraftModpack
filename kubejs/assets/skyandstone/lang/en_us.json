@@ -1,0 +1,17 @@
+{
+  "item.skyandstone.splitter_erde": "Shard of Earth",
+  "item.skyandstone.splitter_glut": "Shard of Embers",
+  "item.skyandstone.splitter_strom": "Shard of Current",
+  "item.skyandstone.splitter_ordnung": "Shard of Order",
+  "item.skyandstone.splitter_leben": "Shard of Life",
+  "item.skyandstone.splitter_geist": "Shard of Spirit",
+  "item.skyandstone.splitter_leere": "Shard of the Void",
+  "item.skyandstone.splitter_rohling": "Shard Blank",
+  "item.skyandstone.leerenessenz": "Void Essence",
+  "item.skyandstone.karte_werkstatt": "Map of the Forgotten Workshop",
+  "item.skyandstone.waechterkern": "Warden's Core",
+  "block.skyandstone.herz_der_leere": "Heart of the Void",
+  "block.skyandstone.herz_erwacht": "Awakened Heart of the Void",
+  "block.skyandstone.herzsockel": "Heart Pedestal",
+  "block.skyandstone.herzsockel_zerbrochen": "Broken Heart Pedestal"
+}

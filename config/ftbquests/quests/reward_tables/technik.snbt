@@ -1,0 +1,98 @@
+{
+	id: "1E6F17BB8B4C2256"
+	loot_crate: {
+		color: 12088115
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "technikkiste"
+	}
+	loot_size: 3
+	order_index: 7
+	rewards: [
+		{
+			count: 8
+			id: "1AC4DBC338BF0FE6"
+			item: {
+				count: 1
+				id: "create:andesite_alloy"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "40F6486D12126F2D"
+			item: {
+				count: 1
+				id: "create:cogwheel"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 8
+			id: "4243CBD26D33C39A"
+			item: {
+				count: 1
+				id: "create:shaft"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 4
+			id: "185A5C0B6170174B"
+			item: {
+				count: 1
+				id: "create:iron_sheet"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 4
+			id: "7FDE7E9BF7DA7787"
+			item: {
+				count: 1
+				id: "create:copper_sheet"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 4
+			id: "71CE3C9527DCBCD4"
+			item: {
+				count: 1
+				id: "create:belt_connector"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 12
+			id: "1C0E0D0B23EFBF8F"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 2
+			id: "18AEC45B2E547727"
+			item: {
+				count: 1
+				id: "create:andesite_casing"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "6067BE10D521ADD0"
+			item: {
+				count: 1
+				id: "create:fluid_pipe"
+			}
+			weight: 4.0f
+		}
+	]
+	use_title: true
+}

@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "skyandstone:splitter_geist"
+    },
+    "title": "Splitter des Geistes",
+    "description": "Magie oder Maschine, der Geist ist derselbe.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "skyandstone:splitter_erde",
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "skyandstone:splitter_geist"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "c"
+    ]
+  ],
+  "rewards": {
+    "function": "skyandstone:feier/splitter_geist"
+  }
+}

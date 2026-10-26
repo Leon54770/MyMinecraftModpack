@@ -1,0 +1,1569 @@
+{
+	chapter.10138904D2605D92.chapter_subtitle: [
+		"&6Problem: Ein Erz gibt nur einen Barren. Mekanism macht daraus bis zu vier."
+		"Erzverarbeitung, Schaltkreise, Atomtechnik, Werkzeuge."
+	]
+	chapter.10138904D2605D92.title: "Mekanism: Die Werkhalle"
+	chapter.121B14F88F7D7ACD.chapter_subtitle: ["Optional: schön statt nur praktisch."]
+	chapter.121B14F88F7D7ACD.title: "Baumeister"
+	chapter.12342087C3E31DF2.chapter_subtitle: [
+		"&6Problem: Sieben kostet Zeit. Create sieht, mahlt und mischt für dich."
+		"Zahnräder, Mühlstein, Sifter, Messing. Die Maschinen der Erbauer drehen sich wieder."
+	]
+	chapter.12342087C3E31DF2.title: "Create: Zahnrad und Messing"
+	chapter.13BE9964B7BBB3EB.chapter_subtitle: [
+		"Leben, Geist und Leere. Dann das Herz und sein Wächter."
+		"Jeder Splitter verlangt mehrere Mods zugleich."
+	]
+	chapter.13BE9964B7BBB3EB.title: "Akt IV: Sieben Splitter"
+	chapter.156086CFF5823A70.chapter_subtitle: [
+		"&6Problem: Keine Monster in der Leere. Maschinen simulieren sie."
+		"Mobs simulieren statt jagen, Erz per Laser."
+	]
+	chapter.156086CFF5823A70.title: "Hostile Networks und IF"
+	chapter.15770EC9F4F333AE.chapter_subtitle: [
+		"&6Problem: Hunger und leere Truhen. Felder und Töpfe versorgen die Insel von selbst."
+		"Farmer's Delight, Botany Pots, Nutztiere. Eine Insel, die sich selbst nährt."
+	]
+	chapter.15770EC9F4F333AE.title: "Felder und Küche"
+	chapter.16C1B4F3B67EC95A.chapter_subtitle: ["Freiwillig: Sammle alles einmal."]
+	chapter.16C1B4F3B67EC95A.title: "Sammlerbuch"
+	chapter.173A6D5781D7A1CA.chapter_subtitle: [
+		"&6Problem: Rohstoffe ohne Lärm. Bienen sammeln sie für dich."
+		"Rohstoffe, die summen."
+	]
+	chapter.173A6D5781D7A1CA.title: "Productive Bees"
+	chapter.1772A1F000AC15F1.chapter_subtitle: [
+		"&6Problem: Nicht alles muss eine Maschine sein. Magie löst dieselben Aufgaben anders."
+		"Magie, die dir Arbeit abnimmt: Transport, Mob-Drops, Autocrafting."
+	]
+	chapter.1772A1F000AC15F1.title: "Ars Nouveau"
+	chapter.1865755EFBE9741A.chapter_subtitle: [
+		"Die Notizen des letzten Wächters, in der Reihenfolge der Geschichte."
+		"Jede Notiz liegt in ihrem Meilenstein und wird lesbar, sobald du ihn erreichst."
+	]
+	chapter.1865755EFBE9741A.title: "Tagebuch des Wächters"
+	chapter.197626AE2829F75F.chapter_subtitle: [
+		"&6Problem: Du hast eine Insel und nichts. Lösung: alles aus Erde, Kies und Holz gewinnen."
+		"Vom ersten Baum bis zur Siebfabrik mit Create."
+		"Details zu jedem Schritt stehen in den Mod-Kapiteln."
+	]
+	chapter.197626AE2829F75F.title: "Akt I: Ein Splitter im Nichts"
+	chapter.19CB31130D597297.chapter_subtitle: [
+		"&6Problem: Lohe, Perlen und Sterne gibt es hier nicht. Nether und End haben sie."
+		"Festungen über der Leere, Wither und Drache."
+	]
+	chapter.19CB31130D597297.title: "Nether und End"
+	chapter.1B1B1E22AB6C89A5.chapter_subtitle: [
+		"&6Problem: Volle Truhen überall. Rucksäcke, Fässer und Schubladen schaffen Ordnung."
+		"Sophisticated Backpacks, Sophisticated Storage, Functional Storage. Ordnung gegen das Kistenchaos."
+	]
+	chapter.1B1B1E22AB6C89A5.title: "Lager und Rucksack"
+	chapter.1C39315E52D4E36B.chapter_subtitle: ["Herausforderungen ohne Pflicht. Für Ingenieure, Magier und Mutige."]
+	chapter.1C39315E52D4E36B.title: "Prüfungen der Leere"
+	chapter.1D2A0FE307CDB11C.chapter_subtitle: [
+		"Tausch deinen Überschuss gegen Beutekisten. Die Items werden beim Abgeben verbraucht."
+		"So tauschst du: Im Questbuch die Tausch-Quest öffnen und die Items aus deinem Inventar abgeben. Sie verschwinden, du bekommst eine Kiste. Im Team gibt es pro Tausch eine Kiste für alle."
+		"Jeder Tausch hat eine Abklingzeit. Kisten fallen selten auch von Monstern, Bosse lassen immer eine fallen."
+	]
+	chapter.1D2A0FE307CDB11C.title: "Inselmarkt"
+	chapter.1F431ACF8F496FCB.chapter_subtitle: [
+		"&6Problem: Zu viele Maschinen, zu wenig Überblick. Lösung: Netze, Autocrafting und Erz ohne Sieb."
+		"Autocrafting, Erz vom Feld, Bosse, Antimaterie und das Finale."
+		"Fürs Finale brauchst du einen Weg: Magie (Ars Nouveau) oder Maschinen (Hostile Networks). Früh anfangen lohnt sich."
+	]
+	chapter.1F431ACF8F496FCB.title: "Akt III: Das Herz der Leere"
+	chapter.32F4545024F13413.chapter_subtitle: [
+		"&6Problem: Du findest nichts mehr. Das ME-Netz lagert, sucht und stellt her."
+		"ME-Netz, Autocrafting, kabellos."
+	]
+	chapter.32F4545024F13413.title: "Applied Energistics 2: Das Netz"
+	chapter.3807256A738CC8CA.chapter_subtitle: [
+		"&6Problem: Sieben ist endlich mühsam. Hier wächst das Erz auf dem Feld."
+		"Erz, das auf Feldern wächst."
+		"Stufen: Inferium → Prudentium → Tertium (Create) → Imperium (Mekanism) → Supremium (AE2) → Insanium."
+	]
+	chapter.3807256A738CC8CA.title: "Mystical Agriculture: Erzfelder"
+	chapter.38F2FE14E10D636D.chapter_subtitle: [
+		"&6Problem: Kein Erz, keine Mine. Das Sieb holt alles aus Kies, Sand und Erde."
+		"Siebe, Netze, Tiegel und Gießkannen. Was die Leere nahm, holst du dir Korn für Korn zurück."
+	]
+	chapter.38F2FE14E10D636D.title: "Ex Deorum: Staub und Siebe"
+	chapter.3A5DE51F087C0CAE.chapter_subtitle: [
+		"&6Problem: Von Hand kommst du nicht weiter. Lösung: Strom, Maschinen und Vervielfachung."
+		"Strom, Mekanism, der zerbrochene Nether und das erste ME-Netz."
+	]
+	chapter.3A5DE51F087C0CAE.title: "Akt II: Die Maschinen erwachen"
+	chapter.7F825F32DAAD1A57.chapter_subtitle: [
+		"&6Problem: Maschinen brauchen Strom. Hier erzeugst und verteilst du ihn."
+		"Create Crafts & Additions, Powah, Pipez. Kraft erzeugen, speichern und verteilen."
+	]
+	chapter.7F825F32DAAD1A57.title: "Strom und Rohre"
+	chapter_group.137C981F79D6DE16.title: "Abseits des Weges"
+	chapter_group.1A7A9B25B51B8125.title: "Handbuch der Mods"
+	chapter_group.6BCFC7D14F070455.title: "Der Weg der Erbauer"
+	file.0000000000000001.title: "Sky and Stone"
+	quest.103D1E2CAB05B399.quest_desc: [
+		"Augen, die den Weg ans Ende kennen."
+		""
+		"Stell 12 &eEnderauge&r aus Enderperlen und Lohenstaub her."
+	]
+	quest.103D1E2CAB05B399.title: "Enderaugen"
+	quest.1057851250316A25.quest_desc: [
+		"Ein Festmahl, gewachsen auf einem Felsen im Nichts."
+		""
+		"Koch einen &eHirtenkuchen&r und ein &eBackhähnchen&r, beide komplett aus Inselzutaten."
+		"Damit ist Hunger kein Thema mehr."
+	]
+	quest.1057851250316A25.title: "Sterneküche in der Leere"
+	quest.10B499ADB9D39A45.quest_desc: [
+		"Die Erbauer schrieben ihre Zauber Glyphe für Glyphe."
+		""
+		"Am &eTisch des Schreibers&r lernst du neue Glyphen."
+	]
+	quest.10B499ADB9D39A45.title: "Der Tisch des Schreibers"
+	quest.10DB94AE6A1C0CD0.quest_desc: [
+		"Präzision vom Fließband, Stück für Stück geprüft."
+		""
+		"Gib 16 &ePräzisionsgetriebe&r ab. Sie werden verbraucht."
+		"Wiederholbar: einmal alle 2 Minecraft-Tage."
+	]
+	quest.10DB94AE6A1C0CD0.title: "Feinmechanik"
+	quest.10FDAA2770910E62.quest_desc: [
+		"Stein, der aus dem Nichts nachwächst."
+		""
+		"Der &eMechanical Extruder&r erzeugt Bruchstein (oder Basalt, Stein …) aus Lava und Wasser daneben."
+		"Zusammen mit Mahlstein und Sifter wird daraus eine Siebfabrik ohne Handarbeit."
+	]
+	quest.10FDAA2770910E62.title: "Der Extruder"
+	quest.1103C5832FA3A292.quest_desc: [
+		"&5&lNotiz: Felder aus Erz"
+		"&o„Als die Minen versiegt waren, ließen wir Erz auf Feldern wachsen. Wenigstens das war richtig.“"
+		""
+		"Stell Osmium-, Certus- und Zink-Samen her. Dann wächst alles, was du bisher gesiebt hast."
+		"Dein Sieb darf in Rente gehen."
+	]
+	quest.1103C5832FA3A292.title: "Felder aus Erz"
+	quest.1115B85102745B87.quest_desc: [
+		"Ein kleiner Geist, der Wurzeln zum Treiben bringt."
+		""
+		"Der Whirlisprig aus dem &eWirbelzweig-Charme&r lässt Pflanzen und Bäume in seiner Nähe schneller wachsen und erzeugt dabei Quelle."
+		"Tipp: Gut neben Feldern und Botany Pots, eine Alternative zu Wachstumsbeschleunigern."
+	]
+	quest.1115B85102745B87.title: "Der Gärtnergeist"
+	quest.1180299DF37A94AC.quest_desc: [
+		"Für alle, die nichts wegwerfen."
+		""
+		"MEGA Cells fassen Millionen Bytes. Bau eine &e1M MEGA Item Storage Cell&r."
+	]
+	quest.1180299DF37A94AC.title: "Riesenspeicher"
+	quest.11839A27875CF281.quest_desc: [
+		"&5&lNotiz: Netze, die denken"
+		"&o„Unsere Netze dachten mit. Am Ende dachten sie schneller als wir.“"
+		""
+		"Autocrafting: Bau einen &eME Schablonen-Provider&r, einen Molekularassembler und eine Fertigungseinheit für die Crafting-CPU."
+		"Danach bestellst du Dinge, statt sie zu bauen."
+	]
+	quest.11839A27875CF281.title: "Das Netz denkt mit"
+	quest.11B03D990EBE32F9.quest_desc: [
+		"Ordnung beginnt mit dem ersten Fass."
+		""
+		"Bau ein Fass aus Sophisticated Storage. Fässer und Truhen lassen sich aufrüsten und haben einen Sortierknopf."
+	]
+	quest.11B03D990EBE32F9.title: "Lagerfässer"
+	quest.11EDBA459BD538B6.quest_desc: [
+		"&5&lNotiz: Das Erbe"
+		"&o„Wer das Herz wieder schlagen lässt, trägt unser Erbe. Nimm nur, was du brauchst. Wir nahmen alles.“"
+		""
+		"Das Herz der Leere schlägt wieder ruhig. Du trägst jetzt ihr Erbe."
+		""
+		"Maschinen, Felder und dein gewählter Weg arbeiten zusammen. Aus einer Insel mit einem Baum ist eine Welt geworden."
+		"Letzte Aufgabe: Bring das &eDrachenei&r nach Hause."
+		"Tipp: Das Ei teleportiert sich, wenn du es schlägst. Ein Kolben schiebt es herunter."
+		"Danke fürs Spielen von Sky and Stone."
+	]
+	quest.11EDBA459BD538B6.title: "Das Erbe der Erbauer"
+	quest.1227C8B187DB978B.quest_desc: [
+		"Auch Laub trägt noch Wasser in sich."
+		""
+		"Bau einen Holztiegel (z. B. &eOak Crucible&r) und füll ihn mit Laub oder Setzlingen. Er schmilzt sie zu Wasser."
+		"Ohne Teich auf der Insel ist das deine einzige Wasserquelle, auch für das Wasserrad. Ein Eimer holt das Wasser heraus."
+	]
+	quest.1227C8B187DB978B.title: "Wasser aus Blättern"
+	quest.123791C9A02D1A0C.quest_desc: [
+		"Mit Geduld und Zucker summt bald das Metall."
+		""
+		"Erz-Bienen haben zwei Eltern: Ein &eQuartz Nest&r im Nether, mit Quarz gelockt, gibt die Kristallbiene. Ein &eGravel Nest&r in einem Fluss- oder Strandbiom (F3 zeigt das Biom) gibt die Ashy Mining Bee."
+		"Nester baust du selbst: Quartz Nest = Eisenschwert + Quartz in Netherrack, Gravel Nest = Holzschwert + Kies."
+		"Beide gekreuzt ergeben die Eisenbiene. &lAufgabe:&r eine Wabe der Eisenbiene aus ihrem Stock."
+		"Tipp: Das Simulations-Upgrade hält Bienen im Stock. Das spart am Laptop viel Leistung."
+	]
+	quest.123791C9A02D1A0C.title: "Bienen aus Erz"
+	quest.1252700C32FCEF79.quest_desc: [
+		"Ein grüner Schimmer im Siebgut. Er ist mehr als Staub."
+		""
+		"Siebe Erde mit dem String Mesh oder einem besseren Netz. Dabei fällt &eInferiumessenz&r."
+		"Damit beginnt Mystical Agriculture: An der Werkbank werden daraus die ersten Samen."
+	]
+	quest.1252700C32FCEF79.title: "Inferiumessenz"
+	quest.127F27B0670E5575.quest_desc: [
+		"Die Erbauer konnten die Zeit biegen. Jetzt kannst du es auch."
+		""
+		"&eTime in a Bottle&r sammelt Zeit, solange es in deinem Inventar liegt."
+		"Rechtsklick auf eine Maschine beschleunigt sie, hier bis zu 8-fach."
+	]
+	quest.127F27B0670E5575.title: "Zeit ist Geld"
+	quest.12D2859BC5EFD94C.quest_desc: [
+		"Ein Zuhause für ein Volk, das arbeitet."
+		""
+		"Der &efortgeschrittene Bienenstock&r ist produktiver als der normale und lässt sich mit Upgrades erweitern."
+	]
+	quest.12D2859BC5EFD94C.title: "Ein besserer Stock"
+	quest.12D54E9C362C7893.quest_desc: [
+		"Auch was man nicht anfassen kann, lässt sich lagern."
+		""
+		"Applied Mekanistics: Mit der &e1k ME Chemical Storage Cell&r speichert AE2 Mekanism-Gase und -Chemikalien."
+	]
+	quest.12D54E9C362C7893.title: "Gase im Netz"
+	quest.12EB345C3E574328.quest_desc: [
+		"Das letzte Tor steht offen."
+		""
+		"Bau die Endportalrahmen zum Portal zusammen, setz die Enderaugen ein und betritt das End."
+	]
+	quest.12EB345C3E574328.title: "Das End"
+	quest.1304ECD477B1B9C4.quest_desc: [
+		"Eisen und Gold, verschmolzen durch Strom."
+		""
+		"Leg Eisen und Gold in den Orb. Heraus kommt &eEnergized Steel&r, die Basis für alle Powah-Maschinen."
+	]
+	quest.1304ECD477B1B9C4.title: "Geladener Stahl"
+	quest.131959D100B22858.quest_desc: [
+		"Ganze Flächen in einem Atemzug."
+		""
+		"Das &eBuilding Gadget&r baut ganze Flächen auf einmal. Es braucht Strom."
+	]
+	quest.131959D100B22858.title: "Bau-Gadget"
+	quest.131B62AE6118AC5C.quest_desc: [
+		"Du hast den Weg der Maschinisten gewählt. Ihre Werkstatt steht dir offen."
+		""
+		"Halte den &eLoot Fabricator&r. Belohnung: ein Item deiner Wahl aus der Kiste der Technik und Messinggehäuse."
+	]
+	quest.131B62AE6118AC5C.title: "Weg der Maschine"
+	quest.13317B50834D7C01.quest_desc: [
+		"Sauerstoff wäscht noch mehr Metall aus dem Gestein."
+		""
+		"Bau eine &eKlärkammer&r. Mit Sauerstoff aus dem Elektrolyseur bekommst du drei Barren pro Erz."
+	]
+	quest.13317B50834D7C01.title: "×3: Reinigung"
+	quest.133832076E7A6C22.quest_desc: [
+		"Feines Mehl, frisch vom Mahlstein."
+		""
+		"Gib 256 &eWeizenmehl&r ab. Es wird verbraucht."
+		"Wiederholbar: einmal pro Minecraft-Tag."
+	]
+	quest.133832076E7A6C22.title: "Müllerei"
+	quest.135A0443B8528051.quest_desc: [
+		"Ein Garten, der sich selbst pflegt."
+		""
+		"In einem &eBotany Pot&r wachsen Pflanzen und Bäume von allein."
+		"Tipp: Ein Trichter-Topf erntet selbst und reicht weiter. Deine erste Automatik."
+	]
+	quest.135A0443B8528051.title: "Pflanzen im Topf"
+	quest.135D046E588AEBC3.quest_desc: [
+		"Hier verbanden die Erbauer Erde und Essenz."
+		""
+		"Stell den &eInfusionsaltar&r in die Mitte und 8 &eInfusionssockel&r drumherum. Zusammen kosten sie 18 Goldbarren."
+		"Gebraucht wird er für alle Samen außer Inferium, also ab Stufe 2 (z. B. Kohle). Gold sammelt sich nebenbei beim Sieben."
+	]
+	quest.135D046E588AEBC3.title: "Der Infusionsaltar"
+	quest.13B3774B86E45306.quest_desc: [
+		"Perlen aus Farm oder Simulation, gezählt und gewogen."
+		""
+		"Gib 32 &eEnderperle&r ab. Sie werden verbraucht."
+		"Wiederholbar: einmal alle 2 Minecraft-Tage."
+	]
+	quest.13B3774B86E45306.title: "Enderhandel"
+	quest.13B8D3787E37A647.quest_desc: [
+		"Gold für Arme, aber Create liebt es."
+		""
+		"Gib Kupfer und Zink in den Mixer. Das Becken muss beheizt sein: Darunter gehört ein Lohenbrenner."
+		"Stell 16 &eMessingbarren&r her."
+		"Freigeschaltet: Akt II, die Tertiumessenz und die Gold-Tausche im Inselmarkt."
+	]
+	quest.13B8D3787E37A647.title: "Messing"
+	quest.13BD67C6432BC2FE.quest_desc: [
+		"Der Grundstoff, aus dem fast alles in Create gebaut ist."
+		""
+		"Andesit + Zink- oder Eisennuggets ergeben &eAndesitlegierung&r. Stell 16 her."
+		"Tipp: Andesit-Kiesel kommen aus dem Sieb. U auf Andesit in JEI zeigt alle Wege."
+	]
+	quest.13BD67C6432BC2FE.title: "Andesitlegierung"
+	quest.13CF82A35BE28699.quest_desc: [
+		"Hier verschmelzen Metalle zu neuen Legierungen."
+		""
+		"Stell einen Mixer (&eMechanischer Mixer&r) über ein &eBecken&r. Zusammen mischen sie Legierungen und Flüssigkeiten."
+	]
+	quest.13CF82A35BE28699.title: "Mixer und Becken"
+	quest.140874C328EB4450.quest_desc: [
+		"Alte Mauern über dem Nichts. Hier lebt noch etwas."
+		""
+		"Finde eine Netherfestung und bau 16 &eNetherziegel&r ab."
+		"Dort spawnen Lohen und Wither-Skelette."
+	]
+	quest.140874C328EB4450.title: "Die Festung"
+	quest.1440EC861AF58415.quest_desc: [
+		"Auch über der Leere regnet es."
+		""
+		"Macaw's Roofs, Doors und Windows: Dächer, Türen und Fenster in allen Holzarten."
+		"Bau 16 &eDachblöcke&r beliebiger Art."
+	]
+	quest.1440EC861AF58415.title: "Ein Dach über dem Kopf"
+	quest.149AAFD54B8A4424.quest_desc: [
+		"Das Netz folgt dir, wohin du auch fliegst."
+		""
+		"Mit der &eDrahtlosen Universalkonsole&r hast du dein ME-Netz in der Tasche."
+	]
+	quest.149AAFD54B8A4424.title: "Kabellos"
+	quest.14D2C59B4E2A5134.quest_desc: [
+		"Die höchste Stufe. Sie verlangt alles, was du gebaut hast."
+		""
+		"Insanium braucht neben Supremium einen &eUltimativen Steuerschaltkreis&r aus Mekanism."
+		"4 Supremium + 1 Schaltkreis ergeben 2 &eInsanium Essence&r."
+		"Tipp: Lass AE2 die Schaltkreise automatisch bauen."
+	]
+	quest.14D2C59B4E2A5134.title: "Insanium-Ernte"
+	quest.14F5580F7259870E.quest_desc: [
+		"Mehr Durchfluss, mehr Kontrolle."
+		""
+		"Die &eNormale&r und die &eVerbesserte Rohr Modifikation&r machen Rohre schneller und erlauben Filter."
+		"Die Fortgeschrittene braucht Mekanism-Schaltkreise, die Ultimative zusätzlich AE2-Prozessoren."
+	]
+	quest.14F5580F7259870E.title: "Schnellere Rohre"
+	quest.15354AE0B9346BA1.quest_desc: [
+		"Ein Netz aus Kupferadern für deine Werkhalle."
+		""
+		"&eEinfache Universalkabel&r tragen Strom, der &eEinfache Energie-Würfel&r speichert ihn."
+	]
+	quest.15354AE0B9346BA1.title: "Strom verteilen"
+	quest.153D9D9F4FA6727F.quest_desc: [
+		"Der Generator läuft und läuft. Der Händler auch."
+		""
+		"Gib 512 &eBruchstein&r ab. Er wird verbraucht."
+		"Wiederholbar: einmal pro Minecraft-Tag."
+	]
+	quest.153D9D9F4FA6727F.title: "Steinbruch"
+	quest.15DED7F2FC82447C.quest_desc: [
+		"Sechs Essenzen, sechs Abschnitte deines Weges."
+		""
+		"Sammle je eine Essenz jeder Stufe, von &eInferiumessenz&r bis Insanium Essence."
+		"Die Reihe erzählt deinen Weg: Feld, Create, Mekanism, AE2, Endgame."
+	]
+	quest.15DED7F2FC82447C.title: "Alle Essenzen"
+	quest.15F01711A1FCA287.quest_desc: [
+		"Was von selbst fließt, musst du nicht tragen."
+		""
+		"Pipez bringt Items, Flüssigkeiten und Strom von A nach B. Leg &eItem Rohre&r und &eStrom Rohre&r."
+		"Tipp: Der Schraubenschlüssel öffnet die Einstellungen am Rohrende."
+	]
+	quest.15F01711A1FCA287.title: "Rohre verlegen"
+	quest.15F6E3FCC5343B0D.quest_desc: [
+		"&5&lNotiz: Feinde auswendig"
+		"&o„Wir lernten unsere Feinde auswendig, bis wir sie nicht mehr bekämpfen mussten.“"
+		""
+		"Der Feind muss nicht mehr kommen. Seine Beute schon."
+		""
+		"Der &eLoot Fabricator&r macht aus Vorhersagen echte Drops: Enderperlen, Lohenruten, Knochen und mehr."
+		"Ab hier kommen deine Mob-Drops aus der Maschine."
+		"Für den Fabricator brauchst du einen &eNetheritbarren&r: Schwarzstein (Fass, siehe JEI) hämmern, den Schutt sieben (selten Antiker Schrott), dann 4 Netheritplatten + 4 Goldbarren."
+	]
+	quest.15F6E3FCC5343B0D.title: "Beute-Fabrikator"
+	quest.161BB3BB6383B57E.quest_desc: [
+		"Wer gut isst, siebt länger."
+		""
+		"Bau ein &eSchneidebrett&r und einen &eKochtopf&r aus Farmer's Delight."
+		"Das Schneidebrett holt mehr aus deinen Zutaten, der Kochtopf macht Gerichte, die lange satt machen."
+	]
+	quest.161BB3BB6383B57E.title: "Die Küche"
+	quest.1620105620166860.quest_desc: [
+		"Du hast den Weg der Magier gewählt. Ihre Bibliothek öffnet sich dir."
+		""
+		"Halte das &eErzmagier-Zauberbuch&r. Belohnung: ein Item deiner Wahl aus der Kiste der Magie, Quellsteinblöcke und ein Spiegel des Verzauberers."
+	]
+	quest.1620105620166860.title: "Weg der Magie"
+	quest.1654529C28B65E6C.quest_desc: [
+		"Eine Hand aus Messing, die nie müde wird."
+		""
+		"Das &eEinsatzgerät&r klickt für dich: Blöcke setzen, Items benutzen, Gegner schlagen."
+	]
+	quest.1654529C28B65E6C.title: "Die mechanische Hand"
+	quest.16BCC427A306C1C9.quest_desc: [
+		"&5&lNotiz: Die zerbrochene Unterwelt"
+		"&o„Auch die Unterwelt zerbrach. Unsere Festungen hängen dort noch in der Luft, leer wie wir.“"
+		""
+		"Bau ein Netherportal aus Obsidian und betritt den Nether."
+		"Er ist leer bis auf die Netherfestungen, die frei in der Luft liegen."
+	]
+	quest.16BCC427A306C1C9.title: "Die zerbrochene Unterwelt"
+	quest.16CFAEB33C79F5B7.quest_desc: [
+		"Feinere Maschen, seltenere Funde."
+		""
+		"Setz ein &eIron Mesh&r ins Sieb. Damit tauchen Osmium-, Zinn-, Blei- und Silberbrocken auf."
+		"Tipp: In der Erde steckt auch Inferiumessenz für Mystical Agriculture."
+	]
+	quest.16CFAEB33C79F5B7.title: "Das Eisennetz"
+	quest.16F5F938DFF86F4C.quest_desc: [
+		"Vier Bäume, vier Farben der alten Magie."
+		""
+		"Sammle alle vier &eArchwood-Setzlinge&r. Ihre Früchte sind Zutaten für Rituale."
+	]
+	quest.16F5F938DFF86F4C.title: "Die vier Archwoods"
+	quest.16FA3B6226C8DA9B.quest_desc: [
+		"Die Gedanken des Netzes entstehen hier."
+		""
+		"Präg je 4 &eLogikprozessor&r, &eKalkulationsprozessor&r und &eKonstruktionsprozessor&r in der Gravurmaschine."
+		"Tipp: Füttere die Gravurmaschine mit Pipez, sonst wird es mühsam."
+	]
+	quest.16FA3B6226C8DA9B.title: "Prozessoren"
+	quest.17348A9E46C8E7D0.quest_desc: [
+		"Stein ist nur Kies, der noch nicht zerschlagen wurde."
+		""
+		"Bau einen &eStone Hammer&r aus Bruchstein und Stöcken. Kein Stein auf der Insel? 4 &eStone Pebble&r aus dem Sieb ergeben 1 Bruchstein."
+		"Hämmer zerschlagen Blöcke: Bruchstein → Kies → Sand → Staub. Später übernimmt das der Mühlstein."
+	]
+	quest.17348A9E46C8E7D0.title: "Hammerzeit"
+	quest.179FC0628C68A370.quest_desc: [
+		"Stein zu Kies, Kies zu Sand, ohne einen Schlag."
+		""
+		"Der &eMechanical Hammer&r zerkleinert Blöcke mit Strom."
+	]
+	quest.179FC0628C68A370.title: "Hammer ohne Arm"
+	quest.17B7028C40B87295.quest_desc: [
+		"Getrockneter Seetang, gepresst zu Blöcken."
+		""
+		"Gib 64 &eGetrockneter Seetangblock&r ab. Sie werden verbraucht."
+		"Wiederholbar: einmal pro Minecraft-Tag."
+	]
+	quest.17B7028C40B87295.title: "Seetang-Kraftwerk"
+	quest.17C96B08411792FB.quest_desc: [
+		"Zu nichts gut, ehrlich gesagt. Er nimmt es trotzdem."
+		""
+		"Gib 128 &eVerrottetes Fleisch&r ab. Es wird verbraucht."
+		"Wiederholbar: einmal pro Minecraft-Tag."
+	]
+	quest.17C96B08411792FB.title: "Zombie-Abfall"
+	quest.17CD0BC6FB12FAC3.quest_desc: [
+		"Das Sieb arbeitet weiter, auch wenn du schläfst."
+		""
+		"Der &eSifter&r siebt mit denselben Tabellen wie das Handsieb, nur ohne dich. Bau dazu ein String Mesh und ein Andesite Mesh."
+		"Netze: String → Faden, Andesite → Feuerstein, Zinc → Eisen (Stöcke um einen Zinkbarren), Brass → Gold."
+	]
+	quest.17CD0BC6FB12FAC3.title: "Sieben ohne Hände"
+	quest.17D16D03FF9B40DC.quest_desc: [
+		"Von Skeletten oder vom Fischfang, ihm ist es gleich."
+		""
+		"Gib 128 &eKnochen&r ab. Sie werden verbraucht."
+		"Wiederholbar: einmal pro Minecraft-Tag."
+	]
+	quest.17D16D03FF9B40DC.title: "Knochensammler"
+	quest.17D4184A53383F9E.quest_desc: [
+		"Im Kies liegen Splitter der alten Minen."
+		""
+		"Schon das String Mesh gibt aus Kies Eisen- (10 %) und Kupferbrocken (8 %). Sammle 8 &eIron Ore Chunk&r."
+		"4 Brocken ergeben 1 Erz zum Schmelzen. 8 Brocken ergeben also 2 Erz."
+		"Tipp: Das Flint Mesh bringt etwas mehr und dazu Andesit-Kiesel für Create."
+	]
+	quest.17D4184A53383F9E.title: "Erz im Kies"
+	quest.17D62A326725878E.quest_desc: [
+		"Ein Stern gegen eine Sternkiste. Ein fairer Tausch."
+		""
+		"Gib 1 &eNetherstern&r ab. Er wird verbraucht."
+		"Wiederholbar: einmal alle 3 Minecraft-Tage."
+	]
+	quest.17D62A326725878E.title: "Sternenhandel"
+	quest.17E19375630FA37D.quest_desc: [
+		"Eine Wixie vergisst kein Rezept."
+		""
+		"Setz die Wixie mit ihrem &eWixie-Charme&r auf einen Kessel. Daraus wird ein Wixie-Kessel."
+		"Leg Zutaten in Truhen daneben und zeig ihr das Rezept. Sie stellt es immer wieder her."
+		"Tipp: Für einfache Dinge (Fackeln, Bleche, Legierungen) ein früher Ersatz für AE2-Autocrafting. Für große Mengen bleibt AE2 stärker."
+	]
+	quest.17E19375630FA37D.title: "Die kleine Werkstatt"
+	quest.17ECF3FBEFE0489E.quest_desc: [
+		"Im Laub verstecken sich mehr Setzlinge, als man denkt."
+		""
+		"Den &eCrook&r stellst du aus vier Holzstäben her (zwei oben, je einer darunter). Brich damit Laub ab: Es lässt öfter Setzlinge fallen und gibt Seidenraupen."
+	]
+	quest.17ECF3FBEFE0489E.title: "Mit dem Haken ins Laub"
+	quest.17ECFF6AA1497981.quest_desc: [
+		"Genug Kraft, um Materie zu spalten."
+		""
+		"Optional: Ein großer Powah-Reaktor aus &eReactor (Hardened)&r ist der bequeme Weg zu viel Strom."
+		"Für die Antimaterie reicht auch jede andere große Stromquelle, zum Beispiel der Spaltreaktor."
+	]
+	quest.17ECFF6AA1497981.title: "Großkraftwerk"
+	quest.184D7E93C5E2CDD9.quest_desc: [
+		"Nie wieder Bäume fällen."
+		""
+		"Setzling und Erde in einen &eHopper Botany Pot&r: unendlich Holz ohne Axt."
+	]
+	quest.184D7E93C5E2CDD9.title: "Holz im Topf"
+	quest.1854CF6F696D351C.quest_desc: [
+		"Die Wilden sind fort. Ihre Reste nicht."
+		""
+		"In der Leere gibt es keine Wilden. &eWilden Horn&r, Wilden Spike und Wilden-Flügel findest du im Gold-Sieb."
+	]
+	quest.1854CF6F696D351C.title: "Spuren der Wilden"
+	quest.185A9145E2ACE761.quest_desc: [
+		"Im Amethyst aus dem Sieb schläft eine alte Kraft."
+		""
+		"Leg Amethyst in die &eImbuement-Kammer&r, daraus wird Quellstein."
+		"Quellstein ist der Grundstoff aller Magie in Ars Nouveau."
+	]
+	quest.185A9145E2ACE761.title: "Stein, der Quelle trägt"
+	quest.18776B2AB7AD2DB6.quest_desc: [
+		"Die Endermen kommen auch in die Leere."
+		""
+		"Endermen spawnen nachts auf dunklen Plattformen. Alternativ siebst du Staub."
+		"Sammle 12 &eEnderperle&r."
+	]
+	quest.18776B2AB7AD2DB6.title: "Enderperlen"
+	quest.1883C0096C3875AC.quest_desc: [
+		"Krieg ohne Schwert, nur Strom und Rechnung."
+		""
+		"Die &eSimulation Chamber&r simuliert Kämpfe mit Strom und erzeugt Prediction Matrix-Vorhersagen."
+	]
+	quest.1883C0096C3875AC.title: "Kämpfe im Kasten"
+	quest.188E892724CA3BB8.quest_desc: [
+		"Die Erbauer ließen ganze Inseln summen. Jetzt summt deine."
+		""
+		"Stell einen &eAufgaben Bildschirm (1x1)&r auf, wähle diese Quest daran aus und speise 1 Milliarde FE ein."
+		"Tipp: Ein großer Energiespeicher kann vorher sammeln und alles auf einmal abgeben."
+		"Belohnung: Such dir ein Item aus der Sternkiste aus."
+	]
+	quest.188E892724CA3BB8.title: "Ein Netz ohne Ende"
+	quest.1891AAEAA7CA5A77.quest_desc: [
+		"Eisen, durchtränkt mit Redstone."
+		""
+		"Infundier Eisen mit Redstone zu 8 &eInfundierte Legierung&r."
+		"Tipp: Du brauchst sie auch für Imperiumessenz (Mystical Agriculture)."
+	]
+	quest.1891AAEAA7CA5A77.title: "Infundierte Legierung"
+	quest.18978DD63474A0AF.quest_desc: [
+		"Die wichtigste Maschine von Mekanism."
+		""
+		"Bau eine &eMetallurgische Infusionsanlage&r. Sie macht Legierungen, Stahl und Schaltkreise."
+	]
+	quest.18978DD63474A0AF.title: "Die Infusionsanlage"
+	quest.18A7501C371D8C63.quest_desc: [
+		"Ein Splitter braucht eine Hülle, bevor er etwas halten kann."
+		""
+		"Leg 4 Glas um eine &eAmethystscherbe&r: Das gibt 2 &eSplitter-Rohlinge&r."
+		"Amethyst siebst du mit dem Flint Mesh aus Crushed Deepslate."
+		"Tipp: Jeder der sieben Splitter beginnt mit so einem Rohling."
+	]
+	quest.18A7501C371D8C63.title: "Splitter-Rohling"
+	quest.18C419BB18F31EE0.quest_desc: [
+		"Manche Magie braucht Feuer und einen festen Ort."
+		""
+		"Im &eRitual-Kohlenbecken&r führst du Rituale aus."
+	]
+	quest.18C419BB18F31EE0.title: "Das Ritualbecken"
+	quest.18D2952E999F5A11.quest_desc: [
+		"Feinere Schaltkreise für größere Maschinen."
+		""
+		"Stell 4 &eElitärer Steuerschaltkreis&r her. Das Rezept zeigt JEI (R)."
+	]
+	quest.18D2952E999F5A11.title: "Elite-Schaltkreis"
+	quest.18E0BD23D68C8BB2.quest_desc: [
+		"Eine Kugel, die Metall mit Kraft tränkt."
+		""
+		"&eDielectric Paste&r aus Ton, Kohle und Lava ist die Grundzutat von Powah."
+		"Der &eEnergizing Orb&r lädt Items mit Strom auf. Die Energizing Rods drumherum liefern die Energie."
+	]
+	quest.18E0BD23D68C8BB2.title: "Der Energizing Orb"
+	quest.18E5D2074CA1055A.quest_desc: [
+		"Quellsteine, die sich stapeln, finden hier einen Käufer."
+		""
+		"Gib 32 &eQuelljuwel&r ab. Sie werden verbraucht."
+		"Wiederholbar: einmal alle 2 Minecraft-Tage."
+	]
+	quest.18E5D2074CA1055A.title: "Quellstein-Handel"
+	quest.18FAF3DBB515F08B.quest_desc: [
+		"Ein Block, viele Gesichter."
+		""
+		"Rechiseled: Mit dem &eChisel&r bekommt ein Block viele Muster, verbundene Texturen inklusive."
+	]
+	quest.18FAF3DBB515F08B.title: "Der Meißel"
+	quest.1938CA65D9BC74BE.quest_desc: [
+		"Ein Block, der jedes Kleid trägt."
+		""
+		"FramedBlocks wie der &eFramed Cube&r nehmen das Aussehen jedes Blocks an."
+	]
+	quest.1938CA65D9BC74BE.title: "Rahmenblöcke"
+	quest.195ABBC2E229BB9C.quest_desc: [
+		"Ein leerer Rahmen wartet auf ein Gesicht."
+		""
+		"Rechtsklick mit einem &eModel Framework&r auf einen Mob bindet das Modell an seine Art."
+	]
+	quest.195ABBC2E229BB9C.title: "Das erste Datenmodell"
+	quest.197B8F95C99811B7.quest_desc: [
+		"Ein schweres, blaues Metall. Mekanism ist darauf gebaut."
+		""
+		"Osmiumbrocken findest du im Kies mit dem Iron Mesh. Schmilz 8 &eOsmiumbarren&r."
+	]
+	quest.197B8F95C99811B7.title: "Osmium"
+	quest.19BD9400F5B7B99C.quest_desc: [
+		"Er nimmt, was die Tiere tragen, und lässt sie leben."
+		""
+		"Ein Drygmy aus dem &eTrockenen Charme&r holt Mob-Drops von Tieren und Monstern in der Nähe, ohne sie zu töten."
+	]
+	quest.19BD9400F5B7B99C.title: "Beute ohne Blut"
+	quest.19CAA9C30C55D27A.quest_desc: [
+		"Stein erinnert sich an das Feuer, aus dem er kam."
+		""
+		"Der &ePorcelain Crucible&r schmilzt Bruchstein zu Lava, wenn darunter eine Hitzequelle steht (Fackel, Lava, Feuer)."
+		"Rezept: 7 Porzellanton im Muster „s s / s s / s m s“ ergibt den ungebrannten Tiegel. Den brennst du im Ofen."
+	]
+	quest.19CAA9C30C55D27A.title: "Feuer aus Stein"
+	quest.19CCBBFFE0F3F74D.quest_desc: [
+		"Härter als Eisen, das Rückgrat jeder Maschine."
+		""
+		"Infundiere Eisen mit Kohle in der Metallurgischen Infusionsanlage und schmelze das Ergebnis zu &eStahlbarren&r."
+	]
+	quest.19CCBBFFE0F3F74D.title: "Stahl"
+	quest.1A464E84383B573A.quest_desc: [
+		"Neun Einheiten, ein Rezept."
+		""
+		"Bau neun &eMechanische Handwerkseinheiten&r. Zusammen stellen sie große Rezepte automatisch her."
+	]
+	quest.1A464E84383B573A.title: "Werkbank im Großformat"
+	quest.1A4D8EC2A76B5366.quest_desc: [
+		"Fünf Barren aus einem Erz. Nichts geht verloren."
+		""
+		"Optional: Bau die &eChemische Auflösungskammer&r. Auflösen, Waschen, Kristallisieren ergibt fünf Barren pro Erz."
+		"Tipp: Lohnt sich nur, wenn du noch viel siebst."
+	]
+	quest.1A4D8EC2A76B5366.title: "×5: Die volle Kette"
+	quest.1A68AB103BA9FD48.quest_desc: [
+		"&5&lNotiz: Der Wächter am Ende"
+		"&o„Der Drache bewachte das Ende. Nicht für uns. Vor uns.“"
+		""
+		"Die End-Hauptinsel ist da, mit Türmen und Kristallen. Besieg den Enderdrachen."
+		"Viel Glück."
+	]
+	quest.1A68AB103BA9FD48.title: "Der Wächter am Ende"
+	quest.1A722350AD963393.quest_desc: [
+		"&5&lNotiz: Der erste Splitter"
+		"&o„Das Herz ist nicht gestorben, es ist zersprungen. Sieben Splitter. Einen davon hältst du jetzt in der Hand. Er ist warm.“"
+		""
+		"Boden, Sieb und Messing. Daraus bestand die erste Welt."
+		""
+		"Im &eMechanischen Mixer&r über einem beheizten &eLohenbrenner&r: Rohling, Kies, Sand, Dust, 4 &ePrudentiumessenz&r, 1 &eMessingbarren&r und 250 mB Wasser."
+		"Tipp: R auf dem Splitter in JEI zeigt das Rezept."
+	]
+	quest.1A722350AD963393.title: "Splitter der Erde"
+	quest.1A816EB5628F905F.quest_desc: [
+		"Das Erz wächst bei dir aus dem Boden."
+		""
+		"Halte &eOsmium-Samen&r. Belohnung: ein Item deiner Wahl aus der Kiste der Natur und viel Knochenmehl."
+	]
+	quest.1A816EB5628F905F.title: "Weg der Felder"
+	quest.1AC582130C815BC6.quest_desc: [
+		"Die ersten Erze, die aus der Erde sprießen."
+		""
+		"Stell Samen für Kupfer und Kohle her. Kohle ist Stufe 2, Kupfer Stufe 3 und braucht &eTertiumessenz&r."
+	]
+	quest.1AC582130C815BC6.title: "Kupfer und Kohle"
+	quest.1AFC1AA3FB820C68.quest_desc: [
+		"Die höchste Stufe. Mehr gibt der Boden nicht her."
+		""
+		"4 Supremium + 1 Ultimativer Steuerschaltkreis (Mekanism) = 2 &eInsanium Essence&r. Sammle 4."
+		"Den Schaltkreis baust du aus Elite-Schaltkreisen und Atomlegierung. Weiter geht es im Kapitel Mystical Agriculture: Insanium-Ernte und Sterne vom Feld."
+	]
+	quest.1AFC1AA3FB820C68.title: "Stufe 6: Insanium"
+	quest.1B0FF6556EFBBF48.quest_desc: [
+		"Was im Hexenwasser läuft, kommt dunkler wieder heraus."
+		""
+		"Skelette, die durch Hexenwasser (Ex Deorum) laufen, werden zu Wither-Skeletten."
+		"Sammle 3 &eWither-Skelettschädel&r für den Wither."
+	]
+	quest.1B0FF6556EFBBF48.title: "Hexenwasser-Trick"
+	quest.1B1E43F9B1A9906D.quest_desc: [
+		"Eine Rüstung aus Antimaterie und Stahl."
+		""
+		"Mit Antimaterie in der Hand baust du die &eMekaSuit Brustplatte&r."
+	]
+	quest.1B1E43F9B1A9906D.title: "Die MekaSuit"
+	quest.1B2D29E2922EDBEC.quest_desc: [
+		"Was du mit dem Hammer zerschlagen hast, mahlt jetzt die Mühle."
+		""
+		"Der &eMahlstein&r macht alles, was der Hammer konnte: Bruchstein → Kies → Sand → Staub."
+		"Setz einen Trichter oben drauf, dann läuft das Mahlen von allein."
+		"Tipp: Das &eAndesite Casing&r (entrindeter Stamm + Andesitlegierung) brauchst du für viele Maschinen."
+	]
+	quest.1B2D29E2922EDBEC.title: "Mühlstein statt Hammer"
+	quest.1B41A97765B0B62F.quest_desc: [
+		"Alles, was du besitzt, an einem Ort."
+		""
+		"Bau &eME-Controller&r, ME-Laufwerk, eine 4k-ME-Speicherzelle und eine ME-Konsole und verbinde sie."
+	]
+	quest.1B41A97765B0B62F.title: "Das ME-Netz"
+	quest.1B4CAA531D966C1F.quest_desc: [
+		"Im End starren dich die Schatten an. Starr zurück."
+		""
+		"Besiege 32 &eEnderman&r. Im End erscheinen sie auf dem Endstein."
+		"Tipp: Ein geschnitzter Kürbis als Helm hält sie ruhig, wenn du sie ansiehst."
+	]
+	quest.1B4CAA531D966C1F.title: "Schattenjagd"
+	quest.1B4E9109E6593AC5.quest_desc: [
+		"Kristall, Uraninit und Geduld. Dann summt die Insel."
+		""
+		"Bau einen Powah-Reaktor: 3×4×3 aus &eReactor (Basic)&r, befeuert mit Uraninite aus dem Gold-Sieb."
+		"Danach ist Strom kein Engpass mehr."
+	]
+	quest.1B4E9109E6593AC5.title: "Netzstrom"
+	quest.1B8E3D7A4C64775C.quest_desc: [
+		"Aus Baumsaft wird etwas, das die Erbauer nie hatten."
+		""
+		"Stell 16 &eKunststoff&r her."
+	]
+	quest.1B8E3D7A4C64775C.title: "Plastik"
+	quest.1BB0EEAFA70CBB6C.quest_desc: [
+		"Die Erbauer bauten nichts von Hand, was ein Fließband bauen konnte."
+		""
+		"Das &ePräzisionsgetriebe&r entsteht am Fließband mit Einsatzgerät und Presse."
+		"Das ist dein erster Weg über „Sequenced Assembly“. JEI zeigt die einzelnen Schritte."
+	]
+	quest.1BB0EEAFA70CBB6C.title: "Präzisionsarbeit"
+	quest.1BC45E1BD45D6C39.quest_desc: [
+		"Zwischen zwei Gedanken passt ein dritter."
+		""
+		"Die &eGravurmaschine&r presst den Rohling zwischen einem &eLogikprozessor&r (oben) und einem &eKalkulationsprozessor&r (unten)."
+		"Beide Prozessoren werden dabei verbraucht."
+	]
+	quest.1BC45E1BD45D6C39.title: "Splitter der Ordnung"
+	quest.1BCBADCC371DC47E.quest_desc: [
+		"Deine Bienen tragen Metall nach Hause."
+		""
+		"Halte eine Wabe der Eisenbiene. Belohnung: ein Item deiner Wahl aus der Kiste der Natur und zwei Simulations-Upgrades."
+	]
+	quest.1BCBADCC371DC47E.title: "Weg der Bienen"
+	quest.1BE55F455F6E6D6D.quest_desc: [
+		"&5&lNotiz: Sieben in einem"
+		"&o„Das Herz ist ganz. Es wird erst schlagen, wenn ich weiß, dass du es nicht so behandelst wie wir.“"
+		""
+		"Sieben Splitter, ein Herz. Es ist kalt und schwer."
+		""
+		"Die &eMechanische Handwerkseinheit&r (5×5) setzt es zusammen: die sieben Splitter, 8 Leerenessenz und 5 Obsidian. Muster in JEI."
+		"Tipp: Der Wächter kommt erst, wenn du ihn rufst. Bereite dich vor."
+	]
+	quest.1BE55F455F6E6D6D.title: "Das Herz der Leere"
+	quest.1C2D2E140DF23D44.quest_desc: [
+		"Edelsteine als Ernte. Die Erbauer hätten gestaunt."
+		""
+		"Diamant-Samen sind Stufe 5 und brauchen &eSupremiumessenz&r, die erst mit AE2 möglich ist."
+	]
+	quest.1C2D2E140DF23D44.title: "Diamanten vom Feld"
+	quest.1C6A1178CCB4C2A7.quest_desc: [
+		"Leben kehrt auf die Insel zurück."
+		""
+		"Spawneier für Kuh, Schaf, Huhn und Schwein findest du beim Sieben von Erde. Sammle Leder und Eier."
+		"&cZäune nicht vergessen: Um dich herum ist nur Leere."
+	]
+	quest.1C6A1178CCB4C2A7.title: "Nutztiere"
+	quest.1C90358546DA5557.quest_desc: [
+		"Auch der Wind ruht manchmal."
+		""
+		"Der &eAkkumulator&r speichert Strom für windstille Zeiten."
+	]
+	quest.1C90358546DA5557.title: "Strom auf Vorrat"
+	quest.1C9E357D2E5387E9.quest_desc: [
+		"Gefangenes Feuer, das man in der Hand tragen kann."
+		""
+		"Besieg Lohen in der Festung und sammle 8 &eLohenrute&r."
+		"Du brauchst sie für Brauen, Lohenbrenner (Create) und Enderaugen."
+	]
+	quest.1C9E357D2E5387E9.title: "Lohenruten"
+	quest.1CBA1E5200491068.quest_desc: [
+		"Was wächst, will weiterwachsen. Auch in Glas."
+		""
+		"Im &eKochtopf&r über einer Hitzequelle: Rohling, 1 &eHoney Treat&r, 2 &eImperiumessenz&r, 1 &eGoldener Apfel&r, 1 &eReichhaltige Erde&r."
+		"Honig kommt von Bienen (Spawneier aus dem Sieb), Reichhaltige Erde aus Organischem Kompost."
+	]
+	quest.1CBA1E5200491068.title: "Splitter des Lebens"
+	quest.1CF3276875E64E6B.quest_desc: [
+		"Ein Altar, an dem Quelle zu Form wird."
+		""
+		"Stell den &eBezaubernden Apparat&r auf einen Arkanen Kern."
+	]
+	quest.1CF3276875E64E6B.title: "Der Apparat"
+	quest.1D8C1D4BE4960850.quest_desc: [
+		"Vom Faden bis zum Netherit."
+		""
+		"Sammle jedes Netz vom &eString Mesh&r bis zum Netherite Mesh. Jedes siebt andere Schätze."
+	]
+	quest.1D8C1D4BE4960850.title: "Alle Netze"
+	quest.1DCE82B2F0CAEC71.quest_desc: [
+		"Eine Wand, ein Eingang, kein Suchen mehr."
+		""
+		"Der &eStorage Controller&r macht alle Schubladen zu einem Lager mit einem Eingang."
+		"Tipp: Das löst das Kistenchaos, bis AE2 steht."
+	]
+	quest.1DCE82B2F0CAEC71.title: "Die Schubladen-Wand"
+	quest.1DDDDE185A6541E2.quest_desc: [
+		"Zwischen den Inseln fehlen Wege. Der Händler zahlt für jede Brücke."
+		""
+		"Gib 32 Eichen-Hängebrücken (Macaw's Bridges) ab. Sie werden verbraucht."
+		"Wiederholbar: einmal pro Minecraft-Tag."
+	]
+	quest.1DDDDE185A6541E2.title: "Brückenbauer"
+	quest.1DEE338183DC7473.quest_desc: [
+		"Der Händler baut eine neue Siedlung und braucht Ziegel."
+		""
+		"Gib 64 Eichen-Dachblöcke (Macaw's Roofs) ab. Sie werden verbraucht."
+		"Wiederholbar: einmal pro Minecraft-Tag."
+	]
+	quest.1DEE338183DC7473.title: "Dachdecker"
+	quest.1E9534D7F062922D.quest_desc: [
+		"Was du bisher gesiebt hast, wächst jetzt auf dem Feld."
+		""
+		"An der Werkbank: 8 &eInferiumessenz&r um einen Weizensamen ergeben Inferium-Samen. Pflanz sie auf Ackerboden."
+		"Von nun an wird Essenz geerntet statt gesiebt. Den Infusionsaltar brauchst du erst später."
+	]
+	quest.1E9534D7F062922D.title: "Samen der Essenz"
+	quest.1ED03BC306EA3758.quest_desc: [
+		"Mehr Wasser, schnellere Bäume."
+		""
+		"Bau eine &eIron Watering Can&r. Sie hält mehr Wasser und lässt Bäume schneller wachsen."
+	]
+	quest.1ED03BC306EA3758.title: "Die bessere Gießkanne"
+	quest.1F2A555AF8888958.quest_desc: [
+		"Waben aus dem Bienenstock, noch warm."
+		""
+		"Gib 64 &eHonigwabe&r ab. Sie werden verbraucht."
+		"Wiederholbar: einmal pro Minecraft-Tag."
+	]
+	quest.1F2A555AF8888958.title: "Imkerei"
+	quest.1F300BD715351A08.quest_desc: [
+		"Du hast den zerbrochenen gesehen. Bau einen, der hält."
+		""
+		"Werkbank: 5 Steinziegel, 1 &eZaubertisch&r in der Mitte oben, 3 Glatter Stein unten."
+		"Stell ihn dorthin, wo das Herz schlagen soll. Dort wird auch gekämpft."
+	]
+	quest.1F300BD715351A08.title: "Der Herzsockel"
+	quest.1F41AA0C41202AA7.quest_desc: [
+		"Ein Werkzeug für alles, was im Weg steht."
+		""
+		"Der &eAtomic Disassembler&r ist Spitzhacke, Axt und Schaufel in einem und läuft mit Strom."
+	]
+	quest.1F41AA0C41202AA7.title: "Werkzeug der Zukunft"
+	quest.1F499E701536E80D.quest_desc: [
+		"Er trägt Handschuhe. Du solltest es auch."
+		""
+		"Gib 4 &ePolonium Pellet&r ab, aus dem Fissionsreaktor oder dem Isotopen-Zentrifugen-Weg. Sie werden verbraucht."
+		"Wiederholbar: einmal alle 3 Minecraft-Tage."
+	]
+	quest.1F499E701536E80D.title: "Strahlender Handel"
+	quest.1F61C5392ACBC729.quest_desc: [
+		"Industrial Foregoing beginnt klein und klebrig."
+		""
+		"Bau ein &ePrimitives Maschinengehäuse&r. Der Weg führt über Latex aus Bäumen zu Plastik."
+	]
+	quest.1F61C5392ACBC729.title: "Der erste Rahmen"
+	quest.1F850D290B5F7CBB.quest_desc: [
+		"In den leeren Festungen wachen noch die Knochen ihrer Besatzung."
+		""
+		"Besiege 50 &eWither-Skelette&r. Sie erscheinen nur in Netherfestungen."
+		"Tipp: Nebenbei fallen manchmal Wither-Skelettschädel für den Wither."
+	]
+	quest.1F850D290B5F7CBB.title: "Die Festung räumen"
+	quest.1FB3CE765E5E393E.quest_desc: [
+		"&5&lNotiz: Die Leitungen"
+		"&o„Wir verlegten Leitungen bis unter die Wolken. Wenn der Strom floss, summte die ganze Insel.“"
+		""
+		"Drehkraft wird zu Strom. Die alten Leitungen erwachen."
+		""
+		"Der &eAlternator&r (Create Crafts & Additions) macht aus Drehkraft Strom (FE)."
+		"Mit der &eKupfersuple&r verbindest du ihn mit Akkus und Maschinen."
+	]
+	quest.1FB3CE765E5E393E.title: "Funken aus Drehung"
+	quest.1FD046C5F06DE24E.quest_desc: [
+		"Ein Erz, zwei Barren. Der erste Schritt zu mehr."
+		""
+		"Bau eine &eAnreicherungskammer&r. Sie macht aus einem Erz zwei Staub."
+	]
+	quest.1FD046C5F06DE24E.title: "×2: Anreicherung"
+	quest.1FE291B8C4B3D76D.quest_desc: [
+		"Die Taschen sind voll, das Sieb gibt weiter."
+		""
+		"Bau einen &eRucksack&r und ein &ePickup-Upgrade&r."
+		"Mit dem Upgrade füllt sich der Rucksack automatisch mit deinen Siebfunden."
+	]
+	quest.1FE291B8C4B3D76D.title: "Der Rucksack"
+	quest.1FEF0F90B4C84EBB.quest_desc: [
+		"Die Insel hat jetzt einen Puls: Drehkraft."
+		""
+		"Bau ein &eWasserrad&r und stell es in fließendes Wasser (aus dem Holztiegel oder dem Teich). Das ist deine erste Kraftquelle."
+		"Alternativ: eine Windmühle mit Segeln."
+	]
+	quest.1FEF0F90B4C84EBB.title: "Die erste Kraft"
+	quest.2072D371FB56A9EA.quest_desc: [
+		"Ein Strahl in die Leere, und sie gibt Erz zurück."
+		""
+		"Die &eErz-Laserbasis&r mit Laserbohrern bohrt Erz aus dem Nichts."
+		"Tipp: Farbige Linsen bevorzugen bestimmte Erze."
+	]
+	quest.2072D371FB56A9EA.title: "Erz aus dem Nichts"
+	quest.21887CA56E8D6B0F.quest_desc: [
+		"Feinere Bahnen, klügere Maschinen."
+		""
+		"Stell vier &eFortschrittliche Steuerschaltkreise&r her."
+		"Sie schalten die Fortgeschrittene Rohr Modifikation von Pipez frei."
+	]
+	quest.21887CA56E8D6B0F.title: "Bessere Schaltkreise"
+	quest.236B87F9B041099D.quest_desc: [
+		"Fast so rein wie das, was unter der Welt schläft."
+		""
+		"Leg 4 Imperium im Kreuz um einen Konstruktionsprozessor (AE2). Sammle 8 &eSupremiumessenz&r."
+	]
+	quest.236B87F9B041099D.title: "Stufe 5: Supremium"
+	quest.23DB1B44DE200AC9.quest_desc: [
+		"Unter allen Inseln pocht es wieder."
+		""
+		"Klick das &eErwachte Herz der Leere&r an. Einmal pro Minecraft-Tag gibt es allen in der Nähe Eile, Regeneration und Glück."
+		"Tipp: Bau deine Werkstatt um das Herz herum."
+	]
+	quest.23DB1B44DE200AC9.title: "Das Herz schlägt"
+	quest.2455A826629A049C.quest_desc: [
+		"Was einst nur der Wither trug, wächst jetzt im Beet."
+		""
+		"Stell Samen für Nethersterne her. Dann wachsen Nethersterne auf dem Feld."
+	]
+	quest.2455A826629A049C.title: "Sterne vom Feld"
+	quest.2708E578F2C2BF01.quest_desc: [
+		"Inferium wächst schneller, als du es brauchst."
+		""
+		"Gib 256 &eInferiumessenz&r ab. Sie wird verbraucht."
+		"Wiederholbar: einmal pro Minecraft-Tag."
+	]
+	quest.2708E578F2C2BF01.title: "Essenz-Überschuss"
+	quest.27360195E8869BFF.quest_desc: [
+		"Beweise, dass du die Wächter dieser Welt bezwungen hast."
+		""
+		"Sammle &eNetherstern&r, Drachenei und Wither-Skelettschädel."
+		"Tipp: Stell sie irgendwo schön aus."
+	]
+	quest.27360195E8869BFF.title: "Trophäen"
+	quest.2916F2F4182F256F.quest_desc: [
+		"&5&lNotiz: Der letzte Wächter"
+		"&o„Wenn du das liest, hast du mich besiegt. Gut. Ich habe lange genug gewacht. Jetzt wachst du.“"
+		""
+		"Jemand hat all die Notizen geschrieben. Er ist nie gegangen."
+		""
+		"Setz das &eHerz der Leere&r auf den Herzsockel und klick es mit einem &eNetherstern&r an. Besiege den Wächter."
+		"&cEr ist riesig, trägt Netherit und ruft Schatten.&r Kämpf auf einer großen, umzäunten Plattform."
+		"Tipp: Fällt er von der Insel, holt ihn das Herz zurück. Fällst du, rettet dich die Leere."
+	]
+	quest.2916F2F4182F256F.title: "Der letzte Wächter"
+	quest.2A05478A67B97497.quest_desc: [
+		"Dein Strahl holt das Erz direkt aus der Leere."
+		""
+		"Halte die &eErz-Laserbasis&r. Belohnung: ein Item deiner Wahl aus der Kiste der Technik und Redstone."
+	]
+	quest.2A05478A67B97497.title: "Weg des Lasers"
+	quest.2B0850D91649B4A7.quest_desc: [
+		"&5&lNotiz: Die erste Notiz"
+		"&o„Wer das liest, steht auf einem Splitter unserer Welt. Darunter schläft das Herz der Leere.“"
+		""
+		"&lDein Questbuch&r liegt im Inventar. Rechtsklick damit in der Hand öffnet es. Kapitel links, Quest anklicken."
+		"&lVerloren?&r Mit &e/function skyandstone:handbuch&r bekommst du Handbuch und Questbuch neu (Cheats an oder OP nötig)."
+		""
+		"&lDein erster Schritt:&r Fäll den Baum (5 Stämme). Setz die Seidenraupe auf Laub."
+		"&lBelohnungen:&r Im Questbuch die Quest anklicken und abholen."
+		"&lInselmarkt:&r Tausch-Quest öffnen, Items abgeben, du bekommst eine Kiste."
+		"&lJobs+ (freiwillig):&r Das Menü öffnest du mit der Taste „Open Jobs+ GUI“. Die Taste steht unter Steuerung, Kategorie Jobs+. Dort „Start performing this job“ wählen. Die ersten 2 Berufe sind kostenlos."
+		"&lTeam:&r Jeder holt seine Belohnungen selbst ab. Markt-Kisten gibt es pro Team."
+		""
+		"&cKeine Insel, sondern eine normale Welt?&r Neue Welt anlegen und unter „Welt“ → „Welttyp“ &lSkyblock&r wählen."
+	]
+	quest.2B0850D91649B4A7.quest_subtitle: "Sky and Stone"
+	quest.2B0850D91649B4A7.title: "Willkommen in der Leere"
+	quest.2B8F719EBDDA3F00.quest_desc: [
+		"Essenz, gebunden an Metall aus der Maschine."
+		""
+		"Leg 4 Tertium im Kreuz um eine Infundierte Legierung (Mekanism). Sammle 16 &eImperiumessenz&r."
+	]
+	quest.2B8F719EBDDA3F00.title: "Stufe 4: Imperium"
+	quest.2C5E505C01D11EFA.quest_desc: [
+		"&5&lNotiz: Vier von sieben"
+		"&o„Erde, Glut, Strom, Ordnung. Damit lief unsere Welt. Was fehlte, war das Schwerste: Leben, Geist und die Leere selbst.“"
+		""
+		"Halte die vier Splitter gleichzeitig. Sie werden nicht verbraucht."
+		"Was fehlt, ist schwerer: Leben, Geist und die Leere selbst."
+	]
+	quest.2C5E505C01D11EFA.title: "Vier von Sieben"
+	quest.2FD842A5AE37D51A.quest_desc: [
+		"Wo etwas wächst, fließt Quelle."
+		""
+		"Der &eAgronomische Quellenlink&r erzeugt Quelle aus wachsenden Pflanzen und füllt damit ein Quellglas."
+		"Tipp: Stell ihn direkt neben deine Felder."
+	]
+	quest.2FD842A5AE37D51A.title: "Quelle aus Wurzeln"
+	quest.30BB2E8073B9C402.quest_desc: [
+		"Gold wächst nicht für jeden."
+		""
+		"Stell Samen für Gold und Redstone her. Redstone ist Stufe 3, Gold Stufe 4."
+		"Für Gold brauchst du &eImperiumessenz&r, und die gibt es nur mit Mekanism."
+	]
+	quest.30BB2E8073B9C402.title: "Gold und Redstone"
+	quest.31E3EF54EFEF2BD3.quest_desc: [
+		"Aus Wasser wird Gas."
+		""
+		"Der &eElektrolyseur&r spaltet Wasser in Wasserstoff und Sauerstoff."
+	]
+	quest.31E3EF54EFEF2BD3.title: "Elektrolyse"
+	quest.322E156DC2BD34DC.quest_desc: [
+		"&5&lNotiz: Ein Weg genügt"
+		"&o„Wir wollten Maschine und Magie zugleich, und beide ganz. Einer der Wege hätte gereicht.“"
+		""
+		"Zwei Wege führen zum Herz. Du musst nur einen gehen."
+		""
+		"&lMagie:&r das &eErzmagier-Zauberbuch&r (Ars Nouveau)."
+		"&lMaschinen:&r der &eLoot Fabricator&r (Hostile Networks)."
+		"Die Quest erledigt sich, sobald du eins davon hast."
+		"Jeder Weg hat zusätzlich eine eigene Quest mit eigener Belohnung (Weg der Magie, Weg der Maschine). Du darfst auch beide gehen."
+	]
+	quest.322E156DC2BD34DC.title: "Maschine oder Magie"
+	quest.32359E026F3C634B.quest_desc: [
+		"Supremium vom Feld, das Beste, was der Boden hergibt."
+		""
+		"Gib 8 &eSupremiumessenz&r ab. Sie wird verbraucht."
+		"Wiederholbar: einmal alle 3 Minecraft-Tage."
+	]
+	quest.32359E026F3C634B.title: "Supremium-Handel"
+	quest.33B76969086AB90D.quest_desc: [
+		"Der richtige Boden für die richtige Saat."
+		""
+		"Leg &eImperium-Ackerland&r an. Passendes Ackerland gibt Samen derselben Stufe mehr Ertrag."
+	]
+	quest.33B76969086AB90D.title: "Essenz-Ackerland"
+	quest.36DCDD1BA1D75D16.quest_desc: [
+		"Die Erbauer maßen ihre Macht in Strom. Zeig, was deine Insel liefert."
+		""
+		"Stell einen &eAufgaben Bildschirm (1x1)&r auf (Eisen, Glas, Redstone), wähle diese Quest daran aus und speise 10 Millionen FE ein."
+		"Tipp: Kabel oder Pipez direkt an den Bildschirm anschließen."
+	]
+	quest.36DCDD1BA1D75D16.title: "Der Speicher der Erbauer"
+	quest.3739A99AF89D8892.quest_desc: [
+		"&5&lNotiz: Sternenstaub"
+		"&o„Einst siebten wir Sternenstaub. Du siebst Kies. Es ist derselbe Anfang.“"
+		""
+		"Was die Leere verschluckt hat, gibt das Sieb zurück."
+		""
+		"Stell ein Sieb auf (z. B. &eOak Sieve&r), setz ein &eString Mesh&r ein (9 Faden) und leg Erde, Kies oder Sand darauf. Dann Rechtsklick halten."
+		"Tipp: Bis zu 5×5 Siebe nebeneinander siebst du mit einem Klick gleichzeitig."
+	]
+	quest.3739A99AF89D8892.title: "Das erste Sieb"
+	quest.37438FC8EBCD40AA.quest_desc: [
+		"Was der Hammer kann, schafft auch ein Zauber."
+		""
+		"Die Glyphe Crush macht aus Bruchstein Kies, aus Kies Sand und aus Sand Staub, genau wie der Hammer."
+		"Ein &eEinfacher Zauberturm&r mit Berühren + Crush vor einem Bruchstein-Generator zerkleinert von allein, mit Redstone-Takt."
+		"Tipp: Eine Alternative zum Mahlstein (Create) oder mechanischen Hammer. Du musst nicht beides bauen."
+	]
+	quest.37438FC8EBCD40AA.title: "Zerkleinern ohne Hammer"
+	quest.38EF6870912ECC0D.quest_desc: [
+		"Hier oben scheint die Sonne ungehindert."
+		""
+		"Vier &eSolar Panels&r liefern Strom ohne Brennstoff. Allerdings nur tagsüber."
+	]
+	quest.38EF6870912ECC0D.title: "Licht über der Leere"
+	quest.3B3D0BFD78568FCA.quest_desc: [
+		"Ein Baum ist alles, was die Erbauer dir gelassen haben."
+		""
+		"Fäll den Baum und sammle 5 Holzstämme."
+		"Tipp: Pflanz die Setzlinge sofort wieder, sonst ist dein einziger Baum weg."
+		"Kein Baum auf deiner Insel? Pflanz die Setzlinge aus dem Startinventar auf Erde. Das Kompostfass gibt dir Knochenmehl für später."
+	]
+	quest.3B3D0BFD78568FCA.title: "Der erste Baum"
+	quest.3B8DA0A2772C04D0.quest_desc: [
+		"Der Händler nimmt Samen, so viele du hast."
+		""
+		"Gib 256 &eWeizenkörner&r ab. Sie werden verbraucht. Zu viele Samen aus dem Sieb?"
+		"Wiederholbar: einmal pro Minecraft-Tag."
+	]
+	quest.3B8DA0A2772C04D0.title: "Saatgut-Händler"
+	quest.3CC5CFE7FA8CF620.quest_desc: [
+		"Maschinen, Felder und Netz laufen endlich als ein Ganzes."
+		""
+		"Zeig 4 &eUltimativer Steuerschaltkreis&r aus Mekanism, 32 Supremiumessenz vom Feld und 2 Nethersterne aus der Netherstern-Saat vor."
+		"Die Items werden nur vorgezeigt, nicht verbraucht. Wenn dein ME-Netz sie von allein nachbaut, hast du es geschafft."
+	]
+	quest.3CC5CFE7FA8CF620.title: "Die ewige Fabrik"
+	quest.3E36956867188596.quest_desc: [
+		"Wo Lava auf Wasser trifft, entsteht Stein. Unendlich viel."
+		""
+		"Bau dir einen &eEimer&r aus Eisen (3 Barren). Hol damit Wasser (Holztiegel oder Teich) und Lava (Porzellantiegel) und lass beide neben einem freien Block zusammenfließen. Bau 32 &eBruchstein&r ab."
+		"&cAchtung:&r Trifft Wasser die einzige Lava-Quelle, ist deine Lava weg. Obsidian bricht nur mit Diamantspitzhacke."
+	]
+	quest.3E36956867188596.title: "Stein aus dem Nichts"
+	quest.3FB36EA37CA49811.quest_desc: [
+		"Das Beste aus Mekanism und AE2 in einem Rohr."
+		""
+		"Bau die &eUltimative Rohr Modifikation&r. Dafür brauchst du Elite-Schaltkreise aus Mekanism und Prozessoren aus AE2."
+	]
+	quest.3FB36EA37CA49811.title: "Rohre ohne Grenzen"
+	quest.407743F5CEB2A4AC.quest_desc: [
+		"Zwei Metalle, ohne die keine Maschine läuft."
+		""
+		"Kupfer- und Zinkbrocken kommen auch aus dem Kies, Zink ist selten (etwa 4 %). Schmilz 4 &eKupferbarren&r und 1 &eZinkbarren&r."
+		"Ein Zinkbarren reicht für den Anfang. Den Rest siebt später der Create-Sifter mit dem &eZinc Mesh&r."
+	]
+	quest.407743F5CEB2A4AC.title: "Kupfer und Zink"
+	quest.44C2A039BC99BB0F.quest_desc: [
+		"Hier endet das Sieben. Eisen wächst."
+		""
+		"Stell Eisen-Samen her. Sie sind Stufe 3 und brauchen Tertiumessenz aus dem Create-Mixer."
+	]
+	quest.44C2A039BC99BB0F.title: "Eisen vom Feld"
+	quest.4503C99FDA5E699C.quest_desc: [
+		"Strom im Kristall, Kristall im Wasser."
+		""
+		"Das &eLadegerät&r lädt Certus mit Strom auf."
+		"Wirf geladenen Certus + Redstone + Quarz ins Wasser. Daraus wird &eFluixkristall&r. Sammle 8."
+	]
+	quest.4503C99FDA5E699C.title: "Lader und Fluix"
+	quest.466A4EA08CEA7993.quest_desc: [
+		"Ohne Festungen in der Leere baust du das Tor selbst."
+		""
+		"Stell 12 &eEndportalrahmen&r aus Obsidian, Enderauge und Endstein her."
+	]
+	quest.466A4EA08CEA7993.title: "Portalrahmen"
+	quest.466BCDC004305CB5.quest_desc: [
+		"Eine Fabrik erkennt man daran, dass sie nicht aufhört."
+		""
+		"Hab 1024 &eEisenbarren&r gleichzeitig dabei (ein Rucksack hilft). Sie werden nicht verbraucht."
+	]
+	quest.466BCDC004305CB5.title: "Tausend Barren"
+	quest.47A4DE4C1B1D7CE3.quest_desc: [
+		"Feinere Maschen, reichere Funde."
+		""
+		"Bau ein &eFlint Mesh&r (5 Faden, 4 Feuerstein) und setz es statt des Fadennetzes ins Sieb."
+		"Tipp: Netze lassen sich mit Effizienz und Glück verzaubern."
+	]
+	quest.47A4DE4C1B1D7CE3.title: "Ein besseres Netz"
+	quest.4839A909DB03EAEB.quest_desc: [
+		"Ein leeres Buch, das darauf wartet, beschrieben zu werden."
+		""
+		"Taste C öffnet das &eZauberbuch für Anfänger&r. Dort steckst du Zauber aus Glyphen zusammen."
+		"Tipp: Projektil + Abbauen ergibt Fernabbau."
+	]
+	quest.4839A909DB03EAEB.title: "Das erste Zauberbuch"
+	quest.4B2EB94738D6E770.quest_desc: [
+		"&5&lNotiz: Der Herzschlag"
+		"&o„Antimaterie, der Herzschlag der Leere in einer Kapsel. Behandle sie mit Respekt.“"
+		""
+		"Polonium-Pellets im SPS (Supercritical Phase Shifter) werden zu Antimaterie. Ein einziges &eAntimaterie Pellet&r reicht."
+		"Der SPS braucht sehr viel Strom: Spaltreaktor, Powah-Reaktor oder viele Generatoren."
+	]
+	quest.4B2EB94738D6E770.title: "Der Herzschlag"
+	quest.4B49A39B0487205C.quest_desc: [
+		"Im Moos schläft noch Leben."
+		""
+		"Ein &eBienen-Spawn-Ei&r findest du beim Sieben von Moosblöcken."
+	]
+	quest.4B49A39B0487205C.title: "Das erste Summen"
+	quest.4D13EDC0AD8353A7.quest_desc: [
+		"&5&lNotiz: Das letzte Buch"
+		"&o„Unsere Magier schrieben, bis die Seiten glühten. Nur dieses Buch hat das Zerbrechen überstanden.“"
+		""
+		"Das stärkste Zauberbuch. Ab hier ist Magie kein Spielzeug mehr."
+		""
+		"Werte am Schreibtisch auf: Zauberbuch des Magiers, 3 Enderperlen, 2 Smaragde, 1 Diamantblock, 1 Netherstern (Wither) und 1 &eWilden-Tribut&r."
+		"Den Tribut lässt die &lWilden-Chimera&r fallen: Ritual „Beschwöre Wilden“ im Ritualbecken, verstärkt mit Wilden Horn, Wilden Spike und Wilden-Flügel."
+		"&cAchtung: Das Chimera-Ritual zerstört Blöcke rund um das Becken. Bau es auf einer eigenen Plattform weit weg von deiner Basis.&r"
+	]
+	quest.4D13EDC0AD8353A7.title: "Erzmagier"
+	quest.4D74E2BA28259B88.quest_desc: [
+		"&5&lNotiz: Zurück zum Leben"
+		"&o„Eine Insel, die sich selbst nährt. So fängt der Weg zurück an.“"
+		""
+		"Stell vier &eHopper Botany Pots&r auf: Holz und Essen wachsen von selbst und landen in Truhen."
+		"Deine Insel versorgt sich jetzt selbst."
+	]
+	quest.4D74E2BA28259B88.title: "Die autarke Insel"
+	quest.4FCA91106FDE7036.quest_desc: [
+		"Der feinste Schaltkreis, den Mekanism kennt."
+		""
+		"Aus Elite-Schaltkreisen + &eAtomlegierung&r stellst du 2 Ultimativer Steuerschaltkreis her."
+		"Du brauchst ihn für Insanium Essence und die ewige Fabrik."
+	]
+	quest.4FCA91106FDE7036.title: "Ultimate-Schaltkreis"
+	quest.5020EAC89979929D.quest_desc: [
+		"Die Leere baut keine Nester. Du schon."
+		""
+		"Stell ein Nest wie das &eStone Nest&r selbst her und auf. Passende Wildbienen ziehen ein."
+	]
+	quest.5020EAC89979929D.title: "Nester bauen"
+	quest.50F037D4543A619F.quest_desc: [
+		"Endermen tragen ein Stück Leere in sich."
+		""
+		"Sammle 4 &eLeerenessenz&r. Sie fällt von Endermen (ungefähr jeder dritte)."
+		"Drei Wege: selbst kämpfen, eine Mobfarm bauen oder einen Drygmy (Ars Nouveau) die Beute holen lassen."
+	]
+	quest.50F037D4543A619F.title: "Leerenessenz"
+	quest.513AEC6387AF3D62.quest_desc: [
+		"Netherwarzen wachsen auf Seelensand. Der Händler fragt nicht, woher."
+		""
+		"Gib 128 &eNetherwarze&r ab. Sie werden verbraucht."
+		"Wiederholbar: einmal pro Minecraft-Tag."
+	]
+	quest.513AEC6387AF3D62.title: "Netherwarzen-Farm"
+	quest.51E93984F17C3010.quest_desc: [
+		"Die Erde der Insel ist voller vergessener Saat."
+		""
+		"Siebe Erde mit dem &eString Mesh&r. Dabei fallen Samen, Setzlinge und mehr heraus."
+		"Von hier aus geht es weiter zu Feldern, Küche und Tieren."
+	]
+	quest.51E93984F17C3010.title: "Was in der Erde steckt"
+	quest.525E14F54FFD9884.quest_desc: [
+		"In der Leere fallen keine Meteoriten. Die Platten machst du selbst."
+		""
+		"Bau eine &eGravurmaschine&r. Die vier Prägeplatten stellst du aus Certus-Quarz-Essenz her."
+		"Beispiel: 8 Essenz um einen Goldbarren = Logik-Platte, 8 Essenz um Silizium = Silizium-Platte. Die anderen zwei zeigt JEI (U auf die Essenz)."
+		"Certus-Samen sind Stufe 3 (Tertium). Danach frei: Supremiumessenz und Pipez-Ultimate."
+	]
+	quest.525E14F54FFD9884.title: "Prägeplatten ohne Meteor"
+	quest.53A55C88852C436C.quest_desc: [
+		"Keine Endstädte, aber der Staub erinnert sich."
+		""
+		"In der Leere gibt es keine Endstädte. &eShulker-Schalen&r findest du im Diamant- oder Netherit-Sieb aus zerkleinertem Endstein."
+	]
+	quest.53A55C88852C436C.title: "Schalen aus Endstein"
+	quest.53B39417EB5D6599.quest_desc: [
+		"Tausend Steine, ein Block."
+		""
+		"Functional Storage: &eSchubladen&r fassen viel von einer Sorte auf kleinem Raum. Stell vier davon auf."
+	]
+	quest.53B39417EB5D6599.title: "Schubladen"
+	quest.542DCB3A93E3927A.quest_desc: [
+		"Eine Insel wird erst mit einem Stuhl zum Zuhause."
+		""
+		"Handcrafted und Macaw's Furniture: Stühle, Tische, Regale, Betten."
+		"Bau zwei &eStühle&r und einen Tisch."
+	]
+	quest.542DCB3A93E3927A.title: "Einrichten"
+	quest.54D4261D8643E532.quest_desc: [
+		"&5&lNotiz: Die erste Maschine"
+		"&o„Unsere Maschinen liefen Tag und Nacht, bis sie verstummten. Du hast gerade die erste wieder geweckt.“"
+		""
+		"Die Maschinen der Erbauer arbeiteten Tag und Nacht. Deine jetzt auch."
+		""
+		"Verbinde Extruder → Mahlstein → Sifter → Waschen → Ofen mit Förderbändern."
+		"Wenn 32 &eEisenbarren&r, 16 Zinkbarren und 32 Kupferbarren von allein kommen, steht deine Fabrik."
+		"Akt II ist schon seit dem Messing offen. Die Fabrik liefert das Metall dafür."
+	]
+	quest.54D4261D8643E532.title: "Die erste Maschine"
+	quest.5970381F041D1FE8.quest_desc: [
+		"Aus Barren werden Bleche, aus Blechen Maschinen."
+		""
+		"Bau eine &eMechanische Presse&r. Sie presst Bleche, die du für viele Bauteile brauchst."
+		"Tipp: Die Presse braucht einen ganzen Eisenblock. Lass vorher den Sifter laufen, dann kommt das Eisen von allein."
+	]
+	quest.5970381F041D1FE8.title: "Die Presse"
+	quest.5A600C59DDC6D91E.quest_desc: [
+		"&5&lNotiz: Kraft aus der Leere"
+		"&o„Wir nahmen die Kraft aus der Leere, nicht aus Kohle. Wir nahmen zu viel, und der Boden riss.“"
+		""
+		"Die Erbauer spalteten Atome. Respekt ist angebracht."
+		""
+		"Mekanism Generators: Ein Spaltreaktor aus &eKernreaktorgehäuse&r und &eKernbrennstoffbaugruppe&r macht aus Uran viel Strom und Atommüll, den du gleich brauchst."
+		"Uran: Uranbrocken aus zerkleinertem Tiefenschiefer im Sieb oder Uran-Samen. Weg: Uran → Yellowcake → Uranoxid → Uranhexafluorid → Spaltbrennstoff."
+		"&cKühlung (Wasser) nicht vergessen und den Reaktor nie überhitzen lassen.&r"
+	]
+	quest.5A600C59DDC6D91E.title: "Spaltreaktor"
+	quest.5C947BC3421D3841.quest_desc: [
+		"Der Nether ist fern. Sein Feuer holst du dir trotzdem."
+		""
+		"1. &eLeerer Lohenbrenner&r: 4 Eisenbleche (Presse) um 1 Netherrack."
+		"2. Leerer Brenner + 4 Lohenstaub (aus Staub gesiebt) = &eLohenbrenner&r. Mit Kohle oder Holz gefüttert heizt er dein Becken."
+		"&lNetherrack ohne Nether:&r Mycelium Spores (Erde sieben) auf Erde ergeben Myzel. Ein Wasserfass auf Myzel wird nach gut einer Minute zu Hexenwasser."
+		"Hexenwasser im Fass + Lava ergibt Netherrack (U auf Netherrack in JEI)."
+	]
+	quest.5C947BC3421D3841.title: "Feuer ohne Nether"
+	quest.5CB909518B1BE423.quest_desc: [
+		"Die Erbauer fingen Strom in Glas. Du auch."
+		""
+		"Im &eEnergizing Orb&r (Powah) mit 500.000 FE: Rohling, 2 &eInfundierte Legierung&r, 1 Osmiumbarren, 1 &eKupfersuple&r, 1 Redstone-Block."
+		"Tipp: Den Orb speist du mit dem Alternator oder jedem anderen FE-Netz."
+	]
+	quest.5CB909518B1BE423.title: "Splitter des Stroms"
+	quest.5D2499B94AB2670D.quest_desc: [
+		"Magie oder Maschine, der Geist ist derselbe."
+		""
+		"&lMagie:&r &eBezaubernder Apparat&r mit Rohling, darum Wilden Horn, Wilden-Flügel, Wilden Spike, Quelledelsteinblock und 2 Leerenessenz (5000 Quelle)."
+		"&lTechnik:&r &eAuflösungsapparat&r mit Rohling, je 3 Overworld- und Nether-Predictions (Hostile Networks), 1 Leerenessenz und 1000 mB Essenz (Monsterschnetzler)."
+	]
+	quest.5D2499B94AB2670D.title: "Splitter des Geistes"
+	quest.5FC0217495F42D91.quest_desc: [
+		"Was unten glüht, wächst oben schneller."
+		""
+		"Stapel &eInferium-Wachstumsbeschleuniger&r unter das Ackerland. Die Pflanzen darüber wachsen schneller."
+	]
+	quest.5FC0217495F42D91.title: "Wachstumsbeschleuniger"
+	quest.61E11736C960ADAB.quest_desc: [
+		"Normales Feuer reicht nicht. Der Splitter will Lohenglut."
+		""
+		"Füttere den Lohenbrenner mit einem &eLohenkuchen&r: Er wird überhitzt (blaue Flamme)."
+		"Dann im Mixer: Rohling, 2 &eLohenruten&r, 4 &eCrushed Netherrack&r, 1 &eObsidian&r und 250 mB Lava."
+	]
+	quest.61E11736C960ADAB.title: "Splitter der Glut"
+	quest.62E10DD0E3C9DA3C.quest_desc: [
+		"Aus Laub wird Seide, aus Seide wird dein erstes Netz."
+		""
+		"Setz die &eSilkworm&r aus der Start-Quest auf Laub. Es wird nach und nach befallen und steckt Nachbarlaub an."
+		"Voll befallenes Laub mit dem &eCrook&r abbauen: etwa jedes zweite gibt Faden. Mit der Hand gibt es nichts."
+		"Tipp: Pflanz vorher einen zweiten Baum, damit dir das Laub nicht ausgeht."
+	]
+	quest.62E10DD0E3C9DA3C.title: "Seidenraupe und Faden"
+	quest.6340C52EC9FC8DFF.quest_desc: [
+		"Kies hast du immer. Er zahlt trotzdem."
+		""
+		"Gib 256 &eKies&r ab. Er wird verbraucht."
+		"Wiederholbar: einmal pro Minecraft-Tag."
+	]
+	quest.6340C52EC9FC8DFF.title: "Kieshändler"
+	quest.64BBFF0D82B2E92F.quest_desc: [
+		"Alte Technik, ehrliche Kraft."
+		""
+		"Der &eFurnator&r verbrennt Kohle und Holz zu Strom. Solide Grundversorgung."
+	]
+	quest.64BBFF0D82B2E92F.title: "Feuer zu Strom"
+	quest.673329C9FC48A8A8.quest_desc: [
+		"Bäume, die schon vor dem Zerbrechen alt waren."
+		""
+		"Archwood-Setzlinge findest du im Moos-Sieb. Ihre Früchte sind Zutaten für Rituale."
+	]
+	quest.673329C9FC48A8A8.title: "Archwood"
+	quest.679A39FC9E6A3722.quest_desc: [
+		"Ohne Schaltkreis bleibt jede Maschine stumm."
+		""
+		"Osmium + Redstone in der Infusionsanlage: Stell 4 &eEinfacher Steuerschaltkreis&r her."
+		"Er steckt in fast jeder Maschine."
+	]
+	quest.679A39FC9E6A3722.title: "Grundschaltkreis"
+	quest.6BC728D50A6F8246.quest_desc: [
+		"Halb Horn, halb Flügel, ganz Zorn. Die Wilden haben eine Königin."
+		""
+		"Besiege die &eWilden-Chimera&r. Beschworen wird sie mit dem Ritual „Wilden beschwören“, verstärkt mit Horn, Stachel und Flügel."
+		"&cDas Ritual zerstört Blöcke rund um das Becken.&r Bau es auf einer eigenen Plattform."
+		"Belohnung: Such dir ein Item aus der Goldkiste aus."
+	]
+	quest.6BC728D50A6F8246.title: "Die Chimera"
+	quest.6BCA3B2298E458B7.quest_desc: [
+		"Ein Seil über dem Abgrund verbindet, was zerbrochen ist."
+		""
+		"Macaw's Bridges: &eHängebrücken&r zu deinen Nebeninseln."
+		"Tipp: Wege und Laternen gibt es in Macaw's Paths und Lights."
+	]
+	quest.6BCA3B2298E458B7.title: "Brücke ins Nichts"
+	quest.6BF3425259CFE182.quest_desc: [
+		"Zum ersten Mal trägt dich nichts als deine eigene Maschine."
+		""
+		"Bau ein &eJetpack&r (Iron Jetpacks) aus Triebwerken, Kondensator und den übrigen Teilen (Rezept in JEI) und lade es mit Strom."
+		"Tipp: Prüf vorher lieber noch einmal deinen Fallschutz."
+	]
+	quest.6BF3425259CFE182.title: "Über der Leere"
+	quest.6CC59EF33F4C5B8E.quest_desc: [
+		"&5&lNotiz: Die Werkstatt"
+		"&o„Hier haben wir das Herz geschmiedet, und hier ist es zersprungen. Ich konnte nur den Bauplan retten.“"
+		""
+		"Die Karte zeigt eine Insel, die auf keiner anderen steht."
+		""
+		"Die &eKarte der vergessenen Werkstatt&r gibt es für den ersten Flug. Rechtsklick in der Oberwelt lässt die Werkstatt 80 Blöcke in Blickrichtung auftauchen."
+		"Flieg hin und sieh dir den &eZerbrochenen Herzsockel&r in der Mitte an. Die Truhe dort gehört dir."
+		"Tipp: Schau vorher in eine freie Richtung, sonst passt die Insel nicht hin."
+	]
+	quest.6CC59EF33F4C5B8E.title: "Die vergessene Werkstatt"
+	quest.6D9FC01C09305938.quest_desc: [
+		"Hier treffen Maschine und Essenz zum ersten Mal aufeinander."
+		""
+		"4 Prudentium + 1 Messingbarren im Create-Mixer ergeben 2 &eTertiumessenz&r. Sammle 16."
+		"Nur so kommst du an Stufe-3-Samen."
+	]
+	quest.6D9FC01C09305938.title: "Stufe 3: Tertium"
+	quest.6F697BE703502F6F.quest_desc: [
+		"Das Sieb hat dich weit getragen. Jetzt soll das Erz von selbst kommen."
+		""
+		"Wähl einen Weg, einer reicht:"
+		"- &lFelder:&r Osmium-Samen (Mystical Agriculture)"
+		"- &lLaser:&r die &eErz-Laserbasis&r (Industrial Foregoing)"
+		"- &lBienen:&r ein &eQuartz Nest&r für Erz-Bienen (Productive Bees)"
+		"Jeder Weg hat eine eigene Belohnungs-Quest: Weg der Felder, des Lasers, der Bienen."
+		"Essenz ohne Zirkel: Certus-, Osmium- und Zink-Essenz gibt es im Create-Mischer. 4 Metall (Certus-Quarz, Osmium, Zink) plus 1 Inferiumessenz ergeben 1 Essenz."
+	]
+	quest.6F697BE703502F6F.title: "Erz ohne Sieb"
+	quest.701C48A1FE5B1404.quest_desc: [
+		"Lohenruten im Überfluss? Er nimmt sie gern."
+		""
+		"Gib 32 &eLohenrute&r ab. Sie werden verbraucht."
+		"Wiederholbar: einmal alle 2 Minecraft-Tage."
+	]
+	quest.701C48A1FE5B1404.title: "Lohenruten-Handel"
+	quest.71A8E6EBBA0E2C7A.quest_desc: [
+		"Siebzehn Seiten, eine Geschichte. Der Wächter hat sie für dich aufgeschrieben."
+		""
+		"Besitze alle 17 &dTagebuchseiten&r (sie werden nicht verbraucht)."
+		"Belohnung: der &eCodex der Erbauer&r mit allen Notizen, dazu Bücherregale, ein Lesepult und Laternen für dein eigenes Archiv."
+	]
+	quest.71A8E6EBBA0E2C7A.title: "Das Archiv des Wächters"
+	quest.724A204C042D5072.quest_desc: [
+		"Was du einmal gebaut hast, baust du nie wieder von Hand."
+		""
+		"Das &eCopy Paste Gadget&r speichert ganze Gebäude und baut sie woanders wieder auf."
+	]
+	quest.724A204C042D5072.title: "Inselarchitekt"
+	quest.7333F70165968FB7.quest_desc: [
+		"Er wiegt nichts. Er wiegt alles."
+		""
+		"&lTechnik:&r &eAntiprotonischer Kernsynthesizer&r: Rohling und 100 mB Antimaterie."
+		"&lMagie:&r &eImbuement-Kammer&r mit Rohling, darum Drachenatem, Shulker-Schale und Leerenessenz (5000 Quelle)."
+	]
+	quest.7333F70165968FB7.title: "Splitter der Leere"
+	quest.733DB9235EC67B52.quest_desc: [
+		"&5&lNotiz: Der Funke"
+		"&o„Das erste Metall. Wir nannten es den Funken, weil danach alles schneller brannte.“"
+		""
+		"Schmilz die 2 Erz im Ofen mit Kohle oder Holz zu 2 &eEisenbarren&r."
+		"Freigeschaltet: Kupfer und Zink für Create, das &eIron Mesh&r und der Einstieg in Mystical Agriculture."
+		"Tipp: Abseits des Weges warten jetzt der Inselmarkt und der Baumeister."
+	]
+	quest.733DB9235EC67B52.title: "Der Funke"
+	quest.74F2C921E52EFBDB.quest_desc: [
+		"&5&lNotiz: Gier"
+		"&o„Aus jedem Brocken das Vierfache. So reich waren wir. So gierig.“"
+		""
+		"Die &eChemische Injektionskammer&r macht vier Barren pro Erz."
+		"Sie braucht Chlorwasserstoff aus Salz (Verdampfung) und Wasserstoff. Damit ist Erz nie wieder knapp."
+		"Weiter in Akt III: Elite-Schaltkreise, Autocrafting und die Wahl deines Weges."
+	]
+	quest.74F2C921E52EFBDB.title: "Vierfach-Erz"
+	quest.752A48E144F68BB2.quest_desc: [
+		"Ein Streifen Grün über der Leere."
+		""
+		"Weizen, Karotten, Kartoffeln: Alles kommt aus dem Sieb. Leg ein Feld an und ernte &e16 Feldfrüchte&r."
+		"Tipp: Mit der Gießkanne wächst das Feld schneller."
+	]
+	quest.752A48E144F68BB2.title: "Das erste Feld"
+	quest.7672D8F26A6D4AE1.quest_desc: [
+		"Jede Stufe Essenz ist dichter als die letzte."
+		""
+		"4 Inferiumessenz um einen &eInfusionskristall&r ergeben 1 Prudentium. Der Kristall bleibt erhalten."
+		"Kristall: 1 Diamant, 4 Prosperiumsplitter (Kies mit Flint Mesh) und 4 Inferiumessenz. Sammle 16 &ePrudentiumessenz&r."
+	]
+	quest.7672D8F26A6D4AE1.title: "Stufe 2: Prudentium"
+	quest.769DA1AB0E905927.quest_desc: [
+		"Jeder Kampf lehrt etwas. Hier wird es aufgeschrieben."
+		""
+		"Hostile Neural Networks: Der &eDeep Learner&r trainiert Datenmodelle, während du kämpfst."
+	]
+	quest.769DA1AB0E905927.title: "Der Deep Learner"
+	quest.77D2185968206184.quest_desc: [
+		"Der Wächter am Ende kehrt zurück, wenn man ihn ruft."
+		""
+		"Besiege den Enderdrachen ein zweites Mal. Vier Endkristalle auf dem Ausgangsportal rufen ihn zurück."
+		"Belohnung: Such dir ein Item aus der Sternkiste aus."
+	]
+	quest.77D2185968206184.title: "Der zweite Drache"
+	quest.78B7BF86FDC88085.quest_desc: [
+		"Ein Stock, der mehr gibt, als er nimmt."
+		""
+		"Stell ein Upgrade für Produktivität her und setz es in deinen Bienenstock."
+	]
+	quest.78B7BF86FDC88085.title: "Fleißige Völker"
+	quest.78FAF7FC9EC04169.quest_desc: [
+		"Das Tor in die Unterwelt beginnt mit schwarzem Stein."
+		""
+		"Gieß Wasser auf eine Lava-Quelle und bau 10 &eObsidian&r ab. Obsidian braucht eine &eDiamantspitzhacke&r."
+		"&cVorsicht beim Abbauen über der Leere.&r"
+	]
+	quest.78FAF7FC9EC04169.title: "Obsidian"
+	quest.79D527720DB446CC.quest_desc: [
+		"Aus Abfall wird Boden. So wächst deine Insel."
+		""
+		"Bau ein Holzfass (z. B. &eOak Barrel&r) und wirf Laub, Setzlinge oder Essen hinein. Nach einer Weile wird daraus Erde."
+		"Tipp: Fässer sammeln bei Regen auch Wasser."
+	]
+	quest.79D527720DB446CC.title: "Kompostfass"
+	quest.7A465491286EA4E6.quest_desc: [
+		"Wind und Wasser holen mehr aus jedem Erz."
+		""
+		"Ein &eUmmantelter Lüfter&r, der durch Wasser bläst, wäscht zerkleinerte Erze. Das gibt mehr Nuggets."
+	]
+	quest.7A465491286EA4E6.title: "Waschen mit Wind"
+	quest.7A78FD2FF75B9E0D.quest_desc: [
+		"Feuer, eingefangen in Stein."
+		""
+		"Lohenstaub im Orb ergibt &eBlazing Crystal&r. Lohenstaub findest du beim Sieben von Dust."
+	]
+	quest.7A78FD2FF75B9E0D.title: "Glut im Kristall"
+	quest.7BB7F7AE33284E96.quest_desc: [
+		"Manche Dinge baut man besser weit weg von zu Hause."
+		""
+		"Beschwör den Wither und besieg ihn für einen &eNetherstern&r."
+		"&cBau ihn weit weg von deiner Insel. Sehr weit.&r"
+	]
+	quest.7BB7F7AE33284E96.title: "Der Wither"
+	quest.7C108C6ABD8190A1.quest_desc: [
+		"Aus Müll wird der Stoff, der das Herz der Leere nährt."
+		""
+		"Atommüll aus dem Spaltreaktor wird im &eSolarneutronenaktivator&r (braucht Tageslicht) zu Polonium."
+		"Das &ePolonium Pellet&r ist die Zutat für Antimaterie im SPS."
+	]
+	quest.7C108C6ABD8190A1.title: "Polonium"
+	quest.7D5BD366AC7215E1.quest_desc: [
+		"Kristalle, die Wissen speichern können."
+		""
+		"Siebe Sand mit dem Iron Mesh. Sammle 16 &eCertusquarzkristall&r."
+	]
+	quest.7D5BD366AC7215E1.title: "Certus-Quarz"
+	quest.7D751DDB2D49193E.quest_desc: [
+		"Jede Wabe birgt mehr als Honig."
+		""
+		"Die &eCentrifuge&r zerlegt Waben in Wachs, Honig und Rohstoffe."
+	]
+	quest.7D751DDB2D49193E.title: "Die Zentrifuge"
+	quest.7FAE6CBAF122ADFC.quest_desc: [
+		"Die Hand ermüdet. Die Maschine nicht."
+		""
+		"Das &eMechanical Sieve&r ist das Ex-Deorum-Sieb mit Strom: Netz einsetzen, Kies per Trichter hinein, den Rest erledigt es."
+		"Tipp: Es braucht nur 20 FE pro Tick."
+	]
+	quest.7FAE6CBAF122ADFC.title: "Das Sieb mit Strom"
+	reward_table.11208B58B011A16B.title: "Messing-Kiste"
+	reward_table.12661163E00AC69A.title: "Sternkiste"
+	reward_table.15DAAF2D7EE84029.title: "Goldkiste"
+	reward_table.17B5911B29076536.title: "Kiste der Natur"
+	reward_table.1E6F17BB8B4C2256.title: "Kiste der Technik"
+	reward_table.1E8FEF386D179C90.title: "Holzkiste"
+	reward_table.3D669D5C2E1D4344.title: "Kiste der Magie"
+	reward_table.4DD8F84B87E1210A.title: "Eisenkiste"
+	task.12206D4A3D70E133.title: "Beliebiger Tisch"
+	task.12B88D8CD296493B.title: "Beliebiger Trichter-Botany-Pot"
+	task.12CD2FFA47DC2803.title: "Beliebiger Archwood-Setzling"
+	task.14BFE0D1807F4603.title: "Beliebige Stühle"
+	task.15B3B7EAA901AF43.title: "Beliebiges Holzfass"
+	task.189FF833D53B509B.title: "Beliebige Samen"
+	task.19D9956BA5CDA17C.title: "Beliebige Hängebrücke"
+	task.1A76E833D04C07CB.title: "Certus-Quarz (auch geladen)"
+	task.1D73D470AEB043F0.title: "Osmium-Samen, Erz-Laserbasis oder Netherquarz-Nest"
+	task.1DD60523B9F19CC7.title: "Beliebiger fortgeschrittener Bienenstock"
+	task.1FB9710FC10BAEF9.title: "Beliebige Dachblöcke"
+	task.1FC058AEFA8D035B.title: "Erzmagier-Zauberbuch oder Loot Fabricator"
+	task.35C310B375822F5A.title: "Beliebiger Botany Pot"
+	task.4B6941EEC2D94C0C.title: "Beliebige Schubladen"
+	task.52301BD372197059.title: "Beliebige Holzstämme"
+	task.64FF5A51D51DFB45.title: "Beliebiger Trichter-Botany-Pot"
+	task.6A23FB0E8D22EC5E.title: "Beliebiger Holztiegel"
+	task.7EF46B21327F0F34.title: "Beliebiges Sieb"
+}

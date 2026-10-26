@@ -1,0 +1,106 @@
+{
+	id: "4DD8F84B87E1210A"
+	loot_crate: {
+		color: 13158600
+		drops: {
+			boss: 0
+			monster: 3
+			passive: 0
+		}
+		string_id: "eisenkiste"
+	}
+	loot_size: 3
+	order_index: 0
+	rewards: [
+		{
+			count: 6
+			id: "31FBEC6CFF2CE221"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 8
+			id: "1A38B260E10C5FB5"
+			item: {
+				count: 1
+				id: "minecraft:copper_ingot"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 3
+			id: "1AD320051DAE1010"
+			item: {
+				count: 1
+				id: "create:zinc_ingot"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 12
+			id: "18A21E1B1D13B95F"
+			item: {
+				count: 1
+				id: "create:andesite_alloy"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 12
+			id: "19104A96DF4B33A2"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 12
+			id: "242EF4901F81F86F"
+			item: {
+				count: 1
+				id: "minecraft:coal"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 6
+			id: "15993EEA244F2298"
+			item: {
+				count: 1
+				id: "create:cogwheel"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "10C6507EECDDDAC6"
+			item: {
+				count: 1
+				id: "create:shaft"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "1EBD9C33B4AFBE8F"
+			item: {
+				count: 1
+				id: "minecraft:lapis_lazuli"
+			}
+			weight: 4.0f
+		}
+		{
+			id: "14FBD0691AB14F58"
+			item: {
+				count: 1
+				id: "exdeorum:flint_mesh"
+			}
+			weight: 4.0f
+		}
+	]
+	use_title: true
+}

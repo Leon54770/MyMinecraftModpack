@@ -1,0 +1,232 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mysticalag"
+	group: "1A7A9B25B51B8125"
+	icon: {
+		id: "mysticalagriculture:inferium_seeds"
+	}
+	id: "3807256A738CC8CA"
+	images: [ ]
+	order_index: 7
+	quest_links: [
+		{
+			id: "19C45A88C089D074"
+			linked_quest: "6D9FC01C09305938"
+			shape: "square"
+			x: 0.0d
+			y: -1.8d
+		}
+		{
+			id: "2FEEE3F470751AED"
+			linked_quest: "2B8F719EBDDA3F00"
+			shape: "square"
+			x: 0.0d
+			y: 1.8d
+		}
+		{
+			id: "14B460C4B8CA5071"
+			linked_quest: "236B87F9B041099D"
+			shape: "square"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1A60466BE707DD6A"
+			linked_quest: "1AFC1AA3FB820C68"
+			shape: "square"
+			x: 0.0d
+			y: 3.6d
+		}
+		{
+			id: "15C9041D7CC20C18"
+			linked_quest: "135D046E588AEBC3"
+			shape: "square"
+			x: 0.0d
+			y: -3.6d
+		}
+		{
+			id: "1ADB6DF684F66DA7"
+			linked_quest: "1E9534D7F062922D"
+			shape: "square"
+			x: 0.0d
+			y: -7.03d
+		}
+		{
+			id: "59808056D8831E2A"
+			linked_quest: "1103C5832FA3A292"
+			shape: "square"
+			x: 1.6d
+			y: -7.03d
+		}
+		{
+			id: "1F0C84B8CC003DBC"
+			linked_quest: "7672D8F26A6D4AE1"
+			shape: "square"
+			x: 3.2d
+			y: -7.03d
+		}
+		{
+			id: "141823F896AD93EF"
+			linked_quest: "44C2A039BC99BB0F"
+			shape: "square"
+			x: 4.8d
+			y: -7.03d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"6D9FC01C09305938"
+				"135D046E588AEBC3"
+			]
+			id: "1AC582130C815BC6"
+			rewards: [{
+				count: 8
+				id: "15D2C981B6979E6F"
+				item: {
+					count: 1
+					id: "mysticalagriculture:inferium_essence"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1E42CBDCEF55C571"
+					item: { count: 1, id: "mysticalagriculture:copper_seeds" }
+					type: "item"
+				}
+				{
+					id: "139D4723760F6BF2"
+					item: { count: 1, id: "mysticalagriculture:coal_seeds" }
+					type: "item"
+				}
+			]
+			x: 2.4d
+			y: -4.53d
+		}
+		{
+			dependencies: ["2B8F719EBDDA3F00"]
+			id: "30BB2E8073B9C402"
+			rewards: [{
+				count: 4
+				id: "61FFB28A2EF10626"
+				item: {
+					count: 1
+					id: "mysticalagriculture:prudentium_essence"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1D74687628256C9B"
+					item: { count: 1, id: "mysticalagriculture:gold_seeds" }
+					type: "item"
+				}
+				{
+					id: "69ED924A58A133A6"
+					item: { count: 1, id: "mysticalagriculture:redstone_seeds" }
+					type: "item"
+				}
+			]
+			x: 2.4d
+			y: 0.93d
+		}
+		{
+			dependencies: ["236B87F9B041099D"]
+			id: "1C2D2E140DF23D44"
+			rewards: [{
+				id: "1AC3DE5EBBFADCC4"
+				table_id: 1574763629656948777L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [{
+				id: "1E9AFB1C276A2472"
+				item: { count: 1, id: "mysticalagriculture:diamond_seeds" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: -0.9d
+		}
+		{
+			dependencies: ["6D9FC01C09305938"]
+			id: "5FC0217495F42D91"
+			rewards: [{
+				count: 4
+				id: "1CAFDDE58FB64E85"
+				item: {
+					count: 1
+					id: "mysticalagriculture:prudentium_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "73EA7DCA010B2C53"
+				item: { count: 1, id: "mysticalagriculture:inferium_growth_accelerator" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: -2.73d
+		}
+		{
+			dependencies: ["2B8F719EBDDA3F00"]
+			id: "33B76969086AB90D"
+			rewards: [{
+				count: 2
+				id: "1501D6277B18EBF4"
+				item: {
+					count: 1
+					id: "mysticalagriculture:tertium_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 9L
+				id: "17BDF3567338DDDA"
+				item: { count: 1, id: "mysticalagriculture:imperium_farmland" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: 2.73d
+		}
+		{
+			dependencies: ["1AFC1AA3FB820C68"]
+			id: "14D2C59B4E2A5134"
+			rewards: [{
+				id: "38FAFD18CA11F25B"
+				table_id: 1574763629656948777L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 8L
+				id: "121783F941B90355"
+				item: { count: 1, id: "mysticalagradditions:insanium_essence" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: 4.53d
+		}
+		{
+			dependencies: [
+				"14D2C59B4E2A5134"
+				"7BB7F7AE33284E96"
+			]
+			id: "2455A826629A049C"
+			rewards: [{
+				id: "14CF543CFB30286C"
+				table_id: 1325766260965426842L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "16D65CEACF977530"
+				item: { count: 1, id: "mysticalagriculture:nether_star_seeds" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,119 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ae2"
+	group: "1A7A9B25B51B8125"
+	icon: {
+		id: "ae2:controller"
+	}
+	id: "32F4545024F13413"
+	images: [ ]
+	order_index: 6
+	quest_links: [
+		{
+			id: "5004D83DA103FF74"
+			linked_quest: "11839A27875CF281"
+			shape: "square"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1617615A7ACC4D7E"
+			linked_quest: "525E14F54FFD9884"
+			shape: "square"
+			x: 0.0d
+			y: -3.4d
+		}
+		{
+			id: "180C5B3F50BAAFB8"
+			linked_quest: "1B41A97765B0B62F"
+			shape: "square"
+			x: 1.6d
+			y: -3.4d
+		}
+		{
+			id: "17914B84B37E277C"
+			linked_quest: "7D5BD366AC7215E1"
+			shape: "square"
+			x: 3.2d
+			y: -3.4d
+		}
+		{
+			id: "1A8E35EC82C6853E"
+			linked_quest: "4503C99FDA5E699C"
+			shape: "square"
+			x: 4.8d
+			y: -3.4d
+		}
+		{
+			id: "435D6E1D351D6534"
+			linked_quest: "16FA3B6226C8DA9B"
+			shape: "square"
+			x: 6.4d
+			y: -3.4d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["11839A27875CF281"]
+			id: "149AAFD54B8A4424"
+			rewards: [{
+				count: 4
+				id: "19126ED4DFF5880B"
+				item: {
+					count: 1
+					id: "ae2:fluix_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "19D6624EF93F87FA"
+				item: { count: 1, id: "ae2wtlib:wireless_universal_terminal" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: 0.9d
+		}
+		{
+			dependencies: [
+				"11839A27875CF281"
+				"31E3EF54EFEF2BD3"
+			]
+			id: "12D54E9C362C7893"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "6A80F1417ACA8394"
+				item: {
+					count: 1
+					id: "ae2:certus_quartz_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1486A9CE19286604"
+				item: { count: 1, id: "appmek:chemical_storage_cell_1k" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: -0.9d
+		}
+		{
+			dependencies: ["149AAFD54B8A4424"]
+			id: "1180299DF37A94AC"
+			optional: true
+			rewards: [{
+				id: "514F756988C5571B"
+				table_id: 1574763629656948777L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1FA77D65DF2C7B1B"
+				item: { count: 1, id: "megacells:item_storage_cell_1m" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: 0.0d
+		}
+	]
+}

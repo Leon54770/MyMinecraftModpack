@@ -1,0 +1,877 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "akt1"
+	group: "6BCFC7D14F070455"
+	icon: {
+		id: "exdeorum:oak_sieve"
+	}
+	id: "197626AE2829F75F"
+	images: [ ]
+	order_index: 0
+	quest_links: [
+		{
+			id: "79376DAC701C8AD4"
+			linked_quest: "17ECF3FBEFE0489E"
+			shape: "square"
+			x: 2.4d
+			y: 0.9d
+		}
+		{
+			id: "1E45E31735B4BDD6"
+			linked_quest: "1252700C32FCEF79"
+			shape: "square"
+			x: 16.8d
+			y: 1.06d
+		}
+	]
+	quests: [
+		{
+			icon: {
+				id: "ftbquests:book"
+			}
+			id: "2B0850D91649B4A7"
+			rewards: [
+				{
+					id: "1885EA040DE88179"
+					table_id: 2202241768434932880L
+					type: "loot"
+				}
+				{
+					id: "12826CF89D2326DB"
+					item: {
+						count: 1
+						id: "exdeorum:silkworm"
+					}
+					type: "item"
+				}
+				{
+					id: "6A874743E5EB19A2"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Die erste Notiz\"}"
+							"minecraft:enchantment_glint_override": 1b
+							"minecraft:lore": [
+								"{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Seite 1 von 22\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"„Wer das liest, steht auf einem\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"Splitter unserer Welt. Darunter\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"schläft das Herz der Leere.“\"}"
+							]
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "11C82B0BA873A2EB"
+				item: { count: 1, id: "ftbquests:book" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B0850D91649B4A7"]
+			id: "3B3D0BFD78568FCA"
+			rewards: [{
+				count: 2
+				id: "147FC133B6C460BD"
+				item: {
+					count: 1
+					id: "minecraft:oak_sapling"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				icon: {
+					id: "minecraft:oak_log"
+				}
+				id: "52301BD372197059"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: -0.9d
+		}
+		{
+			dependencies: [
+				"17ECF3FBEFE0489E"
+				"3B3D0BFD78568FCA"
+			]
+			id: "62E10DD0E3C9DA3C"
+			rewards: [{
+				count: 4
+				id: "5285BE134EB4C90D"
+				item: {
+					count: 1
+					id: "minecraft:dirt"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "611769C84DA9AD9F"
+					item: { count: 1, id: "exdeorum:silkworm" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1F9E0ACD7DA5B354"
+					item: { count: 1, id: "minecraft:string" }
+					type: "item"
+				}
+			]
+			x: 4.8d
+			y: 0.9d
+		}
+		{
+			dependencies: ["3B3D0BFD78568FCA"]
+			id: "79D527720DB446CC"
+			rewards: [{
+				count: 4
+				id: "10C74154E7F7E658"
+				item: {
+					count: 1
+					id: "minecraft:dirt"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "exdeorum:oak_barrel"
+				}
+				id: "15B3B7EAA901AF43"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(exdeorum:wooden_barrels)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: -0.9d
+		}
+		{
+			dependencies: [
+				"733DB9235EC67B52"
+				"19CAA9C30C55D27A"
+			]
+			id: "3E36956867188596"
+			rewards: [{
+				count: 4
+				id: "10D269ACA98F31AC"
+				item: {
+					count: 1
+					id: "minecraft:stick"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "561B112027FB6C28"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: 19.2d
+			y: -1.8d
+		}
+		{
+			dependencies: [
+				"62E10DD0E3C9DA3C"
+				"79D527720DB446CC"
+			]
+			id: "3739A99AF89D8892"
+			rewards: [
+				{
+					id: "1992F938EA7138E1"
+					table_id: 2202241768434932880L
+					type: "loot"
+				}
+				{
+					count: 4
+					id: "1FD9D8673F045880"
+					item: {
+						count: 1
+						id: "minecraft:clay_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "14611EAC7F05D07C"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Sternenstaub\"}"
+							"minecraft:enchantment_glint_override": 1b
+							"minecraft:lore": [
+								"{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Seite 2 von 22\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"„Einst siebten wir Sternenstaub.\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"Du siebst Kies. Es ist derselbe\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"Anfang.“\"}"
+							]
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					icon: {
+						id: "exdeorum:oak_sieve"
+					}
+					id: "7EF46B21327F0F34"
+					item: { components: { "ftbfiltersystem:filter": "item_tag(skyandstone:sieves)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "793648A8D9940986"
+					item: { count: 1, id: "exdeorum:string_mesh" }
+					type: "item"
+				}
+			]
+			x: 7.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3739A99AF89D8892"]
+			id: "17348A9E46C8E7D0"
+			rewards: [{
+				count: 8
+				id: "1528E4D9F6DB8D5E"
+				item: {
+					count: 1
+					id: "minecraft:gravel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "154477E7F96D36AF"
+				item: { count: 1, id: "exdeorum:stone_hammer" }
+				type: "item"
+			}]
+			x: 9.6d
+			y: -0.9d
+		}
+		{
+			dependencies: ["3739A99AF89D8892"]
+			id: "1227C8B187DB978B"
+			rewards: [{
+				count: 4
+				id: "7625244BE3A0B006"
+				item: {
+					count: 1
+					id: "minecraft:oak_sapling"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "exdeorum:oak_crucible"
+				}
+				id: "6A23FB0E8D22EC5E"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(skyandstone:water_crucibles)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.6d
+			y: 0.9d
+		}
+		{
+			dependencies: [
+				"1227C8B187DB978B"
+				"17348A9E46C8E7D0"
+			]
+			id: "19CAA9C30C55D27A"
+			rewards: [{
+				count: 16
+				id: "1603C4B45D6A66BB"
+				item: {
+					count: 1
+					id: "minecraft:cobblestone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FF9720F954EE725"
+				item: { count: 1, id: "exdeorum:porcelain_crucible" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.6d
+		}
+		{
+			dependencies: [
+				"3739A99AF89D8892"
+				"17348A9E46C8E7D0"
+			]
+			id: "17D4184A53383F9E"
+			rewards: [{
+				count: 2
+				id: "1AA4B22C293EC6F7"
+				item: {
+					count: 1
+					id: "minecraft:flint"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "14225074483A68D6"
+				item: { count: 1, id: "exdeorum:iron_ore_chunk" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17D4184A53383F9E"]
+			id: "47A4DE4C1B1D7CE3"
+			rewards: [{
+				count: 4
+				id: "7C38EAAFCB70395E"
+				item: {
+					count: 1
+					id: "minecraft:iron_nugget"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "17D202B6C8CD5733"
+				item: { count: 1, id: "exdeorum:flint_mesh" }
+				type: "item"
+			}]
+			x: 14.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47A4DE4C1B1D7CE3"]
+			id: "733DB9235EC67B52"
+			rewards: [
+				{
+					id: "46AC43DD3CD7094B"
+					table_id: 5609506339175866634L
+					type: "choice"
+				}
+				{
+					id: "1F361EDCF21B6DBC"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Der Funke\"}"
+							"minecraft:enchantment_glint_override": 1b
+							"minecraft:lore": [
+								"{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Seite 3 von 22\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"„Das erste Metall. Wir nannten es\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"den Funken, weil danach alles\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"schneller brannte.“\"}"
+							]
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				count: 2L
+				id: "4538834FBD1FBD47"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 16.8d
+			y: -1.06d
+		}
+		{
+			dependencies: [
+				"1252700C32FCEF79"
+				"733DB9235EC67B52"
+			]
+			id: "1E9534D7F062922D"
+			rewards: [{
+				count: 8
+				id: "1AE8088CF8223FE2"
+				item: {
+					count: 1
+					id: "minecraft:bone_meal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "231DDCB248DCA8C7"
+				item: { count: 1, id: "mysticalagriculture:inferium_seeds" }
+				type: "item"
+			}]
+			x: 19.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E9534D7F062922D"]
+			id: "7672D8F26A6D4AE1"
+			rewards: [
+				{
+					count: 8
+					id: "11E242A83C02AE60"
+					item: {
+						count: 1
+						id: "mysticalagriculture:prosperity_shard"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "109761DC95C86FA9"
+					item: {
+						count: 1
+						id: "mysticalagriculture:inferium_essence"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "5DD7E4786F973D92"
+				item: { count: 1, id: "mysticalagriculture:prudentium_essence" }
+				type: "item"
+			}]
+			x: 21.6d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7672D8F26A6D4AE1"]
+			id: "135D046E588AEBC3"
+			rewards: [{
+				count: 16
+				id: "67C5C07D2E13663D"
+				item: {
+					count: 1
+					id: "mysticalagriculture:prosperity_shard"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3DCF4C1FC8E1F542"
+					item: { count: 1, id: "mysticalagriculture:infusion_altar" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1F6E32ADDCFF772C"
+					item: { count: 1, id: "mysticalagriculture:infusion_pedestal" }
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["733DB9235EC67B52"]
+			id: "407743F5CEB2A4AC"
+			rewards: [{
+				count: 8
+				id: "1C642A12FC0A5DB6"
+				item: {
+					count: 1
+					id: "minecraft:iron_nugget"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "18C1230D85001912"
+					item: { count: 1, id: "minecraft:copper_ingot" }
+					type: "item"
+				}
+				{
+					id: "10AAC4EFF5D87BDE"
+					item: { count: 1, id: "create:zinc_ingot" }
+					type: "item"
+				}
+			]
+			x: 19.2d
+			y: 1.8d
+		}
+		{
+			dependencies: ["407743F5CEB2A4AC"]
+			id: "13BD67C6432BC2FE"
+			rewards: [{
+				count: 4
+				id: "1C357CA6E1B82D22"
+				item: {
+					count: 1
+					id: "create:shaft"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "5484AD13C66F950C"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 21.6d
+			y: 1.8d
+		}
+		{
+			dependencies: [
+				"13BD67C6432BC2FE"
+				"1227C8B187DB978B"
+			]
+			id: "1FEF0F90B4C84EBB"
+			rewards: [{
+				count: 2
+				id: "1E1F90AA262063E0"
+				item: {
+					count: 1
+					id: "create:cogwheel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "10D3070F1C5FDF70"
+				item: { count: 1, id: "create:water_wheel" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 3.6d
+		}
+		{
+			dependencies: ["1FEF0F90B4C84EBB"]
+			id: "1B2D29E2922EDBEC"
+			rewards: [{
+				count: 2
+				id: "148822A60D7DDC82"
+				item: {
+					count: 1
+					id: "create:large_cogwheel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "181A4C45F1781C58"
+				item: { count: 1, id: "create:millstone" }
+				type: "item"
+			}]
+			x: 26.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B2D29E2922EDBEC"]
+			id: "17CD0BC6FB12FAC3"
+			rewards: [
+				{
+					id: "1AB733EC9FFD0C81"
+					table_id: 5609506339175866634L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "18F933744FE17E28"
+					item: {
+						count: 1
+						id: "create:andesite_casing"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1B1B2136B3AD731D"
+					item: { count: 1, id: "createsifter:sifter" }
+					type: "item"
+				}
+				{
+					id: "2F85CD09B6F4F4C1"
+					item: { count: 1, id: "createsifter:string_mesh" }
+					type: "item"
+				}
+				{
+					id: "130E57EBDF8D486B"
+					item: { count: 1, id: "createsifter:andesite_mesh" }
+					type: "item"
+				}
+			]
+			x: 28.8d
+			y: 0.94d
+		}
+		{
+			dependencies: ["1B2D29E2922EDBEC"]
+			id: "10FDAA2770910E62"
+			rewards: [{
+				count: 4
+				id: "1D144D83F58B26A6"
+				item: {
+					count: 1
+					id: "create:cogwheel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AD2408240A38CB4"
+				item: { count: 1, id: "create_mechanical_extruder:mechanical_extruder" }
+				type: "item"
+			}]
+			x: 28.8d
+			y: 2.66d
+		}
+		{
+			dependencies: ["17CD0BC6FB12FAC3"]
+			id: "5970381F041D1FE8"
+			rewards: [{
+				count: 4
+				id: "1DD8B80F15A31AD0"
+				item: {
+					count: 1
+					id: "create:iron_sheet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "31DB057C15ED4DA9"
+				item: { count: 1, id: "create:mechanical_press" }
+				type: "item"
+			}]
+			x: 31.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5970381F041D1FE8"]
+			id: "7A465491286EA4E6"
+			rewards: [{
+				count: 8
+				id: "71AF453EBAAC8CB2"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "108E50F5D9FD19BB"
+				item: { count: 1, id: "create:encased_fan" }
+				type: "item"
+			}]
+			x: 33.6d
+			y: 0.9d
+		}
+		{
+			dependencies: ["5970381F041D1FE8"]
+			id: "13CF82A35BE28699"
+			rewards: [{
+				count: 8
+				id: "136FEFDFEECC18E3"
+				item: {
+					count: 1
+					id: "minecraft:copper_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "129C27DE30CA36D8"
+					item: { count: 1, id: "create:mechanical_mixer" }
+					type: "item"
+				}
+				{
+					id: "62DD0F76D7102015"
+					item: { count: 1, id: "create:basin" }
+					type: "item"
+				}
+			]
+			x: 33.6d
+			y: -0.9d
+		}
+		{
+			dependencies: [
+				"13CF82A35BE28699"
+				"19CAA9C30C55D27A"
+			]
+			id: "5C947BC3421D3841"
+			rewards: [{
+				count: 8
+				id: "69048EF701F36EE5"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "521E05DD9023DCC3"
+					item: { count: 1, id: "create:empty_blaze_burner" }
+					type: "item"
+				}
+				{
+					id: "2D253912FB26F932"
+					item: { count: 1, id: "create:blaze_burner" }
+					type: "item"
+				}
+			]
+			x: 36.0d
+			y: -1.8d
+		}
+		{
+			dependencies: [
+				"13CF82A35BE28699"
+				"5C947BC3421D3841"
+			]
+			id: "13B8D3787E37A647"
+			rewards: [{
+				id: "28A436292FCE6604"
+				table_id: 1234139510926844267L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 16L
+				id: "170C4E4FDF678122"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 38.4d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"17CD0BC6FB12FAC3"
+				"10FDAA2770910E62"
+				"7A465491286EA4E6"
+				"13B8D3787E37A647"
+			]
+			id: "54D4261D8643E532"
+			rewards: [
+				{
+					id: "1767BFB3AAD238D0"
+					table_id: 1234139510926844267L
+					type: "choice"
+				}
+				{
+					id: "4E2073B0415E12E9"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Die erste Maschine\"}"
+							"minecraft:enchantment_glint_override": 1b
+							"minecraft:lore": [
+								"{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Seite 6 von 22\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"„Unsere Maschinen liefen Tag und\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"Nacht, bis sie verstummten. Du\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"hast gerade die erste wieder\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"geweckt.“\"}"
+							]
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					command: "function skyandstone:feier/c_siebfabrik"
+					id: "1FABCA0C1BAE3E37"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					count: 32L
+					id: "2542B7333C4CAACC"
+					item: { count: 1, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "659ECC89ECC339AE"
+					item: { count: 1, id: "create:zinc_ingot" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "1FACF055977EF339"
+					item: { count: 1, id: "minecraft:copper_ingot" }
+					type: "item"
+				}
+			]
+			x: 40.8d
+			y: 2.87d
+		}
+		{
+			dependencies: ["13B8D3787E37A647"]
+			icon: {
+				id: "skyandstone:splitter_rohling"
+			}
+			id: "18A7501C371D8C63"
+			rewards: [{
+				count: 8
+				id: "14D5A75988DA5360"
+				item: {
+					count: 1
+					id: "minecraft:glass"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "11979C3D3BDA9A89"
+				item: { count: 1, id: "skyandstone:splitter_rohling" }
+				type: "item"
+			}]
+			x: 40.8d
+			y: -0.16d
+		}
+		{
+			dependencies: [
+				"54D4261D8643E532"
+				"18A7501C371D8C63"
+			]
+			icon: {
+				id: "skyandstone:splitter_erde"
+			}
+			id: "1A722350AD963393"
+			rewards: [
+				{
+					id: "148960B6E98115E9"
+					table_id: 1234139510926844267L
+					type: "choice"
+				}
+				{
+					id: "17EF8002ACD4309F"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Der erste Splitter\"}"
+							"minecraft:enchantment_glint_override": 1b
+							"minecraft:lore": [
+								"{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Seite 7 von 22\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"„Das Herz ist nicht gestorben, es\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"ist zersprungen. Sieben Splitter.\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"Einen davon hältst du jetzt in der\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"Hand. Er ist warm.“\"}"
+							]
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "61537FEFF52A2B6A"
+				item: { count: 1, id: "skyandstone:splitter_erde" }
+				type: "item"
+			}]
+			x: 43.2d
+			y: 0.0d
+		}
+	]
+}

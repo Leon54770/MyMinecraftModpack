@@ -1,0 +1,164 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "1A7A9B25B51B8125"
+	icon: {
+		id: "create:cogwheel"
+	}
+	id: "12342087C3E31DF2"
+	images: [ ]
+	order_index: 2
+	quest_links: [
+		{
+			id: "11104BCBE6AB4A64"
+			linked_quest: "13B8D3787E37A647"
+			shape: "square"
+			x: 0.0d
+			y: -0.9d
+		}
+		{
+			id: "1E0B2DA0B62EAC9B"
+			linked_quest: "1BB0EEAFA70CBB6C"
+			shape: "square"
+			x: 0.0d
+			y: 0.9d
+		}
+		{
+			id: "10CA3A239CFF7502"
+			linked_quest: "13BD67C6432BC2FE"
+			shape: "square"
+			x: 0.0d
+			y: -3.4d
+		}
+		{
+			id: "28D9BFBF0A941E35"
+			linked_quest: "17CD0BC6FB12FAC3"
+			shape: "square"
+			x: 1.6d
+			y: -3.4d
+		}
+		{
+			id: "1DB0C83E6B65CE8E"
+			linked_quest: "54D4261D8643E532"
+			shape: "square"
+			x: 3.2d
+			y: -3.4d
+		}
+		{
+			id: "1F8DB469911D889C"
+			linked_quest: "1FEF0F90B4C84EBB"
+			shape: "square"
+			x: 4.8d
+			y: -3.4d
+		}
+		{
+			id: "76117C4421E74516"
+			linked_quest: "1B2D29E2922EDBEC"
+			shape: "square"
+			x: 6.4d
+			y: -3.4d
+		}
+		{
+			id: "6A80C7DAEA3A4F8E"
+			linked_quest: "10FDAA2770910E62"
+			shape: "square"
+			x: 8.0d
+			y: -3.4d
+		}
+		{
+			id: "1B82265ECEE82D71"
+			linked_quest: "5970381F041D1FE8"
+			shape: "square"
+			x: 9.6d
+			y: -3.4d
+		}
+		{
+			id: "187325917D61BA59"
+			linked_quest: "7A465491286EA4E6"
+			shape: "square"
+			x: 11.2d
+			y: -3.4d
+		}
+		{
+			id: "1150645935B7521D"
+			linked_quest: "13CF82A35BE28699"
+			shape: "square"
+			x: 12.8d
+			y: -3.4d
+		}
+		{
+			id: "53B90B0B4C0FB6BE"
+			linked_quest: "5C947BC3421D3841"
+			shape: "square"
+			x: 14.4d
+			y: -3.4d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["13B8D3787E37A647"]
+			id: "1654529C28B65E6C"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "3B2B1D279BFF50E4"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5CC264FF4DBC68CC"
+					item: {
+						count: 1
+						id: "create:shaft"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "186A77E069B487C5"
+				item: { count: 1, id: "create:deployer" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: -0.9d
+		}
+		{
+			dependencies: ["1BB0EEAFA70CBB6C"]
+			id: "1A464E84383B573A"
+			rewards: [
+				{
+					count: 4
+					id: "68D4E3CFFA759EB7"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1A7F8197A406067A"
+					item: {
+						count: 1
+						id: "create:cogwheel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 9L
+				id: "1A138B14103B1B2B"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: 0.9d
+		}
+	]
+}

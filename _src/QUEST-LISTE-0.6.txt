@@ -1,0 +1,224 @@
+
+## [haupt] akt1 – Akt I: Die Insel (10)
+w_start | Willkommen in der Leere | ftbquests:book×1 | deps:  | Belohnung: table:holz, xp:10 | MEILENSTEIN 
+e_holz | Der Baum ist dein Freund | minecraft:oak_log×8 | deps: w_start | Belohnung: xp:10 | 
+e_sieb | Das Sieb | exdeorum:oak_sieve×1, exdeorum:string_mesh×1 | deps: e_raupe,e_hammer,e_holz | Belohnung: table:holz, xp:30 | 
+e_eisen | Erster Eisenbarren | minecraft:iron_ingot×4 | deps: e_feuernetz,e_sieb | Belohnung: table:eisen, xp:50 | MEILENSTEIN 
+m_inferium | Inferium-Samen | mysticalagriculture:inferium_seeds×1 | deps: m_altar | Belohnung: xp:25 | 
+e_kupfer | Kupfer und Zink | minecraft:copper_ingot×8, create:zinc_ingot×4 | deps: e_eisen | Belohnung: xp:30 | 
+c_andesit | Andesitlegierung | create:andesite_alloy×16 | deps: e_kupfer | Belohnung: xp:25 | 
+c_sifter | Der Create-Sifter | createsifter:sifter×1, createsifter:string_mesh×1, createsifter:andesite_mesh×1 | deps: c_muehle,c_andesit | Belohnung: table:eisen, xp:40 | 
+c_messing | Messing | create:brass_ingot×16 | deps: c_mixer,c_brenner,c_sifter | Belohnung: table:eisen, xp:40 | 
+c_siebfabrik | Die Siebfabrik | minecraft:iron_ingot×64, create:zinc_ingot×32, minecraft:copper_ingot×64 | deps: c_sifter,c_extruder,c_fan,c_messing | Belohnung: table:gold, xp:100 | MEILENSTEIN 
+
+## [haupt] akt2 – Akt II: Maschinen (11)
+c_alternator | Strom aus Drehung | createaddition:alternator×1, createaddition:copper_spool×1 | deps: c_mechanismus | Belohnung: xp:40 | 
+k_osmium | Osmium | mekanism:ingot_osmium×8 | deps: c_alternator,e_eisennetz | Belohnung: xp:20 | 
+k_infuser | Metallurgic Infuser | mekanism:metallurgic_infuser×1 | deps: k_osmium | Belohnung: xp:30 | 
+k_enrich | ×2: Anreicherung | mekanism:enrichment_chamber×1 | deps: k_stahl,k_schalt,k_infuser | Belohnung: xp:30 | 
+m_tertium | Stufe 3: Tertium | mysticalagriculture:tertium_essence×16 | deps: m_eisen,c_messing | Belohnung: xp:40 | 
+j_nether | Ab in den Nether | dimension | deps: j_obsidian | Belohnung: table:eisen, xp:40 | 
+j_lohe | Lohenruten | minecraft:blaze_rod×8 | deps: j_festung,j_nether | Belohnung: xp:30 | 
+k_jetpack | Erster Flug | ironjetpacks:jetpack×1 | deps: k_fortschritt,k_enrich | Belohnung: table:gold, xp:100 | MEILENSTEIN 
+l_inscriber | Inscriber und Prägeplatten | ae2:inscriber×1, ae2:logic_processor_press×1, ae2:calculation_processor_press×1, ae2:engineering_processor_press×1, ae2:silicon_press×1 | deps: l_lader,k_stahl,k_enrich | Belohnung: xp:40 | 
+l_netz | ME-Netz | ae2:controller×1, ae2:drive×1, ae2:item_storage_cell_4k×1, ae2:terminal×1 | deps: l_prozessoren,l_inscriber | Belohnung: xp:50 | 
+k_inject | ×4: Injektion | mekanism:chemical_injection_chamber×1 | deps: k_purif,k_enrich | Belohnung: table:gold, xp:120 | MEILENSTEIN 
+
+## [haupt] akt3 – Akt III: Das Herz der Leere (12)
+l_auto | Das Netz denkt mit | ae2:pattern_provider×1, ae2:molecular_assembler×1, ae2:crafting_unit×1 | deps: l_netz,l_controller | Belohnung: table:gold, xp:150 | MEILENSTEIN 
+m_imperium | Stufe 4: Imperium | mysticalagriculture:imperium_essence×16 | deps: m_tertium,k_alloy | Belohnung: xp:50 | 
+m_supremium | Stufe 5: Supremium | mysticalagriculture:supremium_essence×8 | deps: m_imperium,l_prozessoren | Belohnung: xp:80 | 
+m_niemehr | Nie wieder sieben | mysticalagriculture:osmium_seeds×1, mysticalagriculture:certus_quartz_seeds×1, mysticalagriculture:zinc_seeds×1 | deps: m_supremium,m_diamant | Belohnung: table:stern, xp:150 | MEILENSTEIN 
+j_wither | Der Wither | minecraft:nether_star×1 | deps: j_hexe | Belohnung: table:gold, xp:100 | 
+j_drache | Drachentöter | kill | deps: j_end | Belohnung: table:stern, xp:200 | MEILENSTEIN 
+z_elite | Elite-Schaltkreis | mekanism:elite_control_circuit×4 | deps: k_inject | Belohnung: xp:40 | 
+z_ultkreis | Ultimate-Schaltkreis | mekanism:ultimate_control_circuit×2 | deps: z_elite | Belohnung: table:gold, xp:60 | 
+m_insanium | Stufe 6: Insanium | mysticalagradditions:insanium_essence×4 | deps: m_niemehr,z_ultkreis | Belohnung: xp:100 | 
+z_sps | Antimaterie | mekanism:pellet_antimatter×1 | deps: z_strom,l_auto,z_elite | Belohnung: table:stern, xp:150 | 
+z_fabrik | Die ewige Fabrik | mekanism:ultimate_control_circuit×4, mysticalagriculture:supremium_essence×32, minecraft:nether_star×2 | deps: z_netherstern,z_sps,l_auto | Belohnung: table:stern, xp:200 | 
+z_herr | Erbe der Ewigkeit | minecraft:dragon_egg×1 | deps: z_fabrik,j_drache,m_niemehr,a_erzmagier | Belohnung: table:stern, table:stern, xp:500 | MEILENSTEIN 
+
+## [mods] exdeorum – Ex Deorum: Sieben (13)  Verweise: e_holz, e_sieb, e_eisen
+e_haken | Mit dem Haken ins Laub | exdeorum:crook×1 | deps: e_holz | Belohnung: xp:10 | 
+e_raupe | Seidenraupe und Faden | exdeorum:silkworm×1, minecraft:string×8 | deps: e_haken | Belohnung: give:exdeorum:silkworm, xp:15 | 
+e_fass | Kompostfass | exdeorum:oak_barrel×1 | deps: e_holz | Belohnung: give:minecraft:bone_meal, xp:10 | 
+e_cobble | Bruchstein-Generator | minecraft:cobblestone×32 | deps: e_fass | Belohnung: xp:15 | 
+e_hammer | Hammerzeit | exdeorum:stone_hammer×1 | deps: e_cobble | Belohnung: xp:15 | 
+e_tiegel | Wasser aus Blättern | exdeorum:oak_crucible×1 | deps: e_sieb | Belohnung: xp:15 | 
+e_lavatiegel | Lava aus Stein | exdeorum:porcelain_crucible×1 | deps:  | Belohnung: xp:25 | 
+e_brocken | Erzbrocken | exdeorum:iron_ore_chunk×4 | deps: e_sieb | Belohnung: xp:20 | 
+e_feuernetz | Feuersteinnetz | exdeorum:flint_mesh×1 | deps: e_brocken | Belohnung: xp:15 | 
+e_eisennetz | Eisennetz | exdeorum:iron_mesh×1 | deps: e_eisen | Belohnung: xp:20 | 
+e_kanne | Bessere Gießkanne | exdeorum:iron_watering_can×1 | deps: e_eisen | Belohnung: xp:15 | opt 
+s_mechsieb | Mechanisches Sieb | exdeorum:mechanical_sieve×1 | deps: c_alternator | Belohnung: table:eisen, xp:40 | 
+s_mechhammer | Mechanischer Hammer | exdeorum:mechanical_hammer×1 | deps: s_mechsieb | Belohnung: xp:25 | opt 
+
+## [mods] landwirtschaft – Landwirtschaft und Küche (9)  Verweise: e_sieb
+e_samen | Was in der Erde steckt | minecraft:wheat_seeds×1 | deps: e_sieb | Belohnung: xp:10 | 
+g_feld | Das erste Feld | minecraft:wheat×16 | deps: e_samen | Belohnung: xp:15 | 
+g_topf | Die Küche | farmersdelight:cutting_board×1, farmersdelight:cooking_pot×1 | deps:  | Belohnung: xp:20 | 
+g_tiere | Nutztiere | minecraft:leather×4, minecraft:egg×4 | deps: g_feld | Belohnung: xp:20 | 
+g_topf_pflanze | Botany Pot | botanypots:terracotta_botany_pot×1 | deps: g_feld | Belohnung: xp:20 | 
+g_baumtopf | Holz im Topf | botanypots:terracotta_hopper_botany_pot×1 | deps: g_topf_pflanze | Belohnung: table:holz, xp:25 | 
+g_festessen | Sterneküche in der Leere | farmersdelight:shepherds_pie_block×1, farmersdelight:roast_chicken_block×1 | deps: g_topf,g_tiere | Belohnung: table:eisen, xp:60 | 
+g_inferium | Inferium-Essenz | mysticalagriculture:inferium_essence×16 | deps: g_feld | Belohnung: xp:20 | 
+g_autark | Autarke Insel | botanypots:terracotta_hopper_botany_pot×4 | deps: g_baumtopf,g_festessen | Belohnung: table:eisen, xp:80 | MEILENSTEIN 
+
+## [mods] create – Create (10)  Verweise: c_andesit, c_sifter, c_messing, c_siebfabrik
+c_rad | Wasserrad | create:water_wheel×1 | deps: c_andesit | Belohnung: xp:20 | 
+c_muehle | Mühlstein statt Hammer | create:millstone×1 | deps: c_rad | Belohnung: xp:25 | 
+c_extruder | Der Extruder | create_mechanical_extruder:mechanical_extruder×1 | deps: c_muehle | Belohnung: xp:25 | 
+c_presse | Mechanische Presse | create:mechanical_press×1 | deps: c_rad | Belohnung: xp:20 | 
+c_fan | Waschen mit Wind | create:encased_fan×1 | deps: c_presse | Belohnung: xp:25 | 
+c_mixer | Mixer und Becken | create:mechanical_mixer×1, create:basin×1 | deps: c_presse | Belohnung: xp:25 | 
+c_brenner | Lohenbrenner ohne Nether | create:blaze_burner×1 | deps: c_mixer | Belohnung: xp:25 | 
+c_mechanismus | Präzisionsmechanismus | create:precision_mechanism×1 | deps: c_messing,c_fan | Belohnung: xp:40 | 
+c_deployer | Deployer | create:deployer×1 | deps: c_messing | Belohnung: xp:25 | opt 
+c_crafter | Mechanische Werkbank | create:mechanical_crafter×9 | deps: c_mechanismus | Belohnung: xp:25 | opt 
+
+## [mods] energie – Energie und Rohre (11)  Verweise: c_alternator
+s_akku | Akku | createaddition:modular_accumulator×1 | deps: c_alternator | Belohnung: xp:20 | 
+s_orb | Energizing Orb | powah:energizing_orb×1, powah:energizing_rod_starter×2, powah:dielectric_paste×8 | deps:  | Belohnung: xp:30 | 
+s_stahl | Energetisierter Stahl | powah:steel_energized×8 | deps: s_orb | Belohnung: xp:25 | 
+s_furnator | Furnator | powah:furnator_starter×1 | deps: s_orb | Belohnung: xp:20 | 
+s_solar | Sonnenkollektoren | powah:solar_panel_basic×4 | deps: s_stahl | Belohnung: xp:25 | 
+s_kristall | Lohenkristall | powah:crystal_blazing×4 | deps: s_stahl | Belohnung: xp:25 | 
+s_pipe | Rohre verlegen | pipez:item_pipe×8, pipez:energy_pipe×8 | deps: c_alternator | Belohnung: xp:20 | 
+s_upgrade | Schnellere Rohre | pipez:basic_upgrade×1, pipez:improved_upgrade×1 | deps: s_pipe | Belohnung: xp:20 | 
+s_reaktor | Netzstrom | powah:reactor_basic×36 | deps: s_kristall,s_solar,s_akku | Belohnung: table:gold, xp:120 | MEILENSTEIN 
+z_ultimate | Ultimate-Rohre | pipez:ultimate_upgrade×1 | deps: z_elite,l_prozessoren | Belohnung: xp:40 | 
+z_strom | Großkraftwerk | powah:reactor_hardened×36 | deps: s_reaktor,z_elite | Belohnung: table:gold, xp:80 | 
+
+## [mods] mekanism – Mekanism (11)  Verweise: k_osmium, k_infuser, k_enrich, k_inject, k_jetpack, z_elite, z_sps
+k_stahl | Stahl | mekanism:ingot_steel×16 | deps: k_infuser | Belohnung: xp:20 | 
+k_schalt | Grundschaltkreis | mekanism:basic_control_circuit×4 | deps: k_infuser | Belohnung: xp:20 | 
+k_alloy | Infused Alloy | mekanism:alloy_infused×8 | deps: k_infuser | Belohnung: xp:25 | 
+k_cube | Strom verteilen | mekanism:basic_universal_cable×8, mekanism:basic_energy_cube×1 | deps:  | Belohnung: xp:20 | 
+k_separator | Elektrolyse | mekanism:electrolytic_separator×1 | deps: k_enrich | Belohnung: xp:25 | 
+k_purif | ×3: Reinigung | mekanism:purification_chamber×1 | deps: k_enrich | Belohnung: xp:40 | 
+k_x5 | ×5: Die volle Kette | mekanism:chemical_dissolution_chamber×1 | deps: k_inject | Belohnung: table:gold, xp:80 | opt 
+k_fortschritt | Fortgeschrittener Schaltkreis | mekanism:advanced_control_circuit×4 | deps: k_alloy | Belohnung: xp:25 | 
+k_meka | Werkzeug der Zukunft | mekanism:atomic_disassembler×1 | deps: k_fortschritt | Belohnung: xp:40 | opt 
+k_tiab | Zeit ist Geld | tiab:time_in_a_bottle×1 | deps: k_jetpack | Belohnung: xp:50 | 
+z_meka | Mekasuit | mekanism:mekasuit_bodyarmor×1 | deps: z_sps | Belohnung: xp:100 | opt 
+
+## [mods] lagerung – Lagerung (4)  Verweise: e_eisen
+l_rucksack | Rucksack | sophisticatedbackpacks:backpack×1, sophisticatedbackpacks:pickup_upgrade×1 | deps: e_eisen | Belohnung: xp:20 | 
+l_fass | Lagerfässer | sophisticatedstorage:barrel×1 | deps: l_rucksack | Belohnung: xp:15 | 
+l_schubladen | Schubladen | functionalstorage:oak_1×4 | deps: l_fass | Belohnung: xp:20 | 
+l_controller | Schubladen-Wand | functionalstorage:storage_controller×1 | deps: l_schubladen | Belohnung: table:eisen, xp:40 | 
+
+## [mods] ae2 – Applied Energistics 2 (6)  Verweise: l_inscriber, l_netz, l_auto
+l_certus | Certus-Quarz | ae2:certus_quartz_crystal×16 | deps: e_eisennetz | Belohnung: xp:20 | 
+l_lader | Lader und Fluix | ae2:charger×1, ae2:fluix_crystal×8 | deps: l_certus,c_alternator | Belohnung: xp:20 | 
+l_prozessoren | Prozessoren | ae2:logic_processor×4, ae2:calculation_processor×4, ae2:engineering_processor×4 | deps: l_inscriber | Belohnung: table:gold, xp:40 | 
+l_wireless | Kabellos | ae2wtlib:wireless_universal_terminal×1 | deps: l_auto | Belohnung: xp:40 | 
+l_appmek | Gase im Netz | appmek:chemical_storage_cell_1k×1 | deps: l_auto,k_separator | Belohnung: xp:30 | opt 
+l_mega | Riesenspeicher | megacells:item_storage_cell_1m×1 | deps: l_wireless | Belohnung: table:stern, xp:100 | opt 
+
+## [mods] mysticalag – Mystical Agriculture (10)  Verweise: m_inferium, m_tertium, m_imperium, m_supremium, m_niemehr, m_insanium
+m_altar | Infusionsaltar | mysticalagriculture:infusion_altar×1, mysticalagriculture:infusion_pedestal×8 | deps: g_inferium | Belohnung: xp:30 | 
+m_prudentium | Prudentium | mysticalagriculture:prudentium_essence×16 | deps: m_inferium | Belohnung: xp:25 | 
+m_eisen | Eisen vom Feld | mysticalagriculture:iron_seeds×1 | deps: m_prudentium | Belohnung: table:eisen, xp:50 | 
+m_kupfer | Kupfer und Kohle | mysticalagriculture:copper_seeds×1, mysticalagriculture:coal_seeds×1 | deps: m_prudentium | Belohnung: xp:30 | 
+m_gold | Gold, Redstone, Lapis | mysticalagriculture:gold_seeds×1, mysticalagriculture:redstone_seeds×1 | deps: m_tertium | Belohnung: xp:40 | 
+m_diamant | Diamanten vom Feld | mysticalagriculture:diamond_seeds×1 | deps: m_imperium | Belohnung: table:gold, xp:80 | 
+m_beschleuniger | Wachstumsbeschleuniger | mysticalagriculture:inferium_growth_accelerator×4 | deps: m_tertium | Belohnung: xp:30 | 
+m_acker | Essenz-Ackerland | mysticalagriculture:imperium_farmland×9 | deps: m_imperium | Belohnung: xp:30 | 
+z_insanium | Insanium-Ernte | mysticalagradditions:insanium_essence×32 | deps: m_insanium | Belohnung: xp:80 | 
+z_netherstern | Netherstern-Samen | mysticalagriculture:nether_star_seeds×1 | deps: z_insanium,j_wither | Belohnung: table:stern, xp:100 | 
+
+## [mods] ars – Ars Nouveau (14)  Verweise: e_eisen
+a_quelle | Quellstein | ars_nouveau:imbuement_chamber×1, ars_nouveau:source_gem×8 | deps: e_eisen | Belohnung: xp:20 | 
+a_buch | Novizen-Zauberbuch | ars_nouveau:novice_spell_book×1 | deps: a_quelle | Belohnung: xp:25 | 
+a_tisch | Schreibtisch | ars_nouveau:scribes_table×1 | deps: a_buch | Belohnung: xp:20 | 
+a_glas | Quellgefäß | ars_nouveau:source_jar×1, ars_nouveau:agronomic_sourcelink×1 | deps: a_buch | Belohnung: xp:25 | 
+a_archwood | Archwood | ars_nouveau:blue_archwood_sapling×1 | deps: a_glas | Belohnung: xp:25 | 
+a_whirli | Whirlisprig | ars_nouveau:whirlisprig_charm×1 | deps: a_glas | Belohnung: xp:30 | 
+a_crush | Der andere Weg: Zerkleinern | ars_nouveau:glyph_crush×1, ars_nouveau:basic_spell_turret×1 | deps: a_tisch | Belohnung: table:eisen, xp:40 | 
+a_starbuncle | Der magische Logistiker | ars_nouveau:starbuncle_charm×1 | deps: a_tisch,l_controller | Belohnung: table:gold, xp:60 | 
+a_drygmy | Drygmy | ars_nouveau:drygmy_charm×1 | deps: a_archwood | Belohnung: xp:40 | 
+a_wilden | Wilden-Teile | ars_nouveau:wilden_horn×1, ars_nouveau:wilden_spike×1, ars_nouveau:wilden_wing×1 | deps: a_tisch | Belohnung: xp:30 | 
+a_apparat | Verzauberungsapparat | ars_nouveau:enchanting_apparatus×1, ars_nouveau:arcane_core×1 | deps: a_glas,a_tisch | Belohnung: xp:40 | 
+a_ritual | Ritualbecken | ars_nouveau:ritual_brazier×1 | deps: a_apparat | Belohnung: xp:30 | 
+a_wixie | Magisches Autocrafting | ars_nouveau:wixie_charm×1, ars_nouveau:wixie_cauldron×1 | deps: a_apparat | Belohnung: table:gold, xp:50 | 
+a_erzmagier | Erzmagier | ars_nouveau:archmage_spell_book×1 | deps: a_apparat,a_wilden,a_drygmy | Belohnung: table:stern, xp:150 | MEILENSTEIN 
+
+## [mods] bienen – Productive Bees (6)  Verweise: e_sieb
+b_biene | Die erste Biene | minecraft:bee_spawn_egg×1 | deps: e_sieb | Belohnung: xp:20 | 
+b_stock | Fortgeschrittener Bienenstock | productivebees:advanced_oak_beehive×1 | deps: b_biene | Belohnung: xp:25 | 
+b_zentri | Zentrifuge | productivebees:centrifuge×1 | deps: b_stock | Belohnung: xp:25 | 
+b_nest | Nester bauen | productivebees:stone_nest×1 | deps: b_stock | Belohnung: xp:20 | opt 
+b_zucht | Ressourcen-Bienen | productivebees:honey_treat×8 | deps: b_zentri | Belohnung: table:gold, xp:60 | 
+b_upgrade | Produktivität | productivelib:upgrade_productivity×1 | deps: b_zucht | Belohnung: xp:30 | opt 
+
+## [mods] dimensionen – Nether und End (8)  Verweise: j_nether, j_lohe, j_wither, j_drache
+j_obsidian | Obsidian | minecraft:obsidian×10 | deps: e_eisen | Belohnung: xp:20 | 
+j_festung | Die Festung | minecraft:nether_bricks×16 | deps: j_nether | Belohnung: xp:30 | 
+j_hexe | Hexenwasser-Trick | minecraft:wither_skeleton_skull×3 | deps: j_nether | Belohnung: xp:50 | 
+j_perlen | Enderperlen | minecraft:ender_pearl×12 | deps: j_obsidian | Belohnung: xp:25 | 
+j_augen | Enderaugen | minecraft:ender_eye×12 | deps: j_perlen,j_lohe | Belohnung: xp:25 | 
+j_rahmen | Portalrahmen | minecraft:end_portal_frame×12 | deps: j_augen | Belohnung: xp:40 | 
+j_end | Das End | dimension | deps: j_rahmen | Belohnung: xp:50 | 
+j_shulker | Shulker-Schalen | minecraft:shulker_shell×2 | deps: j_end | Belohnung: xp:30 | opt 
+
+## [mods] maschinengeist – Hostile Networks und IF (7)  Verweise: c_alternator
+h_learner | Deep Learner | hostilenetworks:deep_learner×1 | deps: s_stahl | Belohnung: xp:25 | 
+h_modell | Erstes Datenmodell | hostilenetworks:blank_data_model×2 | deps: h_learner | Belohnung: xp:20 | 
+h_sim | Simulationskammer | hostilenetworks:sim_chamber×1, hostilenetworks:prediction_matrix×16 | deps: h_modell | Belohnung: xp:40 | 
+h_fab | Beute-Fabrikator | hostilenetworks:loot_fabricator×1 | deps: h_sim | Belohnung: table:gold, xp:40 | MEILENSTEIN 
+h_rahmen | Maschinenrahmen | industrialforegoing:machine_frame_pity×1 | deps: s_stahl | Belohnung: xp:20 | 
+h_plastik | Plastik | industrialforegoing:plastic×16 | deps: h_rahmen | Belohnung: xp:25 | 
+h_laser | Laserbohrer | industrialforegoing:ore_laser_base×1, industrialforegoing:laser_drill×4 | deps: h_plastik | Belohnung: table:gold, xp:60 | 
+
+## [extras] story – Story: Das Herz der Leere (15)
+st_w_start | Die erste Notiz | (keine Aufgabe – Story) | deps: w_start | Belohnung: xp:25 | 
+st_e_sieb | Sternenstaub | (keine Aufgabe – Story) | deps: e_sieb,st_w_start | Belohnung: xp:35 | 
+st_e_eisen | Der Funke | (keine Aufgabe – Story) | deps: e_eisen,st_e_sieb | Belohnung: xp:45 | 
+st_g_autark | Zurück zum Leben | (keine Aufgabe – Story) | deps: g_autark,st_e_eisen | Belohnung: xp:55 | 
+st_c_siebfabrik | Die erste Maschine | (keine Aufgabe – Story) | deps: c_siebfabrik,st_g_autark | Belohnung: xp:65 | 
+st_j_nether | Die zerbrochene Unterwelt | (keine Aufgabe – Story) | deps: j_nether,st_c_siebfabrik | Belohnung: xp:75 | 
+st_s_reaktor | Kraft aus der Leere | (keine Aufgabe – Story) | deps: s_reaktor,st_j_nether | Belohnung: xp:85 | 
+st_k_inject | Gier | (keine Aufgabe – Story) | deps: k_inject,st_s_reaktor | Belohnung: xp:95 | 
+st_l_auto | Netze, die denken | (keine Aufgabe – Story) | deps: l_auto,st_k_inject | Belohnung: xp:105 | 
+st_m_niemehr | Felder aus Erz | (keine Aufgabe – Story) | deps: m_niemehr,st_l_auto | Belohnung: xp:115 | 
+st_a_erzmagier | Maschine und Magie | (keine Aufgabe – Story) | deps: a_erzmagier,st_m_niemehr | Belohnung: xp:125 | 
+st_h_fab | Feinde auswendig | (keine Aufgabe – Story) | deps: h_fab,st_a_erzmagier | Belohnung: xp:135 | 
+st_j_drache | Der Wächter am Ende | (keine Aufgabe – Story) | deps: j_drache,st_h_fab | Belohnung: xp:145 | 
+st_z_sps | Der Herzschlag | (keine Aufgabe – Story) | deps: z_sps,st_j_drache | Belohnung: xp:155 | 
+st_z_herr | Das Erbe | (keine Aufgabe – Story) | deps: z_herr,st_z_sps | Belohnung: xp:165 | MEILENSTEIN 
+
+## [extras] markt – Inselmarkt (18)
+x_samen | Saatgut-Händler | minecraft:wheat_seeds×256 | deps: e_eisen | Belohnung: table:holz | wdh 1200s 
+x_kies | Kieshändler | minecraft:gravel×256 | deps: e_eisen | Belohnung: table:holz | wdh 1200s 
+x_cobble | Steinbruch | minecraft:cobblestone×512 | deps: e_eisen | Belohnung: table:holz | wdh 1200s 
+x_fleisch | Zombie-Abfall | minecraft:rotten_flesh×128 | deps: e_eisen | Belohnung: table:holz | wdh 1200s 
+x_inferium | Essenz-Überschuss | mysticalagriculture:inferium_essence×256 | deps: e_eisen,m_inferium | Belohnung: table:holz | wdh 1200s 
+x_mehl | Müllerei | create:wheat_flour×256 | deps: e_eisen,c_muehle | Belohnung: table:eisen | wdh 1200s 
+x_seetang | Seetang-Kraftwerk | minecraft:dried_kelp_block×64 | deps: e_eisen | Belohnung: table:eisen | wdh 1200s 
+x_honig | Imkerei | minecraft:honeycomb×64 | deps: e_eisen,b_stock | Belohnung: table:eisen | wdh 1200s 
+x_warze | Netherwarzen-Farm | minecraft:nether_wart×128 | deps: e_eisen | Belohnung: table:eisen | wdh 1200s 
+x_knochen | Knochensammler | minecraft:bone×128 | deps: e_eisen | Belohnung: table:eisen | wdh 1200s 
+x_perlen | Enderhandel | minecraft:ender_pearl×32 | deps: e_eisen,j_perlen | Belohnung: table:gold | wdh 2400s 
+x_lohe | Lohenruten-Handel | minecraft:blaze_rod×32 | deps: e_eisen,j_lohe | Belohnung: table:gold | wdh 2400s 
+x_quelle | Quellstein-Handel | ars_nouveau:source_gem×32 | deps: e_eisen,a_quelle | Belohnung: table:gold | wdh 2400s 
+x_polonium | Strahlender Handel | mekanism:pellet_polonium×4 | deps: e_eisen,k_inject | Belohnung: table:stern | wdh 3600s 
+x_stern | Sternenhandel | minecraft:nether_star×1 | deps: e_eisen,j_wither | Belohnung: table:stern | wdh 3600s 
+x_antimaterie | Antimaterie-Handel | mekanism:pellet_antimatter×1 | deps: e_eisen,z_sps | Belohnung: table:stern | wdh 3600s 
+x_supremium | Supremium-Handel | mysticalagriculture:supremium_essence×32 | deps: e_eisen,m_supremium | Belohnung: table:stern | wdh 3600s 
+x_mechanik | Feinmechanik | create:precision_mechanism×16 | deps: e_eisen,c_mechanismus | Belohnung: table:gold | wdh 2400s 
+
+## [extras] sammler – Sammlerbuch (4)
+p_essenzen | Sammlerbuch: Alle Essenzen | mysticalagriculture:inferium_essence×1, mysticalagriculture:prudentium_essence×1, mysticalagriculture:tertium_essence×1, mysticalagriculture:imperium_essence×1, mysticalagriculture:supremium_essence×1, mysticalagradditions:insanium_essence×1 | deps: e_eisen | Belohnung: table:gold, xp:80 | 
+p_netze | Sammlerbuch: Alle Netze | exdeorum:string_mesh×1, exdeorum:flint_mesh×1, exdeorum:iron_mesh×1, exdeorum:golden_mesh×1, exdeorum:diamond_mesh×1, exdeorum:netherite_mesh×1 | deps: e_eisen | Belohnung: table:eisen, xp:60 | 
+p_archwood | Sammlerbuch: Archwood | ars_nouveau:blue_archwood_sapling×1, ars_nouveau:red_archwood_sapling×1, ars_nouveau:purple_archwood_sapling×1, ars_nouveau:green_archwood_sapling×1 | deps: e_eisen,a_archwood | Belohnung: table:eisen, xp:60 | 
+p_trophaeen | Sammlerbuch: Trophäen | minecraft:nether_star×1, minecraft:dragon_egg×1, minecraft:wither_skeleton_skull×1, minecraft:totem_of_undying×1 | deps: e_eisen,j_drache | Belohnung: table:stern, xp:100 | 
+
+## [extras] bau – Baumeister (7)
+u_meissel | Meißel | rechiseled:chisel×1 | deps: e_eisen | Belohnung: xp:15 | 
+u_dach | Ein Dach über dem Kopf | mcwroofs:oak_roof×16 | deps: u_meissel | Belohnung: table:holz, xp:20 | 
+u_moebel2 | Einrichten | handcrafted:oak_chair×2, handcrafted:oak_table×1 | deps: u_dach | Belohnung: xp:20 | 
+u_bruecke2 | Brücke ins Nichts | mcwbridges:rope_oak_bridge×8 | deps: u_meissel | Belohnung: xp:20 | 
+u_framed | Rahmenblöcke | framedblocks:framed_cube×8 | deps: u_moebel2 | Belohnung: xp:20 | 
+u_gadget | Bau-Gadget | buildinggadgets2:gadget_building×1 | deps: u_bruecke2,c_alternator | Belohnung: xp:40 | 
+u_kopie | Inselarchitekt | buildinggadgets2:gadget_copy_paste×1 | deps: u_gadget,u_framed,u_moebel2 | Belohnung: table:gold, xp:60 | MEILENSTEIN 

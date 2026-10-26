@@ -1,0 +1,921 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "akt2"
+	group: "6BCFC7D14F070455"
+	icon: {
+		id: "mekanism:metallurgic_infuser"
+	}
+	id: "3A5DE51F087C0CAE"
+	images: [ ]
+	order_index: 1
+	quest_links: [
+		{
+			id: "24144864DEE08906"
+			linked_quest: "16CFAEB33C79F5B7"
+			shape: "square"
+			x: 0.0d
+			y: -2.7d
+		}
+		{
+			id: "1664E596E9E3B16D"
+			linked_quest: "19CCBBFFE0F3F74D"
+			shape: "square"
+			x: 7.2d
+			y: 2.7d
+		}
+		{
+			id: "30628004B63BC2E7"
+			linked_quest: "21887CA56E8D6B0F"
+			shape: "square"
+			x: 12.0d
+			y: 0.9d
+		}
+		{
+			id: "1B54F94251A88E5B"
+			linked_quest: "18E0BD23D68C8BB2"
+			shape: "square"
+			x: 12.0d
+			y: -4.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"13B8D3787E37A647"
+				"7A465491286EA4E6"
+			]
+			id: "1BB0EEAFA70CBB6C"
+			rewards: [{
+				count: 4
+				id: "6D63972460830FB6"
+				item: {
+					count: 1
+					id: "create:brass_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "19792F8FEEA7D31F"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: -2.7d
+		}
+		{
+			dependencies: ["1BB0EEAFA70CBB6C"]
+			id: "1FB3CE765E5E393E"
+			rewards: [
+				{
+					count: 16
+					id: "2427617426E9D9A8"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "14808733830A3256"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Die Leitungen\"}"
+							"minecraft:enchantment_glint_override": 1b
+							"minecraft:lore": [
+								"{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Seite 5 von 22\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"„Wir verlegten Leitungen bis unter\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"die Wolken. Wenn der Strom floss,\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"summte die ganze Insel.“\"}"
+							]
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "19EACF3505263E44"
+					item: { count: 1, id: "createaddition:alternator" }
+					type: "item"
+				}
+				{
+					id: "1BF5769DDA953E2B"
+					item: { count: 1, id: "createaddition:copper_spool" }
+					type: "item"
+				}
+			]
+			x: 4.8d
+			y: -1.81d
+		}
+		{
+			dependencies: [
+				"1FB3CE765E5E393E"
+				"16CFAEB33C79F5B7"
+			]
+			id: "197B8F95C99811B7"
+			rewards: [{
+				count: 16
+				id: "2DA5979607FBCFE3"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "149FF3A60EF03395"
+				item: { count: 1, id: "mekanism:ingot_osmium" }
+				type: "item"
+			}]
+			x: 7.2d
+			y: -5.4d
+		}
+		{
+			dependencies: ["197B8F95C99811B7"]
+			id: "18978DD63474A0AF"
+			rewards: [{
+				count: 8
+				id: "10D48BE371628EBB"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "13EEBAC875610C58"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: 9.6d
+			y: -1.81d
+		}
+		{
+			dependencies: ["18978DD63474A0AF"]
+			id: "1891AAEAA7CA5A77"
+			rewards: [{
+				count: 4
+				id: "1DD38978790C8650"
+				item: {
+					count: 1
+					id: "mekanism:ingot_osmium"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "1F84C293CA68D4E7"
+				item: { count: 1, id: "mekanism:alloy_infused" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.9d
+		}
+		{
+			dependencies: ["18978DD63474A0AF"]
+			id: "679A39FC9E6A3722"
+			rewards: [{
+				count: 16
+				id: "14CA7F5EC3CA8F55"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "6B9FAEC3436458D8"
+				item: { count: 1, id: "mekanism:basic_control_circuit" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.7d
+		}
+		{
+			dependencies: [
+				"19CCBBFFE0F3F74D"
+				"679A39FC9E6A3722"
+				"18978DD63474A0AF"
+			]
+			id: "1FD046C5F06DE24E"
+			rewards: [{
+				count: 8
+				id: "7E59CEED95C9E1D7"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FA7BF879FDE30E0"
+				item: { count: 1, id: "mekanism:enrichment_chamber" }
+				type: "item"
+			}]
+			x: 14.4d
+			y: -1.3d
+		}
+		{
+			dependencies: ["1FD046C5F06DE24E"]
+			id: "13317B50834D7C01"
+			rewards: [{
+				count: 4
+				id: "7E2CAF2382BE3D11"
+				item: {
+					count: 1
+					id: "mekanism:fluorite_gem"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "181D327C808E02DB"
+				item: { count: 1, id: "mekanism:purification_chamber" }
+				type: "item"
+			}]
+			x: 16.8d
+			y: -0.15d
+		}
+		{
+			dependencies: [
+				"7672D8F26A6D4AE1"
+				"13B8D3787E37A647"
+			]
+			id: "6D9FC01C09305938"
+			rewards: [{
+				count: 16
+				id: "1FD37B6BCB364A75"
+				item: {
+					count: 1
+					id: "mysticalagriculture:prudentium_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "1CF315CF81C9F1E7"
+				item: { count: 1, id: "mysticalagriculture:tertium_essence" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: 3.6d
+		}
+		{
+			dependencies: [
+				"6D9FC01C09305938"
+				"135D046E588AEBC3"
+			]
+			id: "44C2A039BC99BB0F"
+			rewards: [
+				{
+					id: "1F583B7429476E2A"
+					table_id: 1574763629656948777L
+					type: "loot"
+				}
+				{
+					count: 16
+					id: "1A7B922D893BAE3B"
+					item: {
+						count: 1
+						id: "mysticalagriculture:prosperity_shard"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [{
+				id: "125D236C4CE0702E"
+				item: { count: 1, id: "mysticalagriculture:iron_seeds" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: 1.81d
+		}
+		{
+			dependencies: [
+				"733DB9235EC67B52"
+				"19CAA9C30C55D27A"
+			]
+			id: "78FAF7FC9EC04169"
+			rewards: [{
+				count: 2
+				id: "14092767C261BB7C"
+				item: {
+					count: 1
+					id: "minecraft:flint"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "14D3733000948630"
+				item: { count: 1, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: 0.9d
+		}
+		{
+			dependencies: ["78FAF7FC9EC04169"]
+			id: "16BCC427A306C1C9"
+			rewards: [
+				{
+					count: 4
+					id: "1064F8E7B1B19C3B"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "1DE4A8E850FF79BF"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Die zerbrochene Unterwelt\"}"
+							"minecraft:enchantment_glint_override": 1b
+							"minecraft:lore": [
+								"{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Seite 8 von 22\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"„Auch die Unterwelt zerbrach.\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"Unsere Festungen hängen dort noch\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"in der Luft, leer wie wir.“\"}"
+							]
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "1B0D9AB672527258"
+				type: "dimension"
+			}]
+			x: 4.8d
+			y: 0.01d
+		}
+		{
+			dependencies: ["16BCC427A306C1C9"]
+			id: "140874C328EB4450"
+			rewards: [{
+				count: 2
+				id: "49E977EF44894736"
+				item: {
+					count: 1
+					id: "minecraft:blaze_powder"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "18C1695286137F08"
+				item: { count: 1, id: "minecraft:nether_bricks" }
+				type: "item"
+			}]
+			x: 7.2d
+			y: 0.9d
+		}
+		{
+			dependencies: ["140874C328EB4450"]
+			id: "1C9E357D2E5387E9"
+			rewards: [
+				{
+					count: 4
+					id: "780A0CB3BD456DB4"
+					item: {
+						count: 1
+						id: "minecraft:nether_wart"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1BA5437CE8D8F086"
+					item: {
+						count: 1
+						id: "minecraft:soul_sand"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "1DA43DA831676313"
+				item: { count: 1, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			x: 9.6d
+			y: 0.01d
+		}
+		{
+			dependencies: [
+				"21887CA56E8D6B0F"
+				"1891AAEAA7CA5A77"
+			]
+			id: "6BF3425259CFE182"
+			rewards: [
+				{
+					id: "6AC8A6C4D1831D01"
+					table_id: 1574763629656948777L
+					type: "loot"
+				}
+				{
+					id: "326FFDC65F0972F1"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:backpack"
+					}
+					type: "item"
+				}
+				{
+					id: "6E2EA903EF9415D4"
+					item: {
+						count: 1
+						id: "skyandstone:karte_werkstatt"
+					}
+					type: "item"
+				}
+				{
+					command: "function skyandstone:feier/k_jetpack"
+					id: "17C164318A855562"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "5DD27D52817FD13C"
+				item: { count: 1, id: "ironjetpacks:jetpack" }
+				type: "item"
+			}]
+			x: 14.4d
+			y: 0.98d
+		}
+		{
+			dependencies: [
+				"16CFAEB33C79F5B7"
+				"733DB9235EC67B52"
+			]
+			id: "7D5BD366AC7215E1"
+			rewards: [
+				{
+					count: 4
+					id: "1978B42EC595808E"
+					item: {
+						count: 1
+						id: "ae2:certus_quartz_crystal"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7A68BC1EB6BEED98"
+					item: {
+						count: 1
+						id: "ae2:silicon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				icon: {
+					id: "ae2:certus_quartz_crystal"
+				}
+				id: "1A76E833D04C07CB"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:gems/certus_quartz)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: -0.9d
+		}
+		{
+			dependencies: [
+				"7D5BD366AC7215E1"
+				"1FB3CE765E5E393E"
+			]
+			id: "4503C99FDA5E699C"
+			rewards: [
+				{
+					count: 8
+					id: "1C0E0B0E451F0CB6"
+					item: {
+						count: 1
+						id: "ae2:certus_quartz_crystal"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "17F99D4385FE8084"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "28424707597055BC"
+					item: { count: 1, id: "ae2:charger" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "14005FF0D6CEFF00"
+					item: { count: 1, id: "ae2:fluix_crystal" }
+					type: "item"
+				}
+			]
+			x: 7.2d
+			y: -0.9d
+		}
+		{
+			dependencies: [
+				"4503C99FDA5E699C"
+				"19CCBBFFE0F3F74D"
+				"6D9FC01C09305938"
+				"135D046E588AEBC3"
+			]
+			id: "525E14F54FFD9884"
+			rewards: [{
+				id: "1FA79686D4605C8D"
+				table_id: 1574763629656948777L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [
+				{
+					id: "1EECB24CB288854B"
+					item: { count: 1, id: "ae2:inscriber" }
+					type: "item"
+				}
+				{
+					id: "552200C227081465"
+					item: { count: 1, id: "ae2:logic_processor_press" }
+					type: "item"
+				}
+				{
+					id: "1459CA803D84BF79"
+					item: { count: 1, id: "ae2:calculation_processor_press" }
+					type: "item"
+				}
+				{
+					id: "14EB516A0C2FF66E"
+					item: { count: 1, id: "ae2:engineering_processor_press" }
+					type: "item"
+				}
+				{
+					id: "1B2665940C27BDC9"
+					item: { count: 1, id: "ae2:silicon_press" }
+					type: "item"
+				}
+			]
+			x: 9.6d
+			y: 3.62d
+		}
+		{
+			dependencies: ["525E14F54FFD9884"]
+			id: "16FA3B6226C8DA9B"
+			rewards: [
+				{
+					count: 8
+					id: "434D9DD85D96EB24"
+					item: {
+						count: 1
+						id: "ae2:fluix_crystal"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "193EBA71F9CB48CD"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "40C650836B02E138"
+					item: { count: 1, id: "ae2:logic_processor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6D74B5053D06B4A1"
+					item: { count: 1, id: "ae2:calculation_processor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5CDDFBB7AE8DB1E2"
+					item: { count: 1, id: "ae2:engineering_processor" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["16FA3B6226C8DA9B"]
+			id: "1B41A97765B0B62F"
+			rewards: [
+				{
+					count: 16
+					id: "161C043693146BE3"
+					item: {
+						count: 1
+						id: "ae2:fluix_crystal"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5D175FE139D4F1DC"
+					item: {
+						count: 1
+						id: "ae2:silicon"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "12B35146EE9087F7"
+					item: { count: 1, id: "ae2:controller" }
+					type: "item"
+				}
+				{
+					id: "1BF58BA85ADA1328"
+					item: { count: 1, id: "ae2:drive" }
+					type: "item"
+				}
+				{
+					id: "1081A55D604F6BC9"
+					item: { count: 1, id: "ae2:item_storage_cell_4k" }
+					type: "item"
+				}
+				{
+					id: "483575A0A2466143"
+					item: { count: 1, id: "ae2:terminal" }
+					type: "item"
+				}
+			]
+			x: 14.4d
+			y: 3.1d
+		}
+		{
+			dependencies: ["13317B50834D7C01"]
+			id: "74F2C921E52EFBDB"
+			rewards: [
+				{
+					id: "14FC7D33D3D0EEAD"
+					table_id: 1574763629656948777L
+					type: "choice"
+				}
+				{
+					id: "196C35F2484DED1D"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Gier\"}"
+							"minecraft:enchantment_glint_override": 1b
+							"minecraft:lore": [
+								"{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Seite 9 von 22\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"„Aus jedem Brocken das Vierfache.\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"So reich waren wir. So gierig.“\"}"
+							]
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					command: "function skyandstone:feier/k_inject"
+					id: "1E1FDCD9089C45EE"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "5A621493A5074B1F"
+				item: { count: 1, id: "mekanism:chemical_injection_chamber" }
+				type: "item"
+			}]
+			x: 19.2d
+			y: -1.32d
+		}
+		{
+			dependencies: ["6BF3425259CFE182"]
+			icon: {
+				id: "skyandstone:karte_werkstatt"
+			}
+			id: "6CC59EF33F4C5B8E"
+			rewards: [
+				{
+					id: "6D2D9EAB5BED6FE5"
+					table_id: 1574763629656948777L
+					type: "loot"
+				}
+				{
+					id: "16237E00435F78FD"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Die Werkstatt\"}"
+							"minecraft:enchantment_glint_override": 1b
+							"minecraft:lore": [
+								"{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Seite 10 von 22\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"„Hier haben wir das Herz\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"geschmiedet, und hier ist es\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"zersprungen. Ich konnte nur den\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"Bauplan retten.“\"}"
+							]
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "127A38455F670BC8"
+				observation_type: "block"
+				observe_type: 0
+				timer: 40L
+				to_observe: "skyandstone:herzsockel_zerbrochen"
+				type: "observation"
+			}]
+			x: 16.8d
+			y: -2.78d
+		}
+		{
+			dependencies: [
+				"1C9E357D2E5387E9"
+				"1A722350AD963393"
+			]
+			icon: {
+				id: "skyandstone:splitter_glut"
+			}
+			id: "61E11736C960ADAB"
+			rewards: [{
+				count: 4
+				id: "75E45B39848E354A"
+				item: {
+					count: 1
+					id: "minecraft:blaze_rod"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "61DE2D9302C48C0B"
+				item: { count: 1, id: "skyandstone:splitter_glut" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.7d
+		}
+		{
+			dependencies: [
+				"1891AAEAA7CA5A77"
+				"18E0BD23D68C8BB2"
+				"1FB3CE765E5E393E"
+				"1A722350AD963393"
+			]
+			icon: {
+				id: "skyandstone:splitter_strom"
+			}
+			id: "5CB909518B1BE423"
+			rewards: [{
+				count: 4
+				id: "540A9778990FEB5D"
+				item: {
+					count: 1
+					id: "minecraft:redstone_block"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "12D9BD3AC534C61D"
+				item: { count: 1, id: "skyandstone:splitter_strom" }
+				type: "item"
+			}]
+			x: 14.4d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1B41A97765B0B62F"
+				"1A722350AD963393"
+			]
+			icon: {
+				id: "skyandstone:splitter_ordnung"
+			}
+			id: "1BC45E1BD45D6C39"
+			rewards: [{
+				count: 16
+				id: "127A20F34D40E2A6"
+				item: {
+					count: 1
+					id: "ae2:fluix_crystal"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "16AA21E091F87824"
+				item: { count: 1, id: "skyandstone:splitter_ordnung" }
+				type: "item"
+			}]
+			x: 16.8d
+			y: 2.86d
+		}
+		{
+			dependencies: [
+				"61E11736C960ADAB"
+				"5CB909518B1BE423"
+				"1BC45E1BD45D6C39"
+				"6CC59EF33F4C5B8E"
+			]
+			icon: {
+				id: "skyandstone:herz_der_leere"
+			}
+			id: "2C5E505C01D11EFA"
+			rewards: [
+				{
+					id: "15CF8BE24DF0482C"
+					table_id: 1574763629656948777L
+					type: "choice"
+				}
+				{
+					id: "19A415F3EFAE97C6"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Vier von sieben\"}"
+							"minecraft:enchantment_glint_override": 1b
+							"minecraft:lore": [
+								"{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Seite 11 von 22\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"„Erde, Glut, Strom, Ordnung. Damit\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"lief unsere Welt. Was fehlte, war\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"das Schwerste: Leben, Geist und\"}"
+								"{\"color\":\"gray\",\"italic\":true,\"text\":\"die Leere selbst.“\"}"
+							]
+						}
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "61DD9DF2E8FE6710"
+					item: { count: 1, id: "skyandstone:splitter_erde" }
+					type: "item"
+				}
+				{
+					id: "154D9CCD3E7E09B3"
+					item: { count: 1, id: "skyandstone:splitter_glut" }
+					type: "item"
+				}
+				{
+					id: "117E271CF8BFEE43"
+					item: { count: 1, id: "skyandstone:splitter_strom" }
+					type: "item"
+				}
+				{
+					id: "4307FC48633AA50B"
+					item: { count: 1, id: "skyandstone:splitter_ordnung" }
+					type: "item"
+				}
+			]
+			x: 19.2d
+			y: 1.32d
+		}
+	]
+}

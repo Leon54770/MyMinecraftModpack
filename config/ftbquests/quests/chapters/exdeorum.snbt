@@ -1,0 +1,226 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "exdeorum"
+	group: "1A7A9B25B51B8125"
+	icon: {
+		id: "exdeorum:oak_sieve"
+	}
+	id: "38F2FE14E10D636D"
+	images: [ ]
+	order_index: 0
+	quest_links: [
+		{
+			id: "1A62225555ECA9B8"
+			linked_quest: "3B3D0BFD78568FCA"
+			shape: "square"
+			x: 0.0d
+			y: -0.9d
+		}
+		{
+			id: "13EBB71A86796B6D"
+			linked_quest: "733DB9235EC67B52"
+			shape: "square"
+			x: 0.0d
+			y: 0.9d
+		}
+		{
+			id: "10A5FCD2EB7D4189"
+			linked_quest: "3739A99AF89D8892"
+			shape: "square"
+			x: 0.0d
+			y: -5.2d
+		}
+		{
+			id: "3CC73BE30BC8ED3F"
+			linked_quest: "62E10DD0E3C9DA3C"
+			shape: "square"
+			x: 1.6d
+			y: -5.2d
+		}
+		{
+			id: "1BF79B20B867DE0F"
+			linked_quest: "79D527720DB446CC"
+			shape: "square"
+			x: 3.2d
+			y: -5.2d
+		}
+		{
+			id: "2F369255C50F5CEC"
+			linked_quest: "3E36956867188596"
+			shape: "square"
+			x: 4.8d
+			y: -5.2d
+		}
+		{
+			id: "1BFF0B19680C297B"
+			linked_quest: "17348A9E46C8E7D0"
+			shape: "square"
+			x: 6.4d
+			y: -5.2d
+		}
+		{
+			id: "3B74EFEEA19498F9"
+			linked_quest: "1227C8B187DB978B"
+			shape: "square"
+			x: 8.0d
+			y: -5.2d
+		}
+		{
+			id: "1423B8E7FC0CFDC8"
+			linked_quest: "19CAA9C30C55D27A"
+			shape: "square"
+			x: 9.6d
+			y: -5.2d
+		}
+		{
+			id: "7F7D2F7A6E1D5E5D"
+			linked_quest: "17D4184A53383F9E"
+			shape: "square"
+			x: 11.2d
+			y: -5.2d
+		}
+		{
+			id: "1C2A547C5F4B9572"
+			linked_quest: "47A4DE4C1B1D7CE3"
+			shape: "square"
+			x: 12.8d
+			y: -5.2d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["3B3D0BFD78568FCA"]
+			id: "17ECF3FBEFE0489E"
+			rewards: [{
+				count: 2
+				id: "151696D10B58158F"
+				item: {
+					count: 1
+					id: "minecraft:oak_sapling"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "305EA6991CD047A7"
+				item: { count: 1, id: "exdeorum:crook" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: -2.7d
+		}
+		{
+			dependencies: ["733DB9235EC67B52"]
+			id: "16CFAEB33C79F5B7"
+			rewards: [
+				{
+					count: 4
+					id: "16424DF40C917988"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1D31084DDC021EFF"
+					item: {
+						count: 1
+						id: "minecraft:gravel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3D05A9A3BB578C57"
+				item: { count: 1, id: "exdeorum:iron_mesh" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: -0.9d
+		}
+		{
+			dependencies: ["733DB9235EC67B52"]
+			id: "1ED03BC306EA3758"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "168B3988D1848FB5"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "13F7F55069063639"
+					item: {
+						count: 1
+						id: "minecraft:dirt"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "12288EEEA73D6644"
+				item: { count: 1, id: "exdeorum:iron_watering_can" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: 0.9d
+		}
+		{
+			dependencies: ["1FB3CE765E5E393E"]
+			id: "7FAE6CBAF122ADFC"
+			rewards: [{
+				id: "11CF93A75A2840AC"
+				table_id: 5609506339175866634L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "104C7A8376660A0A"
+				item: { count: 1, id: "exdeorum:mechanical_sieve" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: 2.7d
+		}
+		{
+			dependencies: ["7FAE6CBAF122ADFC"]
+			id: "179FC0628C68A370"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "3FFF836F470D5044"
+					item: {
+						count: 1
+						id: "minecraft:sand"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1D9D1789BE5EEEAE"
+					item: {
+						count: 1
+						id: "minecraft:gravel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "14342AE5E9F547E0"
+				item: { count: 1, id: "exdeorum:mechanical_hammer" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: 0.0d
+		}
+	]
+}

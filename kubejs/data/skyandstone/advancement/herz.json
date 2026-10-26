@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "mekanism:pellet_antimatter"
+    },
+    "title": "Der Herzschlag",
+    "description": "Antimaterie liegt in deiner Hand: der Puls, den die Erbauer anzapften.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "skyandstone:netz",
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:pellet_antimatter"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "c"
+    ]
+  ],
+  "rewards": {
+    "function": "skyandstone:feier/herz"
+  }
+}

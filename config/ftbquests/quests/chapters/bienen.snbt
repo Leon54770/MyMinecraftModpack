@@ -1,0 +1,154 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bienen"
+	group: "1A7A9B25B51B8125"
+	icon: {
+		id: "productivebees:advanced_oak_beehive"
+	}
+	id: "173A6D5781D7A1CA"
+	images: [ ]
+	order_index: 9
+	quest_links: [{
+		id: "7565DB924B89CBD9"
+		linked_quest: "3739A99AF89D8892"
+		shape: "square"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["3739A99AF89D8892"]
+			id: "4B49A39B0487205C"
+			rewards: [{
+				count: 4
+				id: "15AAD18783524541"
+				item: {
+					count: 1
+					id: "minecraft:honeycomb"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "12D9C7725E78C88C"
+				item: { count: 1, id: "minecraft:bee_spawn_egg" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B49A39B0487205C"]
+			id: "12D2859BC5EFD94C"
+			rewards: [{
+				count: 16
+				id: "15A210BD54081AE7"
+				item: {
+					count: 1
+					id: "minecraft:oak_log"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "productivebees:advanced_oak_beehive"
+				}
+				id: "1DD60523B9F19CC7"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(productivebees:advanced_beehives)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"12D2859BC5EFD94C"
+				"733DB9235EC67B52"
+			]
+			id: "7D751DDB2D49193E"
+			rewards: [{
+				count: 4
+				id: "64D2A5805F2B7107"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C85B81EE88DB6BE"
+				item: { count: 1, id: "productivebees:centrifuge" }
+				type: "item"
+			}]
+			x: 7.2d
+			y: 0.9d
+		}
+		{
+			dependencies: ["12D2859BC5EFD94C"]
+			id: "5020EAC89979929D"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "174D40C80C266351"
+				item: {
+					count: 1
+					id: "minecraft:stone_bricks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "263544F64D31432A"
+				item: { count: 1, id: "productivebees:stone_nest" }
+				type: "item"
+			}]
+			x: 7.2d
+			y: -0.9d
+		}
+		{
+			dependencies: [
+				"7D751DDB2D49193E"
+				"16BCC427A306C1C9"
+			]
+			icon: {
+				id: "productivebees:configurable_honeycomb"
+			}
+			id: "123791C9A02D1A0C"
+			rewards: [{
+				id: "2B98728C81951BB4"
+				table_id: 1708431179495466294L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [{
+				id: "13F48387BD6306DC"
+				item: { components: { "productivebees:bee_type": "productivebees:iron" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 9.6d
+			y: 0.0d
+		}
+		{
+			dependencies: ["123791C9A02D1A0C"]
+			id: "78B7BF86FDC88085"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "171E5993B5E53A3A"
+				item: {
+					count: 1
+					id: "minecraft:honeycomb"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "102A139622BDAC45"
+				item: { count: 1, id: "productivelib:upgrade_productivity" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+}

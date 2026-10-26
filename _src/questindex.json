@@ -1,0 +1,1220 @@
+{
+ "a_apparat": {
+  "id": "1CF3276875E64E6B",
+  "kapitel": "ars",
+  "optional": false,
+  "titel": "Der Apparat"
+ },
+ "a_archwood": {
+  "id": "673329C9FC48A8A8",
+  "kapitel": "ars",
+  "optional": false,
+  "titel": "Archwood"
+ },
+ "a_buch": {
+  "id": "4839A909DB03EAEB",
+  "kapitel": "ars",
+  "optional": false,
+  "titel": "Das erste Zauberbuch"
+ },
+ "a_crush": {
+  "id": "37438FC8EBCD40AA",
+  "kapitel": "ars",
+  "optional": false,
+  "titel": "Zerkleinern ohne Hammer"
+ },
+ "a_drygmy": {
+  "id": "19BD9400F5B7B99C",
+  "kapitel": "ars",
+  "optional": false,
+  "titel": "Beute ohne Blut"
+ },
+ "a_erzmagier": {
+  "id": "4D13EDC0AD8353A7",
+  "kapitel": "ars",
+  "optional": false,
+  "titel": "Erzmagier"
+ },
+ "a_glas": {
+  "id": "2FD842A5AE37D51A",
+  "kapitel": "ars",
+  "optional": false,
+  "titel": "Quelle aus Wurzeln"
+ },
+ "a_quelle": {
+  "id": "185A9145E2ACE761",
+  "kapitel": "ars",
+  "optional": false,
+  "titel": "Stein, der Quelle trägt"
+ },
+ "a_ritual": {
+  "id": "18C419BB18F31EE0",
+  "kapitel": "ars",
+  "optional": false,
+  "titel": "Das Ritualbecken"
+ },
+ "a_tisch": {
+  "id": "10B499ADB9D39A45",
+  "kapitel": "ars",
+  "optional": false,
+  "titel": "Der Tisch des Schreibers"
+ },
+ "a_whirli": {
+  "id": "1115B85102745B87",
+  "kapitel": "ars",
+  "optional": false,
+  "titel": "Der Gärtnergeist"
+ },
+ "a_wilden": {
+  "id": "1854CF6F696D351C",
+  "kapitel": "ars",
+  "optional": false,
+  "titel": "Spuren der Wilden"
+ },
+ "a_wixie": {
+  "id": "17E19375630FA37D",
+  "kapitel": "ars",
+  "optional": false,
+  "titel": "Die kleine Werkstatt"
+ },
+ "b_biene": {
+  "id": "4B49A39B0487205C",
+  "kapitel": "bienen",
+  "optional": false,
+  "titel": "Das erste Summen"
+ },
+ "b_nest": {
+  "id": "5020EAC89979929D",
+  "kapitel": "bienen",
+  "optional": true,
+  "titel": "Nester bauen"
+ },
+ "b_stock": {
+  "id": "12D2859BC5EFD94C",
+  "kapitel": "bienen",
+  "optional": false,
+  "titel": "Ein besserer Stock"
+ },
+ "b_upgrade": {
+  "id": "78B7BF86FDC88085",
+  "kapitel": "bienen",
+  "optional": true,
+  "titel": "Fleißige Völker"
+ },
+ "b_zentri": {
+  "id": "7D751DDB2D49193E",
+  "kapitel": "bienen",
+  "optional": false,
+  "titel": "Die Zentrifuge"
+ },
+ "b_zucht": {
+  "id": "123791C9A02D1A0C",
+  "kapitel": "bienen",
+  "optional": false,
+  "titel": "Bienen aus Erz"
+ },
+ "c_alternator": {
+  "id": "1FB3CE765E5E393E",
+  "kapitel": "akt2",
+  "optional": false,
+  "titel": "Funken aus Drehung"
+ },
+ "c_andesit": {
+  "id": "13BD67C6432BC2FE",
+  "kapitel": "akt1",
+  "optional": false,
+  "titel": "Andesitlegierung"
+ },
+ "c_brenner": {
+  "id": "5C947BC3421D3841",
+  "kapitel": "akt1",
+  "optional": false,
+  "titel": "Feuer ohne Nether"
+ },
+ "c_crafter": {
+  "id": "1A464E84383B573A",
+  "kapitel": "create",
+  "optional": false,
+  "titel": "Werkbank im Großformat"
+ },
+ "c_deployer": {
+  "id": "1654529C28B65E6C",
+  "kapitel": "create",
+  "optional": true,
+  "titel": "Die mechanische Hand"
+ },
+ "c_extruder": {
+  "id": "10FDAA2770910E62",
+  "kapitel": "akt1",
+  "optional": false,
+  "titel": "Der Extruder"
+ },
+ "c_fan": {
+  "id": "7A465491286EA4E6",
+  "kapitel": "akt1",
+  "optional": false,
+  "titel": "Waschen mit Wind"
+ },
+ "c_mechanismus": {
+  "id": "1BB0EEAFA70CBB6C",
+  "kapitel": "akt2",
+  "optional": false,
+  "titel": "Präzisionsarbeit"
+ },
+ "c_messing": {
+  "id": "13B8D3787E37A647",
+  "kapitel": "akt1",
+  "optional": false,
+  "titel": "Messing"
+ },
+ "c_mixer": {
+  "id": "13CF82A35BE28699",
+  "kapitel": "akt1",
+  "optional": false,
+  "titel": "Mixer und Becken"
+ },
+ "c_muehle": {
+  "id": "1B2D29E2922EDBEC",
+  "kapitel": "akt1",
+  "optional": false,
+  "titel": "Mühlstein statt Hammer"
+ },
+ "c_presse": {
+  "id": "5970381F041D1FE8",
+  "kapitel": "akt1",
+  "optional": false,
+  "titel": "Die Presse"
+ },
+ "c_rad": {
+  "id": "1FEF0F90B4C84EBB",
+  "kapitel": "akt1",
+  "optional": false,
+  "titel": "Die erste Kraft"
+ },
+ "c_siebfabrik": {
+  "id": "54D4261D8643E532",
+  "kapitel": "akt1",
+  "optional": false,
+  "titel": "Die erste Maschine"
+ },
+ "c_sifter": {
+  "id": "17CD0BC6FB12FAC3",
+  "kapitel": "akt1",
+  "optional": false,
+  "titel": "Sieben ohne Hände"
+ },
+ "e_brocken": {
+  "id": "17D4184A53383F9E",
+  "kapitel": "akt1",
+  "optional": false,
+  "titel": "Erz im Kies"
+ },
+ "e_cobble": {
+  "id": "3E36956867188596",
+  "kapitel": "akt1",
+  "optional": false,
+  "titel": "Stein aus dem Nichts"
+ },
+ "e_eisen": {
+  "id": "733DB9235EC67B52",
+  "kapitel": "akt1",
+  "optional": false,
+  "titel": "Der Funke"
+ },
+ "e_eisennetz": {
+  "id": "16CFAEB33C79F5B7",
+  "kapitel": "exdeorum",
+  "optional": false,
+  "titel": "Das Eisennetz"
+ },
+ "e_fass": {
+  "id": "79D527720DB446CC",
+  "kapitel": "akt1",
+  "optional": false,
+  "titel": "Kompostfass"
+ },
+ "e_feuernetz": {
+  "id": "47A4DE4C1B1D7CE3",
+  "kapitel": "akt1",
+  "optional": false,
+  "titel": "Ein besseres Netz"
+ },
+ "e_haken": {
+  "id": "17ECF3FBEFE0489E",
+  "kapitel": "exdeorum",
+  "optional": false,
+  "titel": "Mit dem Haken ins Laub"
+ },
+ "e_hammer": {
+  "id": "17348A9E46C8E7D0",
+  "kapitel": "akt1",
+  "optional": false,
+  "titel": "Hammerzeit"
+ },
+ "e_holz": {
+  "id": "3B3D0BFD78568FCA",
+  "kapitel": "akt1",
+  "optional": false,
+  "titel": "Der erste Baum"
+ },
+ "e_kanne": {
+  "id": "1ED03BC306EA3758",
+  "kapitel": "exdeorum",
+  "optional": true,
+  "titel": "Die bessere Gießkanne"
+ },
+ "e_kupfer": {
+  "id": "407743F5CEB2A4AC",
+  "kapitel": "akt1",
+  "optional": false,
+  "titel": "Kupfer und Zink"
+ },
+ "e_lavatiegel": {
+  "id": "19CAA9C30C55D27A",
+  "kapitel": "akt1",
+  "optional": false,
+  "titel": "Feuer aus Stein"
+ },
+ "e_raupe": {
+  "id": "62E10DD0E3C9DA3C",
+  "kapitel": "akt1",
+  "optional": false,
+  "titel": "Seidenraupe und Faden"
+ },
+ "e_samen": {
+  "id": "51E93984F17C3010",
+  "kapitel": "landwirtschaft",
+  "optional": false,
+  "titel": "Was in der Erde steckt"
+ },
+ "e_sieb": {
+  "id": "3739A99AF89D8892",
+  "kapitel": "akt1",
+  "optional": false,
+  "titel": "Das erste Sieb"
+ },
+ "e_tiegel": {
+  "id": "1227C8B187DB978B",
+  "kapitel": "akt1",
+  "optional": false,
+  "titel": "Wasser aus Blättern"
+ },
+ "g_autark": {
+  "id": "4D74E2BA28259B88",
+  "kapitel": "landwirtschaft",
+  "optional": false,
+  "titel": "Die autarke Insel"
+ },
+ "g_baumtopf": {
+  "id": "184D7E93C5E2CDD9",
+  "kapitel": "landwirtschaft",
+  "optional": false,
+  "titel": "Holz im Topf"
+ },
+ "g_feld": {
+  "id": "752A48E144F68BB2",
+  "kapitel": "landwirtschaft",
+  "optional": false,
+  "titel": "Das erste Feld"
+ },
+ "g_festessen": {
+  "id": "1057851250316A25",
+  "kapitel": "landwirtschaft",
+  "optional": false,
+  "titel": "Sterneküche in der Leere"
+ },
+ "g_inferium": {
+  "id": "1252700C32FCEF79",
+  "kapitel": "landwirtschaft",
+  "optional": false,
+  "titel": "Inferiumessenz"
+ },
+ "g_tiere": {
+  "id": "1C6A1178CCB4C2A7",
+  "kapitel": "landwirtschaft",
+  "optional": false,
+  "titel": "Nutztiere"
+ },
+ "g_topf": {
+  "id": "161BB3BB6383B57E",
+  "kapitel": "landwirtschaft",
+  "optional": false,
+  "titel": "Die Küche"
+ },
+ "g_topf_pflanze": {
+  "id": "135A0443B8528051",
+  "kapitel": "landwirtschaft",
+  "optional": false,
+  "titel": "Pflanzen im Topf"
+ },
+ "h_fab": {
+  "id": "15F6E3FCC5343B0D",
+  "kapitel": "maschinengeist",
+  "optional": false,
+  "titel": "Beute-Fabrikator"
+ },
+ "h_laser": {
+  "id": "2072D371FB56A9EA",
+  "kapitel": "maschinengeist",
+  "optional": false,
+  "titel": "Erz aus dem Nichts"
+ },
+ "h_learner": {
+  "id": "769DA1AB0E905927",
+  "kapitel": "maschinengeist",
+  "optional": false,
+  "titel": "Der Deep Learner"
+ },
+ "h_modell": {
+  "id": "195ABBC2E229BB9C",
+  "kapitel": "maschinengeist",
+  "optional": false,
+  "titel": "Das erste Datenmodell"
+ },
+ "h_plastik": {
+  "id": "1B8E3D7A4C64775C",
+  "kapitel": "maschinengeist",
+  "optional": false,
+  "titel": "Plastik"
+ },
+ "h_rahmen": {
+  "id": "1F61C5392ACBC729",
+  "kapitel": "maschinengeist",
+  "optional": false,
+  "titel": "Der erste Rahmen"
+ },
+ "h_sim": {
+  "id": "1883C0096C3875AC",
+  "kapitel": "maschinengeist",
+  "optional": false,
+  "titel": "Kämpfe im Kasten"
+ },
+ "hz_herz": {
+  "id": "1BE55F455F6E6D6D",
+  "kapitel": "akt4",
+  "optional": false,
+  "titel": "Das Herz der Leere"
+ },
+ "hz_schlag": {
+  "id": "23DB1B44DE200AC9",
+  "kapitel": "akt4",
+  "optional": false,
+  "titel": "Das Herz schlägt"
+ },
+ "hz_sockel": {
+  "id": "1F300BD715351A08",
+  "kapitel": "akt4",
+  "optional": false,
+  "titel": "Der Herzsockel"
+ },
+ "hz_vier": {
+  "id": "2C5E505C01D11EFA",
+  "kapitel": "akt2",
+  "optional": false,
+  "titel": "Vier von Sieben"
+ },
+ "hz_wache": {
+  "id": "2916F2F4182F256F",
+  "kapitel": "akt4",
+  "optional": false,
+  "titel": "Der letzte Wächter"
+ },
+ "hz_werkstatt": {
+  "id": "6CC59EF33F4C5B8E",
+  "kapitel": "akt2",
+  "optional": false,
+  "titel": "Die vergessene Werkstatt"
+ },
+ "j_augen": {
+  "id": "103D1E2CAB05B399",
+  "kapitel": "akt3",
+  "optional": false,
+  "titel": "Enderaugen"
+ },
+ "j_drache": {
+  "id": "1A68AB103BA9FD48",
+  "kapitel": "akt3",
+  "optional": false,
+  "titel": "Der Wächter am Ende"
+ },
+ "j_end": {
+  "id": "12EB345C3E574328",
+  "kapitel": "akt3",
+  "optional": false,
+  "titel": "Das End"
+ },
+ "j_festung": {
+  "id": "140874C328EB4450",
+  "kapitel": "akt2",
+  "optional": false,
+  "titel": "Die Festung"
+ },
+ "j_hexe": {
+  "id": "1B0FF6556EFBBF48",
+  "kapitel": "akt3",
+  "optional": false,
+  "titel": "Hexenwasser-Trick"
+ },
+ "j_lohe": {
+  "id": "1C9E357D2E5387E9",
+  "kapitel": "akt2",
+  "optional": false,
+  "titel": "Lohenruten"
+ },
+ "j_nether": {
+  "id": "16BCC427A306C1C9",
+  "kapitel": "akt2",
+  "optional": false,
+  "titel": "Die zerbrochene Unterwelt"
+ },
+ "j_obsidian": {
+  "id": "78FAF7FC9EC04169",
+  "kapitel": "akt2",
+  "optional": false,
+  "titel": "Obsidian"
+ },
+ "j_perlen": {
+  "id": "18776B2AB7AD2DB6",
+  "kapitel": "akt3",
+  "optional": false,
+  "titel": "Enderperlen"
+ },
+ "j_rahmen": {
+  "id": "466A4EA08CEA7993",
+  "kapitel": "akt3",
+  "optional": false,
+  "titel": "Portalrahmen"
+ },
+ "j_shulker": {
+  "id": "53A55C88852C436C",
+  "kapitel": "dimensionen",
+  "optional": true,
+  "titel": "Schalen aus Endstein"
+ },
+ "j_wither": {
+  "id": "7BB7F7AE33284E96",
+  "kapitel": "akt3",
+  "optional": false,
+  "titel": "Der Wither"
+ },
+ "k_alloy": {
+  "id": "1891AAEAA7CA5A77",
+  "kapitel": "akt2",
+  "optional": false,
+  "titel": "Infundierte Legierung"
+ },
+ "k_cube": {
+  "id": "15354AE0B9346BA1",
+  "kapitel": "mekanism",
+  "optional": false,
+  "titel": "Strom verteilen"
+ },
+ "k_enrich": {
+  "id": "1FD046C5F06DE24E",
+  "kapitel": "akt2",
+  "optional": false,
+  "titel": "×2: Anreicherung"
+ },
+ "k_fortschritt": {
+  "id": "21887CA56E8D6B0F",
+  "kapitel": "mekanism",
+  "optional": false,
+  "titel": "Bessere Schaltkreise"
+ },
+ "k_infuser": {
+  "id": "18978DD63474A0AF",
+  "kapitel": "akt2",
+  "optional": false,
+  "titel": "Die Infusionsanlage"
+ },
+ "k_inject": {
+  "id": "74F2C921E52EFBDB",
+  "kapitel": "akt2",
+  "optional": false,
+  "titel": "Vierfach-Erz"
+ },
+ "k_jetpack": {
+  "id": "6BF3425259CFE182",
+  "kapitel": "akt2",
+  "optional": false,
+  "titel": "Über der Leere"
+ },
+ "k_meka": {
+  "id": "1F41AA0C41202AA7",
+  "kapitel": "mekanism",
+  "optional": true,
+  "titel": "Werkzeug der Zukunft"
+ },
+ "k_osmium": {
+  "id": "197B8F95C99811B7",
+  "kapitel": "akt2",
+  "optional": false,
+  "titel": "Osmium"
+ },
+ "k_polonium": {
+  "id": "7C108C6ABD8190A1",
+  "kapitel": "akt3",
+  "optional": false,
+  "titel": "Polonium"
+ },
+ "k_purif": {
+  "id": "13317B50834D7C01",
+  "kapitel": "akt2",
+  "optional": false,
+  "titel": "×3: Reinigung"
+ },
+ "k_schalt": {
+  "id": "679A39FC9E6A3722",
+  "kapitel": "akt2",
+  "optional": false,
+  "titel": "Grundschaltkreis"
+ },
+ "k_separator": {
+  "id": "31E3EF54EFEF2BD3",
+  "kapitel": "mekanism",
+  "optional": false,
+  "titel": "Elektrolyse"
+ },
+ "k_spalt": {
+  "id": "5A600C59DDC6D91E",
+  "kapitel": "akt3",
+  "optional": false,
+  "titel": "Spaltreaktor"
+ },
+ "k_stahl": {
+  "id": "19CCBBFFE0F3F74D",
+  "kapitel": "mekanism",
+  "optional": false,
+  "titel": "Stahl"
+ },
+ "k_tiab": {
+  "id": "127F27B0670E5575",
+  "kapitel": "mekanism",
+  "optional": false,
+  "titel": "Zeit ist Geld"
+ },
+ "k_x5": {
+  "id": "1A4D8EC2A76B5366",
+  "kapitel": "mekanism",
+  "optional": true,
+  "titel": "×5: Die volle Kette"
+ },
+ "l_appmek": {
+  "id": "12D54E9C362C7893",
+  "kapitel": "ae2",
+  "optional": true,
+  "titel": "Gase im Netz"
+ },
+ "l_auto": {
+  "id": "11839A27875CF281",
+  "kapitel": "akt3",
+  "optional": false,
+  "titel": "Das Netz denkt mit"
+ },
+ "l_certus": {
+  "id": "7D5BD366AC7215E1",
+  "kapitel": "akt2",
+  "optional": false,
+  "titel": "Certus-Quarz"
+ },
+ "l_controller": {
+  "id": "1DCE82B2F0CAEC71",
+  "kapitel": "lagerung",
+  "optional": false,
+  "titel": "Die Schubladen-Wand"
+ },
+ "l_fass": {
+  "id": "11B03D990EBE32F9",
+  "kapitel": "lagerung",
+  "optional": false,
+  "titel": "Lagerfässer"
+ },
+ "l_inscriber": {
+  "id": "525E14F54FFD9884",
+  "kapitel": "akt2",
+  "optional": false,
+  "titel": "Prägeplatten ohne Meteor"
+ },
+ "l_lader": {
+  "id": "4503C99FDA5E699C",
+  "kapitel": "akt2",
+  "optional": false,
+  "titel": "Lader und Fluix"
+ },
+ "l_mega": {
+  "id": "1180299DF37A94AC",
+  "kapitel": "ae2",
+  "optional": true,
+  "titel": "Riesenspeicher"
+ },
+ "l_netz": {
+  "id": "1B41A97765B0B62F",
+  "kapitel": "akt2",
+  "optional": false,
+  "titel": "Das ME-Netz"
+ },
+ "l_prozessoren": {
+  "id": "16FA3B6226C8DA9B",
+  "kapitel": "akt2",
+  "optional": false,
+  "titel": "Prozessoren"
+ },
+ "l_rucksack": {
+  "id": "1FE291B8C4B3D76D",
+  "kapitel": "lagerung",
+  "optional": false,
+  "titel": "Der Rucksack"
+ },
+ "l_schubladen": {
+  "id": "53B39417EB5D6599",
+  "kapitel": "lagerung",
+  "optional": false,
+  "titel": "Schubladen"
+ },
+ "l_wireless": {
+  "id": "149AAFD54B8A4424",
+  "kapitel": "ae2",
+  "optional": false,
+  "titel": "Kabellos"
+ },
+ "m_acker": {
+  "id": "33B76969086AB90D",
+  "kapitel": "mysticalag",
+  "optional": false,
+  "titel": "Essenz-Ackerland"
+ },
+ "m_altar": {
+  "id": "135D046E588AEBC3",
+  "kapitel": "akt1",
+  "optional": false,
+  "titel": "Der Infusionsaltar"
+ },
+ "m_beschleuniger": {
+  "id": "5FC0217495F42D91",
+  "kapitel": "mysticalag",
+  "optional": false,
+  "titel": "Wachstumsbeschleuniger"
+ },
+ "m_diamant": {
+  "id": "1C2D2E140DF23D44",
+  "kapitel": "mysticalag",
+  "optional": false,
+  "titel": "Diamanten vom Feld"
+ },
+ "m_eisen": {
+  "id": "44C2A039BC99BB0F",
+  "kapitel": "akt2",
+  "optional": false,
+  "titel": "Eisen vom Feld"
+ },
+ "m_gold": {
+  "id": "30BB2E8073B9C402",
+  "kapitel": "mysticalag",
+  "optional": false,
+  "titel": "Gold und Redstone"
+ },
+ "m_imperium": {
+  "id": "2B8F719EBDDA3F00",
+  "kapitel": "akt3",
+  "optional": false,
+  "titel": "Stufe 4: Imperium"
+ },
+ "m_inferium": {
+  "id": "1E9534D7F062922D",
+  "kapitel": "akt1",
+  "optional": false,
+  "titel": "Samen der Essenz"
+ },
+ "m_insanium": {
+  "id": "1AFC1AA3FB820C68",
+  "kapitel": "akt3",
+  "optional": false,
+  "titel": "Stufe 6: Insanium"
+ },
+ "m_kupfer": {
+  "id": "1AC582130C815BC6",
+  "kapitel": "mysticalag",
+  "optional": false,
+  "titel": "Kupfer und Kohle"
+ },
+ "m_niemehr": {
+  "id": "1103C5832FA3A292",
+  "kapitel": "akt3",
+  "optional": false,
+  "titel": "Felder aus Erz"
+ },
+ "m_prudentium": {
+  "id": "7672D8F26A6D4AE1",
+  "kapitel": "akt1",
+  "optional": false,
+  "titel": "Stufe 2: Prudentium"
+ },
+ "m_supremium": {
+  "id": "236B87F9B041099D",
+  "kapitel": "akt3",
+  "optional": false,
+  "titel": "Stufe 5: Supremium"
+ },
+ "m_tertium": {
+  "id": "6D9FC01C09305938",
+  "kapitel": "akt2",
+  "optional": false,
+  "titel": "Stufe 3: Tertium"
+ },
+ "p_archiv": {
+  "id": "71A8E6EBBA0E2C7A",
+  "kapitel": "sammler",
+  "optional": false,
+  "titel": "Das Archiv des Wächters"
+ },
+ "p_archwood": {
+  "id": "16F5F938DFF86F4C",
+  "kapitel": "sammler",
+  "optional": false,
+  "titel": "Die vier Archwoods"
+ },
+ "p_essenzen": {
+  "id": "15DED7F2FC82447C",
+  "kapitel": "sammler",
+  "optional": false,
+  "titel": "Alle Essenzen"
+ },
+ "p_netze": {
+  "id": "1D8C1D4BE4960850",
+  "kapitel": "sammler",
+  "optional": false,
+  "titel": "Alle Netze"
+ },
+ "p_trophaeen": {
+  "id": "27360195E8869BFF",
+  "kapitel": "sammler",
+  "optional": false,
+  "titel": "Trophäen"
+ },
+ "s_akku": {
+  "id": "1C90358546DA5557",
+  "kapitel": "energie",
+  "optional": false,
+  "titel": "Strom auf Vorrat"
+ },
+ "s_furnator": {
+  "id": "64BBFF0D82B2E92F",
+  "kapitel": "energie",
+  "optional": false,
+  "titel": "Feuer zu Strom"
+ },
+ "s_kristall": {
+  "id": "7A78FD2FF75B9E0D",
+  "kapitel": "energie",
+  "optional": false,
+  "titel": "Glut im Kristall"
+ },
+ "s_mechhammer": {
+  "id": "179FC0628C68A370",
+  "kapitel": "exdeorum",
+  "optional": true,
+  "titel": "Hammer ohne Arm"
+ },
+ "s_mechsieb": {
+  "id": "7FAE6CBAF122ADFC",
+  "kapitel": "exdeorum",
+  "optional": false,
+  "titel": "Das Sieb mit Strom"
+ },
+ "s_orb": {
+  "id": "18E0BD23D68C8BB2",
+  "kapitel": "energie",
+  "optional": false,
+  "titel": "Der Energizing Orb"
+ },
+ "s_pipe": {
+  "id": "15F01711A1FCA287",
+  "kapitel": "energie",
+  "optional": false,
+  "titel": "Rohre verlegen"
+ },
+ "s_reaktor": {
+  "id": "1B4E9109E6593AC5",
+  "kapitel": "energie",
+  "optional": false,
+  "titel": "Netzstrom"
+ },
+ "s_solar": {
+  "id": "38EF6870912ECC0D",
+  "kapitel": "energie",
+  "optional": false,
+  "titel": "Licht über der Leere"
+ },
+ "s_stahl": {
+  "id": "1304ECD477B1B9C4",
+  "kapitel": "energie",
+  "optional": false,
+  "titel": "Geladener Stahl"
+ },
+ "s_upgrade": {
+  "id": "14F5580F7259870E",
+  "kapitel": "energie",
+  "optional": false,
+  "titel": "Schnellere Rohre"
+ },
+ "sp_erde": {
+  "id": "1A722350AD963393",
+  "kapitel": "akt1",
+  "optional": false,
+  "titel": "Splitter der Erde"
+ },
+ "sp_essenz": {
+  "id": "50F037D4543A619F",
+  "kapitel": "akt4",
+  "optional": false,
+  "titel": "Leerenessenz"
+ },
+ "sp_geist": {
+  "id": "5D2499B94AB2670D",
+  "kapitel": "akt4",
+  "optional": false,
+  "titel": "Splitter des Geistes"
+ },
+ "sp_glut": {
+  "id": "61E11736C960ADAB",
+  "kapitel": "akt2",
+  "optional": false,
+  "titel": "Splitter der Glut"
+ },
+ "sp_leben": {
+  "id": "1CBA1E5200491068",
+  "kapitel": "akt4",
+  "optional": false,
+  "titel": "Splitter des Lebens"
+ },
+ "sp_leere": {
+  "id": "7333F70165968FB7",
+  "kapitel": "akt4",
+  "optional": false,
+  "titel": "Splitter der Leere"
+ },
+ "sp_ordnung": {
+  "id": "1BC45E1BD45D6C39",
+  "kapitel": "akt2",
+  "optional": false,
+  "titel": "Splitter der Ordnung"
+ },
+ "sp_rohling": {
+  "id": "18A7501C371D8C63",
+  "kapitel": "akt1",
+  "optional": false,
+  "titel": "Splitter-Rohling"
+ },
+ "sp_strom": {
+  "id": "5CB909518B1BE423",
+  "kapitel": "akt2",
+  "optional": false,
+  "titel": "Splitter des Stroms"
+ },
+ "t_chimera": {
+  "id": "6BC728D50A6F8246",
+  "kapitel": "pruefungen",
+  "optional": false,
+  "titel": "Die Chimera"
+ },
+ "t_drache": {
+  "id": "77D2185968206184",
+  "kapitel": "pruefungen",
+  "optional": false,
+  "titel": "Der zweite Drache"
+ },
+ "t_fabrik": {
+  "id": "466BCDC004305CB5",
+  "kapitel": "pruefungen",
+  "optional": false,
+  "titel": "Tausend Barren"
+ },
+ "t_festung": {
+  "id": "1F850D290B5F7CBB",
+  "kapitel": "pruefungen",
+  "optional": false,
+  "titel": "Die Festung räumen"
+ },
+ "t_netz": {
+  "id": "188E892724CA3BB8",
+  "kapitel": "pruefungen",
+  "optional": false,
+  "titel": "Ein Netz ohne Ende"
+ },
+ "t_schatten": {
+  "id": "1B4CAA531D966C1F",
+  "kapitel": "pruefungen",
+  "optional": false,
+  "titel": "Schattenjagd"
+ },
+ "t_speicher": {
+  "id": "36DCDD1BA1D75D16",
+  "kapitel": "pruefungen",
+  "optional": false,
+  "titel": "Der Speicher der Erbauer"
+ },
+ "u_bruecke2": {
+  "id": "6BCA3B2298E458B7",
+  "kapitel": "bau",
+  "optional": false,
+  "titel": "Brücke ins Nichts"
+ },
+ "u_dach": {
+  "id": "1440EC861AF58415",
+  "kapitel": "bau",
+  "optional": false,
+  "titel": "Ein Dach über dem Kopf"
+ },
+ "u_framed": {
+  "id": "1938CA65D9BC74BE",
+  "kapitel": "bau",
+  "optional": false,
+  "titel": "Rahmenblöcke"
+ },
+ "u_gadget": {
+  "id": "131959D100B22858",
+  "kapitel": "bau",
+  "optional": false,
+  "titel": "Bau-Gadget"
+ },
+ "u_kopie": {
+  "id": "724A204C042D5072",
+  "kapitel": "bau",
+  "optional": false,
+  "titel": "Inselarchitekt"
+ },
+ "u_meissel": {
+  "id": "18FAF3DBB515F08B",
+  "kapitel": "bau",
+  "optional": false,
+  "titel": "Der Meißel"
+ },
+ "u_moebel2": {
+  "id": "542DCB3A93E3927A",
+  "kapitel": "bau",
+  "optional": false,
+  "titel": "Einrichten"
+ },
+ "w_bienen": {
+  "id": "1BCBADCC371DC47E",
+  "kapitel": "akt3",
+  "optional": true,
+  "titel": "Weg der Bienen"
+ },
+ "w_felder": {
+  "id": "1A816EB5628F905F",
+  "kapitel": "akt3",
+  "optional": true,
+  "titel": "Weg der Felder"
+ },
+ "w_laser": {
+  "id": "2A05478A67B97497",
+  "kapitel": "akt3",
+  "optional": true,
+  "titel": "Weg des Lasers"
+ },
+ "w_magie": {
+  "id": "1620105620166860",
+  "kapitel": "akt3",
+  "optional": true,
+  "titel": "Weg der Magie"
+ },
+ "w_maschine": {
+  "id": "131B62AE6118AC5C",
+  "kapitel": "akt3",
+  "optional": true,
+  "titel": "Weg der Maschine"
+ },
+ "w_start": {
+  "id": "2B0850D91649B4A7",
+  "kapitel": "akt1",
+  "optional": false,
+  "titel": "Willkommen in der Leere"
+ },
+ "x_bruecke": {
+  "id": "1DDDDE185A6541E2",
+  "kapitel": "markt",
+  "optional": false,
+  "titel": "Brückenbauer"
+ },
+ "x_cobble": {
+  "id": "153D9D9F4FA6727F",
+  "kapitel": "markt",
+  "optional": false,
+  "titel": "Steinbruch"
+ },
+ "x_dach": {
+  "id": "1DEE338183DC7473",
+  "kapitel": "markt",
+  "optional": false,
+  "titel": "Dachdecker"
+ },
+ "x_fleisch": {
+  "id": "17C96B08411792FB",
+  "kapitel": "markt",
+  "optional": false,
+  "titel": "Zombie-Abfall"
+ },
+ "x_honig": {
+  "id": "1F2A555AF8888958",
+  "kapitel": "markt",
+  "optional": false,
+  "titel": "Imkerei"
+ },
+ "x_inferium": {
+  "id": "2708E578F2C2BF01",
+  "kapitel": "markt",
+  "optional": false,
+  "titel": "Essenz-Überschuss"
+ },
+ "x_kies": {
+  "id": "6340C52EC9FC8DFF",
+  "kapitel": "markt",
+  "optional": false,
+  "titel": "Kieshändler"
+ },
+ "x_knochen": {
+  "id": "17D16D03FF9B40DC",
+  "kapitel": "markt",
+  "optional": false,
+  "titel": "Knochensammler"
+ },
+ "x_lohe": {
+  "id": "701C48A1FE5B1404",
+  "kapitel": "markt",
+  "optional": false,
+  "titel": "Lohenruten-Handel"
+ },
+ "x_mechanik": {
+  "id": "10DB94AE6A1C0CD0",
+  "kapitel": "markt",
+  "optional": false,
+  "titel": "Feinmechanik"
+ },
+ "x_mehl": {
+  "id": "133832076E7A6C22",
+  "kapitel": "markt",
+  "optional": false,
+  "titel": "Müllerei"
+ },
+ "x_perlen": {
+  "id": "13B3774B86E45306",
+  "kapitel": "markt",
+  "optional": false,
+  "titel": "Enderhandel"
+ },
+ "x_polonium": {
+  "id": "1F499E701536E80D",
+  "kapitel": "markt",
+  "optional": false,
+  "titel": "Strahlender Handel"
+ },
+ "x_quelle": {
+  "id": "18E5D2074CA1055A",
+  "kapitel": "markt",
+  "optional": false,
+  "titel": "Quellstein-Handel"
+ },
+ "x_samen": {
+  "id": "3B8DA0A2772C04D0",
+  "kapitel": "markt",
+  "optional": false,
+  "titel": "Saatgut-Händler"
+ },
+ "x_seetang": {
+  "id": "17B7028C40B87295",
+  "kapitel": "markt",
+  "optional": false,
+  "titel": "Seetang-Kraftwerk"
+ },
+ "x_stern": {
+  "id": "17D62A326725878E",
+  "kapitel": "markt",
+  "optional": false,
+  "titel": "Sternenhandel"
+ },
+ "x_supremium": {
+  "id": "32359E026F3C634B",
+  "kapitel": "markt",
+  "optional": false,
+  "titel": "Supremium-Handel"
+ },
+ "x_warze": {
+  "id": "513AEC6387AF3D62",
+  "kapitel": "markt",
+  "optional": false,
+  "titel": "Netherwarzen-Farm"
+ },
+ "z_elite": {
+  "id": "18D2952E999F5A11",
+  "kapitel": "akt3",
+  "optional": false,
+  "titel": "Elite-Schaltkreis"
+ },
+ "z_erz": {
+  "id": "6F697BE703502F6F",
+  "kapitel": "akt3",
+  "optional": false,
+  "titel": "Erz ohne Sieb"
+ },
+ "z_fabrik": {
+  "id": "3CC5CFE7FA8CF620",
+  "kapitel": "akt3",
+  "optional": false,
+  "titel": "Die ewige Fabrik"
+ },
+ "z_herr": {
+  "id": "11EDBA459BD538B6",
+  "kapitel": "akt3",
+  "optional": false,
+  "titel": "Das Erbe der Erbauer"
+ },
+ "z_insanium": {
+  "id": "14D2C59B4E2A5134",
+  "kapitel": "mysticalag",
+  "optional": false,
+  "titel": "Insanium-Ernte"
+ },
+ "z_meka": {
+  "id": "1B1E43F9B1A9906D",
+  "kapitel": "mekanism",
+  "optional": true,
+  "titel": "Die MekaSuit"
+ },
+ "z_netherstern": {
+  "id": "2455A826629A049C",
+  "kapitel": "mysticalag",
+  "optional": false,
+  "titel": "Sterne vom Feld"
+ },
+ "z_sps": {
+  "id": "4B2EB94738D6E770",
+  "kapitel": "akt3",
+  "optional": false,
+  "titel": "Der Herzschlag"
+ },
+ "z_strom": {
+  "id": "17ECFF6AA1497981",
+  "kapitel": "energie",
+  "optional": true,
+  "titel": "Großkraftwerk"
+ },
+ "z_ultimate": {
+  "id": "3FB36EA37CA49811",
+  "kapitel": "energie",
+  "optional": false,
+  "titel": "Rohre ohne Grenzen"
+ },
+ "z_ultkreis": {
+  "id": "4FCA91106FDE7036",
+  "kapitel": "akt3",
+  "optional": false,
+  "titel": "Ultimate-Schaltkreis"
+ },
+ "z_weg": {
+  "id": "322E156DC2BD34DC",
+  "kapitel": "akt3",
+  "optional": false,
+  "titel": "Maschine oder Magie"
+ }
+}

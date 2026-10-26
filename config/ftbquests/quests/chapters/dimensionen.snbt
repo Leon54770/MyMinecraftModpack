@@ -1,0 +1,113 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dimensionen"
+	group: "1A7A9B25B51B8125"
+	icon: {
+		id: "minecraft:obsidian"
+	}
+	id: "19CB31130D597297"
+	images: [ ]
+	order_index: 10
+	quest_links: [
+		{
+			id: "1787B5205AEF02B6"
+			linked_quest: "12EB345C3E574328"
+			shape: "square"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "49DEC63C6C34F76E"
+			linked_quest: "16BCC427A306C1C9"
+			shape: "square"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "1928F710F8CD1CB9"
+			linked_quest: "1C9E357D2E5387E9"
+			shape: "square"
+			x: 1.6d
+			y: -2.5d
+		}
+		{
+			id: "1A9300EA86086FC4"
+			linked_quest: "7BB7F7AE33284E96"
+			shape: "square"
+			x: 3.2d
+			y: -2.5d
+		}
+		{
+			id: "11D437D850B3D892"
+			linked_quest: "1A68AB103BA9FD48"
+			shape: "square"
+			x: 4.8d
+			y: -2.5d
+		}
+		{
+			id: "1753870ABE939137"
+			linked_quest: "78FAF7FC9EC04169"
+			shape: "square"
+			x: 6.4d
+			y: -2.5d
+		}
+		{
+			id: "4FC693B4BBD9B4C7"
+			linked_quest: "140874C328EB4450"
+			shape: "square"
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			id: "2B357975F5C27F4F"
+			linked_quest: "1B0FF6556EFBBF48"
+			shape: "square"
+			x: 9.6d
+			y: -2.5d
+		}
+		{
+			id: "22675637DFE84EEC"
+			linked_quest: "18776B2AB7AD2DB6"
+			shape: "square"
+			x: 11.2d
+			y: -2.5d
+		}
+		{
+			id: "280B35E40C05DBAB"
+			linked_quest: "103D1E2CAB05B399"
+			shape: "square"
+			x: 12.8d
+			y: -2.5d
+		}
+		{
+			id: "69F2210B55B07350"
+			linked_quest: "466A4EA08CEA7993"
+			shape: "square"
+			x: 14.4d
+			y: -2.5d
+		}
+	]
+	quests: [{
+		dependencies: ["12EB345C3E574328"]
+		id: "53A55C88852C436C"
+		optional: true
+		rewards: [{
+			count: 16
+			id: "100E9878DD56AD29"
+			item: {
+				count: 1
+				id: "minecraft:end_stone"
+			}
+			type: "item"
+		}]
+		tasks: [{
+			count: 2L
+			id: "1F288CD319453F09"
+			item: { count: 1, id: "minecraft:shulker_shell" }
+			type: "item"
+		}]
+		x: 2.4d
+		y: 0.0d
+	}]
+}

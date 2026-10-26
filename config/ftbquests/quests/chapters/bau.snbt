@@ -1,0 +1,183 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bau"
+	group: "137C981F79D6DE16"
+	icon: {
+		id: "rechiseled:chisel"
+	}
+	id: "121B14F88F7D7ACD"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["733DB9235EC67B52"]
+			id: "18FAF3DBB515F08B"
+			rewards: [{
+				count: 16
+				id: "2311F563AD7DD360"
+				item: {
+					count: 1
+					id: "minecraft:stone_bricks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "20E332008C6CF1DD"
+				item: { count: 1, id: "rechiseled:chisel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18FAF3DBB515F08B"]
+			id: "1440EC861AF58415"
+			rewards: [{
+				count: 4
+				id: "3CBD6734938B9106"
+				item: {
+					count: 1
+					id: "minecraft:lantern"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				icon: {
+					id: "mcwroofs:oak_roof"
+				}
+				id: "1FB9710FC10BAEF9"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(skyandstone:roofs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: 0.9d
+		}
+		{
+			dependencies: ["1440EC861AF58415"]
+			id: "542DCB3A93E3927A"
+			rewards: [{
+				count: 4
+				id: "116560ED78BF974E"
+				item: {
+					count: 1
+					id: "minecraft:lantern"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					icon: {
+						id: "handcrafted:oak_chair"
+					}
+					id: "14BFE0D1807F4603"
+					item: { components: { "ftbfiltersystem:filter": "item_tag(handcrafted:chairs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "handcrafted:oak_table"
+					}
+					id: "12206D4A3D70E133"
+					item: { components: { "ftbfiltersystem:filter": "item_tag(handcrafted:tables)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 4.8d
+			y: 1.8d
+		}
+		{
+			dependencies: ["18FAF3DBB515F08B"]
+			id: "6BCA3B2298E458B7"
+			rewards: [{
+				count: 16
+				id: "1454F3D46D5F59F5"
+				item: {
+					count: 1
+					id: "minecraft:string"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				icon: {
+					id: "mcwbridges:rope_oak_bridge"
+				}
+				id: "19D9956BA5CDA17C"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(skyandstone:rope_bridges)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: -0.9d
+		}
+		{
+			dependencies: ["542DCB3A93E3927A"]
+			id: "1938CA65D9BC74BE"
+			rewards: [{
+				count: 16
+				id: "195322B494B36973"
+				item: {
+					count: 1
+					id: "framedblocks:framed_cube"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "46DEC0D70F3BAFFE"
+				item: { count: 1, id: "framedblocks:framed_cube" }
+				type: "item"
+			}]
+			x: 7.2d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6BCA3B2298E458B7"
+				"1FB3CE765E5E393E"
+			]
+			id: "131959D100B22858"
+			rewards: [{
+				count: 2
+				id: "40ADFB89371EAA79"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FA16F629EC50939"
+				item: { count: 1, id: "buildinggadgets2:gadget_building" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: -2.7d
+		}
+		{
+			dependencies: [
+				"131959D100B22858"
+				"1938CA65D9BC74BE"
+				"542DCB3A93E3927A"
+			]
+			id: "724A204C042D5072"
+			rewards: [{
+				id: "1B750379C265857E"
+				table_id: 5609506339175866634L
+				type: "choice"
+			}]
+			shape: "gear"
+			size: 1.8d
+			tasks: [{
+				id: "15A57A73BDDE1B88"
+				item: { count: 1, id: "buildinggadgets2:gadget_copy_paste" }
+				type: "item"
+			}]
+			x: 9.6d
+			y: 0.0d
+		}
+	]
+}

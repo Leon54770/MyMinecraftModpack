@@ -1,0 +1,10 @@
+// Sky and Stone: Startausrüstung (bekommt jeder Spieler beim ersten Betreten der Welt, siehe inventory.json5 initialInventoryType spawn)
+{
+  "items": [
+    { "Item": { "id": "ftbquests:book", "count": 1 } },
+    { "Item": { "id": "minecraft:torch", "count": 8 } },
+    { "Item": { "id": "exdeorum:wooden_watering_can", "count": 1 } },
+    { "Item": { "id": "minecraft:bread", "count": 16 } },
+    { "Item": { "id": "minecraft:oak_sapling", "count": 2 } }
+  ]
+}

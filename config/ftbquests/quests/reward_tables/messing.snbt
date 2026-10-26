@@ -1,0 +1,98 @@
+{
+	id: "11208B58B011A16B"
+	loot_crate: {
+		color: 11904578
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "messingkiste"
+	}
+	loot_size: 3
+	order_index: 4
+	rewards: [
+		{
+			count: 6
+			id: "175CCE29AEBA8870"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 6
+			id: "172AD3FB30D7DA3B"
+			item: {
+				count: 1
+				id: "minecraft:copper_ingot"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 6
+			id: "38C874B4AB959949"
+			item: {
+				count: 1
+				id: "create:brass_ingot"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 12
+			id: "16D2367D80998589"
+			item: {
+				count: 1
+				id: "mysticalagriculture:prudentium_essence"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 3
+			id: "1AB7DD099AF72636"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 6
+			id: "1D9B4CFFF55255BD"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 16
+			id: "4BF17175FCFCD1D0"
+			item: {
+				count: 1
+				id: "minecraft:quartz"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 12
+			id: "19E7CC47DFEBB8A2"
+			item: {
+				count: 1
+				id: "minecraft:glowstone_dust"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "2ECF9BA3D0FD26C7"
+			item: {
+				count: 1
+				id: "mysticalagriculture:prosperity_shard"
+			}
+			weight: 6.0f
+		}
+	]
+	use_title: true
+}

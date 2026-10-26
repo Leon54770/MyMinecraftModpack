@@ -1,0 +1,7 @@
+Lücken (Aufgabe unerreichbar)
+
+Rohstoff-Annahme (Quelle im Spiel prüfen)
+akt3.snbt	mekanism:pellet_polonium
+markt.snbt	mekanism:pellet_polonium
+
+Unbekannt

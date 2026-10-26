@@ -1,0 +1,13 @@
+name = "Sky and Stone"
+author = "Leon"
+version = "1.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "0f38a307610b9575d29dbf91c522a448412bab03063df108be81395c2fdd4d25"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.264"

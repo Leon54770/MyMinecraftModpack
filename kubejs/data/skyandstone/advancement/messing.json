@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "create:brass_ingot"
+    },
+    "title": "Messing",
+    "description": "Kupfer und Zink verschmelzen, wie es die Erbauer lehrten.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "skyandstone:erstes_rad",
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:brass_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "c"
+    ]
+  ],
+  "rewards": {
+    "function": "skyandstone:feier/messing"
+  }
+}

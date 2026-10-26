@@ -1,0 +1,369 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "energie"
+	group: "1A7A9B25B51B8125"
+	icon: {
+		id: "powah:energy_cell_starter"
+	}
+	id: "7F825F32DAAD1A57"
+	images: [ ]
+	order_index: 3
+	quest_links: [{
+		id: "707398EB7F7C88D6"
+		linked_quest: "1FB3CE765E5E393E"
+		shape: "square"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["1FB3CE765E5E393E"]
+			id: "1C90358546DA5557"
+			rewards: [
+				{
+					count: 16
+					id: "764510E190297657"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1892D66F8A6ECF36"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1A681CA19C50AC4F"
+				item: { count: 1, id: "createaddition:modular_accumulator" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: 2.7d
+		}
+		{
+			dependencies: ["1FB3CE765E5E393E"]
+			id: "18E0BD23D68C8BB2"
+			rewards: [
+				{
+					count: 4
+					id: "6C9ADE7F94B04903"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "13E698742D9F2C03"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1F56FAA04C588BBF"
+					item: { count: 1, id: "powah:energizing_orb" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3B0A2DE8E24D57A9"
+					item: { count: 1, id: "powah:energizing_rod_starter" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1178A43A8C6163D0"
+					item: { count: 1, id: "powah:dielectric_paste" }
+					type: "item"
+				}
+			]
+			x: 2.4d
+			y: 0.9d
+		}
+		{
+			dependencies: ["18E0BD23D68C8BB2"]
+			id: "1304ECD477B1B9C4"
+			rewards: [
+				{
+					count: 8
+					id: "117E3C66206A079B"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "178B938E167C75E8"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "1038B81688A567F9"
+				item: { count: 1, id: "powah:steel_energized" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: 1.8d
+		}
+		{
+			dependencies: ["18E0BD23D68C8BB2"]
+			id: "64BBFF0D82B2E92F"
+			rewards: [{
+				count: 16
+				id: "1EF04FE4A5805C27"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AE9E9DD23A6DF71"
+				item: { count: 1, id: "powah:furnator_starter" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1304ECD477B1B9C4"]
+			id: "38EF6870912ECC0D"
+			rewards: [
+				{
+					count: 8
+					id: "219A3106A7243408"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1EC28F2B849A30C1"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "24B9121AD491E58F"
+				item: { count: 1, id: "powah:solar_panel_basic" }
+				type: "item"
+			}]
+			x: 7.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1304ECD477B1B9C4"]
+			id: "7A78FD2FF75B9E0D"
+			rewards: [
+				{
+					count: 4
+					id: "72281830DC134210"
+					item: {
+						count: 1
+						id: "minecraft:blaze_powder"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "11EA9774C7573CA6"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "1714ECC39C43E12C"
+				item: { count: 1, id: "powah:crystal_blazing" }
+				type: "item"
+			}]
+			x: 7.2d
+			y: 1.8d
+		}
+		{
+			dependencies: ["1FB3CE765E5E393E"]
+			id: "15F01711A1FCA287"
+			rewards: [
+				{
+					count: 4
+					id: "39F1D3274E853F47"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6F033DF04A9F5057"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "160AFA964CF3A512"
+					item: { count: 1, id: "pipez:item_pipe" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "14AD8C3245489D32"
+					item: { count: 1, id: "pipez:energy_pipe" }
+					type: "item"
+				}
+			]
+			x: 2.4d
+			y: -2.7d
+		}
+		{
+			dependencies: ["15F01711A1FCA287"]
+			id: "14F5580F7259870E"
+			rewards: [
+				{
+					count: 4
+					id: "154B43D4CE6B0F3E"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1B6B0632DAF916C0"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "56BD420921700E79"
+					item: { count: 1, id: "pipez:basic_upgrade" }
+					type: "item"
+				}
+				{
+					id: "2DC2354DB61E9314"
+					item: { count: 1, id: "pipez:improved_upgrade" }
+					type: "item"
+				}
+			]
+			x: 4.8d
+			y: -1.8d
+		}
+		{
+			dependencies: [
+				"7A78FD2FF75B9E0D"
+				"38EF6870912ECC0D"
+				"1C90358546DA5557"
+			]
+			id: "1B4E9109E6593AC5"
+			rewards: [{
+				id: "5B33452610AD25C7"
+				table_id: 1574763629656948777L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				count: 36L
+				id: "783BD9DF6CA26965"
+				item: { count: 1, id: "powah:reactor_basic" }
+				type: "item"
+			}]
+			x: 9.6d
+			y: -2.7d
+		}
+		{
+			dependencies: [
+				"18D2952E999F5A11"
+				"16FA3B6226C8DA9B"
+			]
+			id: "3FB36EA37CA49811"
+			rewards: [
+				{
+					count: 4
+					id: "161520E4ACF2C769"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2854DBAD1D531018"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1EC86BA5B496E2F2"
+				item: { count: 1, id: "pipez:ultimate_upgrade" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: -0.9d
+		}
+		{
+			dependencies: [
+				"1B4E9109E6593AC5"
+				"18D2952E999F5A11"
+			]
+			id: "17ECFF6AA1497981"
+			optional: true
+			rewards: [{
+				id: "794FB18B7A6C0579"
+				table_id: 1574763629656948777L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 36L
+				id: "1AD51AF8567F092C"
+				item: { count: 1, id: "powah:reactor_hardened" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+}

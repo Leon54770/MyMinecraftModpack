@@ -1,0 +1,181 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pruefungen"
+	group: "137C981F79D6DE16"
+	icon: {
+		id: "minecraft:spyglass"
+	}
+	id: "1C39315E52D4E36B"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"18C419BB18F31EE0"
+				"13B8D3787E37A647"
+			]
+			icon: {
+				id: "ars_nouveau:wilden_tribute"
+			}
+			id: "6BC728D50A6F8246"
+			rewards: [{
+				id: "1CA0EC0CAEBDA2C9"
+				table_id: 1574763629656948777L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [{
+				entity: "ars_nouveau:wilden_boss"
+				id: "48DB8CC8D9B717D5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -4.54d
+		}
+		{
+			dependencies: ["15354AE0B9346BA1"]
+			icon: {
+				id: "mekanism:basic_energy_cube"
+			}
+			id: "36DCDD1BA1D75D16"
+			rewards: [{
+				count: 32
+				id: "38F6731FF80FD28C"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EE9790BC408FBD2"
+				max_input: 10000000L
+				type: "forge_energy"
+				value: 10000000L
+			}]
+			x: 0.0d
+			y: 4.54d
+		}
+		{
+			dependencies: ["54D4261D8643E532"]
+			icon: {
+				id: "minecraft:iron_block"
+			}
+			id: "466BCDC004305CB5"
+			rewards: [{
+				count: 32
+				id: "1231CC6376D4DA43"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 1024L
+				id: "1A9BB026B3C8BCA6"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.71d
+		}
+		{
+			dependencies: ["1A68AB103BA9FD48"]
+			icon: {
+				id: "minecraft:dragon_head"
+			}
+			id: "77D2185968206184"
+			rewards: [{
+				id: "577010FF3C5D9D03"
+				table_id: 1325766260965426842L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "185FC8BA91150B10"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -0.89d
+		}
+		{
+			dependencies: [
+				"140874C328EB4450"
+				"13B8D3787E37A647"
+			]
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "1F850D290B5F7CBB"
+			rewards: [{
+				id: "114EC3C51372244B"
+				table_id: 1574763629656948777L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "141B134BEFB62468"
+				type: "kill"
+				value: 50L
+			}]
+			x: 0.0d
+			y: 0.94d
+		}
+		{
+			dependencies: [
+				"12EB345C3E574328"
+				"13B8D3787E37A647"
+			]
+			icon: {
+				id: "minecraft:ender_eye"
+			}
+			id: "1B4CAA531D966C1F"
+			rewards: [{
+				id: "1838CD0B2B9D76B7"
+				table_id: 1574763629656948777L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "6AA7DB7C418C4291"
+				type: "kill"
+				value: 32L
+			}]
+			x: 0.0d
+			y: 2.75d
+		}
+		{
+			dependencies: [
+				"36DCDD1BA1D75D16"
+				"4B2EB94738D6E770"
+			]
+			icon: {
+				id: "mekanism:ultimate_energy_cube"
+			}
+			id: "188E892724CA3BB8"
+			rewards: [{
+				id: "15336CC7A18EC676"
+				table_id: 1325766260965426842L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [{
+				id: "40D359151A5EB7F6"
+				max_input: 1000000000L
+				type: "forge_energy"
+				value: 1000000000L
+			}]
+			x: 2.4d
+			y: 0.0d
+		}
+	]
+}

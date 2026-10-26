@@ -1,0 +1,201 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torch",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_nugget",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_sapling",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.05
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Seite 18 (zerrissen)\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Bonusseite, ohne Zählung\"}",
+                  "{\"color\":\"gray\",\"italic\":true,\"text\":\"„Der Splitter ist kein Stein. Er atmet.“\"}"
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\": \"gold\", \"italic\": false, \"text\": \"Verblasste Inselkarte\"}",
+                "minecraft:lore": [
+                  "{\"color\": \"dark_purple\", \"italic\": false, \"text\": \"Erinnerungsstück des Wächters\"}",
+                  "{\"color\": \"gray\", \"italic\": true, \"text\": \"„Hunderte Inseln. Die meisten sind schon gefallen.“\"}"
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:disc_fragment_5",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\": \"gold\", \"italic\": false, \"text\": \"Scherbe eines Liedes\"}",
+                "minecraft:lore": [
+                  "{\"color\": \"dark_purple\", \"italic\": false, \"text\": \"Erinnerungsstück des Wächters\"}",
+                  "{\"color\": \"gray\", \"italic\": true, \"text\": \"„Wir sangen, wenn die Maschinen liefen. Dann wurde es still.“\"}"
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:globe_banner_pattern",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\": \"gold\", \"italic\": false, \"text\": \"Wappen der Erbauer\"}",
+                "minecraft:lore": [
+                  "{\"color\": \"dark_purple\", \"italic\": false, \"text\": \"Erinnerungsstück des Wächters\"}",
+                  "{\"color\": \"gray\", \"italic\": true, \"text\": \"„Ein Zahnrad und ein Stern. Maschine und Magie, Seite an Seite.“\"}"
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:name_tag",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\": \"gold\", \"italic\": false, \"text\": \"Namensschild eines Wächters\"}",
+                "minecraft:lore": [
+                  "{\"color\": \"dark_purple\", \"italic\": false, \"text\": \"Erinnerungsstück des Wächters\"}",
+                  "{\"color\": \"gray\", \"italic\": true, \"text\": \"„Der Name ist weggekratzt. Nur die Pflicht ist geblieben.“\"}"
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "skyandstone:herz_der_leere"
+    },
+    "title": "Sieben in einem",
+    "description": "Das Herz der Leere ist ganz. Es schläft noch.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "skyandstone:splitter_erde",
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "skyandstone:herz_der_leere"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "c"
+    ]
+  ]
+}

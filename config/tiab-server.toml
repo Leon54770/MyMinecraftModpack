@@ -1,0 +1,10 @@
+#Max Stored Time Possible in ticks
+#Sky and Stone: 24 Stunden statt 8.640 Stunden (Standard 622080000)
+max_stored_time = 1728000
+#Ticks constant in ticks
+ticks_const = 20
+#Each use Duration in seconds
+each_use_duration = 30
+#Define maximum time the items can be used continuously. Corresponding to maximum times faster: Eg. 2^8=256
+#Sky and Stone: höchstens 2^3 = 8-fach statt 256-fach
+max_rate_multi = 3

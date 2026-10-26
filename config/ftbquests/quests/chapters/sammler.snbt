@@ -1,0 +1,446 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sammler"
+	group: "137C981F79D6DE16"
+	icon: {
+		id: "minecraft:book"
+	}
+	id: "16C1B4F3B67EC95A"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["733DB9235EC67B52"]
+			icon: {
+				id: "mysticalagriculture:supremium_essence"
+			}
+			id: "15DED7F2FC82447C"
+			rewards: [{
+				id: "614437A3158E98B9"
+				table_id: 1574763629656948777L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "2407052793495C26"
+					item: { count: 1, id: "mysticalagriculture:inferium_essence" }
+					type: "item"
+				}
+				{
+					id: "1463EC2FF649C2D3"
+					item: { count: 1, id: "mysticalagriculture:prudentium_essence" }
+					type: "item"
+				}
+				{
+					id: "1E41AF187CBBFAFA"
+					item: { count: 1, id: "mysticalagriculture:tertium_essence" }
+					type: "item"
+				}
+				{
+					id: "19B77E9367AD0DDA"
+					item: { count: 1, id: "mysticalagriculture:imperium_essence" }
+					type: "item"
+				}
+				{
+					id: "1690DDD46B3AF259"
+					item: { count: 1, id: "mysticalagriculture:supremium_essence" }
+					type: "item"
+				}
+				{
+					id: "16CFF38A8E2AA9F6"
+					item: { count: 1, id: "mysticalagradditions:insanium_essence" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.67d
+		}
+		{
+			dependencies: ["733DB9235EC67B52"]
+			icon: {
+				id: "exdeorum:netherite_mesh"
+			}
+			id: "1D8C1D4BE4960850"
+			rewards: [{
+				id: "6850D610266F87B7"
+				table_id: 5609506339175866634L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "1CEFF2ABD8416307"
+					item: { count: 1, id: "exdeorum:string_mesh" }
+					type: "item"
+				}
+				{
+					id: "1C700699CF751433"
+					item: { count: 1, id: "exdeorum:flint_mesh" }
+					type: "item"
+				}
+				{
+					id: "109B3DBBC0545CE7"
+					item: { count: 1, id: "exdeorum:iron_mesh" }
+					type: "item"
+				}
+				{
+					id: "1C403B34D428DA66"
+					item: { count: 1, id: "exdeorum:golden_mesh" }
+					type: "item"
+				}
+				{
+					id: "16DAE1C58B8FED80"
+					item: { count: 1, id: "exdeorum:diamond_mesh" }
+					type: "item"
+				}
+				{
+					id: "4AB986D3EBEEC09C"
+					item: { count: 1, id: "exdeorum:netherite_mesh" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.86d
+		}
+		{
+			dependencies: [
+				"733DB9235EC67B52"
+				"673329C9FC48A8A8"
+			]
+			icon: {
+				id: "ars_nouveau:green_archwood_sapling"
+			}
+			id: "16F5F938DFF86F4C"
+			rewards: [{
+				id: "1AA5728A644062A6"
+				table_id: 5609506339175866634L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "157644B266E5441E"
+					item: { count: 1, id: "ars_nouveau:blue_archwood_sapling" }
+					type: "item"
+				}
+				{
+					id: "13AC4E45D1A4776B"
+					item: { count: 1, id: "ars_nouveau:red_archwood_sapling" }
+					type: "item"
+				}
+				{
+					id: "11B4A4A759EF4766"
+					item: { count: 1, id: "ars_nouveau:purple_archwood_sapling" }
+					type: "item"
+				}
+				{
+					id: "5A3FB8FAC700CCAC"
+					item: { count: 1, id: "ars_nouveau:green_archwood_sapling" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -0.06d
+		}
+		{
+			dependencies: [
+				"733DB9235EC67B52"
+				"1A68AB103BA9FD48"
+				"7BB7F7AE33284E96"
+			]
+			icon: {
+				id: "minecraft:dragon_egg"
+			}
+			id: "27360195E8869BFF"
+			rewards: [{
+				id: "22095F7D16FFE5AD"
+				table_id: 1325766260965426842L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "6F1330F003024ABF"
+					item: { count: 1, id: "minecraft:nether_star" }
+					type: "item"
+				}
+				{
+					id: "3D7A88854AC4ABC2"
+					item: { count: 1, id: "minecraft:dragon_egg" }
+					type: "item"
+				}
+				{
+					id: "1E9F1B98CE37E8B7"
+					item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.74d
+		}
+		{
+			dependencies: ["11EDBA459BD538B6"]
+			icon: {
+				id: "minecraft:chiseled_bookshelf"
+			}
+			id: "71A8E6EBBA0E2C7A"
+			rewards: [
+				{
+					id: "19CA524FEA999879"
+					item: {
+						components: {
+							"minecraft:written_book_content": {
+								author: "Der letzte Wächter"
+								pages: [
+									{
+										raw: "\"Die erste Notiz\\n\\n„Wer das liest, steht auf einem Splitter unserer Welt. Darunter schläft das Herz der Leere.“\""
+									}
+									{
+										raw: "\"Sternenstaub\\n\\n„Einst siebten wir Sternenstaub. Du siebst Kies. Es ist derselbe Anfang.“\""
+									}
+									{
+										raw: "\"Der Funke\\n\\n„Das erste Metall. Wir nannten es den Funken, weil danach alles schneller brannte.“\""
+									}
+									{
+										raw: "\"Zurück zum Leben\\n\\n„Eine Insel, die sich selbst nährt. So fängt der Weg zurück an.“\""
+									}
+									{
+										raw: "\"Die Leitungen\\n\\n„Wir verlegten Leitungen bis unter die Wolken. Wenn der Strom floss, summte die ganze Insel.“\""
+									}
+									{
+										raw: "\"Die erste Maschine\\n\\n„Unsere Maschinen liefen Tag und Nacht, bis sie verstummten. Du hast gerade die erste wieder geweckt.“\""
+									}
+									{
+										raw: "\"Der erste Splitter\\n\\n„Das Herz ist nicht gestorben, es ist zersprungen. Sieben Splitter. Einen davon hältst du jetzt in der Hand. Er ist warm.“\""
+									}
+									{
+										raw: "\"Die zerbrochene Unterwelt\\n\\n„Auch die Unterwelt zerbrach. Unsere Festungen hängen dort noch in der Luft, leer wie wir.“\""
+									}
+									{
+										raw: "\"Gier\\n\\n„Aus jedem Brocken das Vierfache. So reich waren wir. So gierig.“\""
+									}
+									{
+										raw: "\"Die Werkstatt\\n\\n„Hier haben wir das Herz geschmiedet, und hier ist es zersprungen. Ich konnte nur den Bauplan retten.“\""
+									}
+									{
+										raw: "\"Vier von sieben\\n\\n„Erde, Glut, Strom, Ordnung. Damit lief unsere Welt. Was fehlte, war das Schwerste: Leben, Geist und die Leere selbst.“\""
+									}
+									{
+										raw: "\"Netze, die denken\\n\\n„Unsere Netze dachten mit. Am Ende dachten sie schneller als wir.“\""
+									}
+									{
+										raw: "\"Felder aus Erz\\n\\n„Als die Minen versiegt waren, ließen wir Erz auf Feldern wachsen. Wenigstens das war richtig.“\""
+									}
+									{
+										raw: "\"Kraft aus der Leere\\n\\n„Wir nahmen die Kraft aus der Leere, nicht aus Kohle. Wir nahmen zu viel, und der Boden riss.“\""
+									}
+									{
+										raw: "\"Das letzte Buch\\n\\n„Unsere Magier schrieben, bis die Seiten glühten. Nur dieses Buch hat das Zerbrechen überstanden.“\""
+									}
+									{
+										raw: "\"Ein Weg genügt\\n\\n„Wir wollten Maschine und Magie zugleich, und beide ganz. Einer der Wege hätte gereicht.“\""
+									}
+									{
+										raw: "\"Feinde auswendig\\n\\n„Wir lernten unsere Feinde auswendig, bis wir sie nicht mehr bekämpfen mussten.“\""
+									}
+									{
+										raw: "\"Der Wächter am Ende\\n\\n„Der Drache bewachte das Ende. Nicht für uns. Vor uns.“\""
+									}
+									{
+										raw: "\"Der Herzschlag\\n\\n„Antimaterie, der Herzschlag der Leere in einer Kapsel. Behandle sie mit Respekt.“\""
+									}
+									{
+										raw: "\"Sieben in einem\\n\\n„Das Herz ist ganz. Es wird erst schlagen, wenn ich weiß, dass du es nicht so behandelst wie wir.“\""
+									}
+									{
+										raw: "\"Der letzte Wächter\\n\\n„Wenn du das liest, hast du mich besiegt. Gut. Ich habe lange genug gewacht. Jetzt wachst du.“\""
+									}
+									{
+										raw: "\"Das Erbe\\n\\n„Wer das Herz wieder schlagen lässt, trägt unser Erbe. Nimm nur, was du brauchst. Wir nahmen alles.“\""
+									}
+								]
+								resolved: 1b
+								title: {
+									raw: "Codex der Erbauer"
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:written_book"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1010043DBE8697A8"
+					item: {
+						count: 1
+						id: "minecraft:bookshelf"
+					}
+					type: "item"
+				}
+				{
+					id: "148FF18F3961C601"
+					item: {
+						count: 1
+						id: "minecraft:lectern"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2FCCA25846BFF481"
+					item: {
+						count: 1
+						id: "minecraft:lantern"
+					}
+					type: "item"
+				}
+				{
+					command: "function skyandstone:feier/p_archiv"
+					id: "1DC2F19F63593DD7"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 1.6d
+			tasks: [
+				{
+					id: "18EA0A145B908ED6"
+					item: { components: { "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Die erste Notiz\"}" }, count: 1, id: "minecraft:paper" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "60694481D2BE8A84"
+					item: { components: { "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Sternenstaub\"}" }, count: 1, id: "minecraft:paper" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "12D82DB02EC55503"
+					item: { components: { "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Der Funke\"}" }, count: 1, id: "minecraft:paper" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "610B664BB6E2C90A"
+					item: { components: { "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Zurück zum Leben\"}" }, count: 1, id: "minecraft:paper" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "16ADB603ED10081D"
+					item: { components: { "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Die Leitungen\"}" }, count: 1, id: "minecraft:paper" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "29FE91F5E82C4029"
+					item: { components: { "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Die erste Maschine\"}" }, count: 1, id: "minecraft:paper" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "171183805C1649E6"
+					item: { components: { "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Der erste Splitter\"}" }, count: 1, id: "minecraft:paper" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "1EA8B6870A4091B7"
+					item: { components: { "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Die zerbrochene Unterwelt\"}" }, count: 1, id: "minecraft:paper" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "14F602ABE0849444"
+					item: { components: { "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Gier\"}" }, count: 1, id: "minecraft:paper" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "407ADF47B80291CA"
+					item: { components: { "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Die Werkstatt\"}" }, count: 1, id: "minecraft:paper" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "113D9771F3CA6C8F"
+					item: { components: { "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Vier von sieben\"}" }, count: 1, id: "minecraft:paper" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "1C2B3BBDCE04F6AD"
+					item: { components: { "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Netze, die denken\"}" }, count: 1, id: "minecraft:paper" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "12B3ED1E05412998"
+					item: { components: { "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Felder aus Erz\"}" }, count: 1, id: "minecraft:paper" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "1CC87FB388C1D764"
+					item: { components: { "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Kraft aus der Leere\"}" }, count: 1, id: "minecraft:paper" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "13C5633691809888"
+					item: { components: { "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Das letzte Buch\"}" }, count: 1, id: "minecraft:paper" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "72AE6FEA195FC31F"
+					item: { components: { "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Ein Weg genügt\"}" }, count: 1, id: "minecraft:paper" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "115F8AA52B85060B"
+					item: { components: { "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Feinde auswendig\"}" }, count: 1, id: "minecraft:paper" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "2043442115E6F80B"
+					item: { components: { "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Der Wächter am Ende\"}" }, count: 1, id: "minecraft:paper" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "14B0C4308CE2A7FF"
+					item: { components: { "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Der Herzschlag\"}" }, count: 1, id: "minecraft:paper" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "1F2052E878673679"
+					item: { components: { "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Sieben in einem\"}" }, count: 1, id: "minecraft:paper" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "108076EF2672D46E"
+					item: { components: { "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Der letzte Wächter\"}" }, count: 1, id: "minecraft:paper" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "1591CBE1FCE390BD"
+					item: { components: { "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"text\":\"Tagebuch: Das Erbe\"}" }, count: 1, id: "minecraft:paper" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.67d
+		}
+	]
+}
